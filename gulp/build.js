@@ -91,13 +91,13 @@ gulp.task('activity', function(){
       var dataByDay = {};
       data.forEach(function(row) {
         var date  = new Date(row.timestamp*1000);
-        var month = date.getMonth(), day = date.getDay(), year = date.getFullYear();
+        var month = date.getMonth(), day = date.getDate(), year = date.getFullYear();
         var key   = (new Date(year, month, day) ).getTime()/1000;
         dataByDay[key] = (dataByDay[key] || 0) + 1;
       });
       return dataByDay;
     }))
-    .pipe(gulp.dest('.tmp/assets/json/'))
+    .pipe(gulp.dest('.tmp/serve/assets/json/'))
     .pipe(gulp.dest('dist/assets/json/'));
 });
 

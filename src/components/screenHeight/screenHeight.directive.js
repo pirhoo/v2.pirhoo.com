@@ -1,11 +1,12 @@
-angular.module('pirhoo').directive("screenHeight", ["$window", function($window) {	
+angular.module('pirhoo').directive("screenHeight", ["$window", function($window) {
     return function(scope, element, attrs) {
      	var ev = "resize.screenHeight";
      	var resize = function() {
-	        element.css("height", $window.innerHeight);
 	        if (!isNaN(attrs.screenHeight)) {
-	        	return element.css("min-height", 1 * attrs.screenHeight);
-	        }
+	        	element.css("min-height", Math.max(attrs.screenHeight,  $window.innerHeight) );
+	        } else {
+	          element.css("min-height", $window.innerHeight);
+          }
       	};
 
       	resize();
