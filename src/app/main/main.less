@@ -11,12 +11,15 @@
     }
 
     &__panel {
-      margin:40px;
-      padding:30px;
-      padding-left:200px;
-      padding-top:200px;
       background:fade(white, 15%);
       position:relative;
+      margin:40px 40px - 15px;
+      padding:30px;
+
+      @media (min-width: @screen-lg-min) {
+        padding-left:150px;
+        padding-top:200px;
+      }
 
       &--reverse {
         background:fade(black, 15%);
@@ -25,8 +28,9 @@
       &:before {
         content:attr(aria-section);
         position:absolute;
-        top:30px;
-        left:200px + 40px;;
+        top:20px;
+        left:30px;
+        margin-left:40px;
         color:white;
         font-family:@font-family-serif;
         font-weight:bold;
@@ -35,13 +39,20 @@
 
       &:after {
         position:absolute;
-        top:30px + (@line-height-computed * 0.9)/2;
-        left:200px;
+        top:20px + (@line-height-computed * 0.9)/2;
+        left:30px;
         height:1px;
         background:white;
         width:30px;
         content:"";
       }
+
+      @media (min-width: @screen-lg-min) {
+        &:before, &:after {
+          left:150px;
+        }
+      }
+
     }
   }
 

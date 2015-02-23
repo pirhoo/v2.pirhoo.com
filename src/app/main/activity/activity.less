@@ -1,9 +1,22 @@
 .main__activity {
 
   &__calendar {
-    margin:40px;
+    margin:40px 60px;
     padding-bottom:10px;
-    overflow:hidden;
+
+    &__view {
+      margin:20px 0;
+      display:block;
+
+      svg {
+        display:inline-block;
+      }
+
+      .graph-label {
+        fill:fade(white, 90);
+        font-size:9px;
+      }
+    }
   }
 
 }
