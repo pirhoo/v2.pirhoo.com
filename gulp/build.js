@@ -1,6 +1,7 @@
 'use strict';
 
-var gulp = require('gulp');
+var gulp = require('gulp'),
+       _ = require("lodash");
 
 var paths = gulp.paths;
 
@@ -84,21 +85,63 @@ gulp.task('clean', function (done) {
   $.del([paths.dist + '/', paths.tmp + '/'], done);
 });
 
-gulp.task('activity', function(){
-  gulp.src(['src/assets/csv/activity.csv'])
+
+gulp.task('csv:trainings', function(){
+  return gulp.src(['src/assets/csv/trainings.csv'])
     .pipe($.convert({ from: 'csv', to: 'json' }))
     .pipe($.jsonEditor(function(data) {
-      var dataByDay = {};
-      data.forEach(function(row) {
-        var date  = new Date(row.timestamp*1000);
-        var month = date.getMonth(), day = date.getDate(), year = date.getFullYear();
-        var key   = (new Date(year, month, day) ).getTime()/1000;
-        dataByDay[key] = (dataByDay[key] || 0) + 1;
-      });
-      return dataByDay;
+      return {
+        hours_count: _.reduce(data, function(sum, training) {
+          return sum + training.duration  * 8;
+        }, 0),
+        countries_count: _.keys( _.countBy(data, "country") ).length,
+        customers_count: _.keys( _.countBy(data, "customer") ).length,
+        category_count: _.countBy(data, "category"),
+        months_count: _.countBy(data, function(commit) {
+          var date = new Date(Date.parse(commit.date_start));
+          return date.getFullYear() + "-" + ("0"+ date.getMonth() ).slice(-2);
+        }),
+        older_training: _.min(data, function(training) {
+          return new Date( Date.parse(training.date_start) )
+        }),
+        newer_training: _.max(data, function(training) {
+          return new Date( Date.parse(training.date_start) )
+        })
+      };
     }))
     .pipe(gulp.dest('.tmp/serve/assets/json/'))
     .pipe(gulp.dest('dist/assets/json/'));
 });
 
-gulp.task('build', ['html', 'images', 'fonts', 'misc', 'activity']);
+gulp.task('csv:commits', function(){
+  return gulp.src(['src/assets/csv/commits.csv'])
+    .pipe($.convert({ from: 'csv', to: 'json' }))
+    .pipe($.jsonEditor(function(data) {
+      return {
+        commits_count: data.length,
+        repositories_count: _.keys( _.countBy(data, "repository") ).length,
+        months_count: _.countBy(data, function(commit) {
+          var date = new Date(commit.timestamp * 1000);
+          return date.getFullYear() + "-" + ("0"+ date.getMonth() ).slice(-2);
+        }),
+        older_commit: _.min(data, "timestamp"),
+        newer_commit: _.max(data, "timestamp")
+      };
+    }))
+    .pipe(gulp.dest('.tmp/serve/assets/json/'))
+    .pipe(gulp.dest('dist/assets/json/'));
+});
+
+
+gulp.task('csv:projects', function(){
+  return gulp.src(['src/assets/csv/projects.csv'])
+    .pipe($.convert({ from: 'csv', to: 'json' }))
+    .pipe(gulp.dest('.tmp/serve/assets/json/'))
+    .pipe(gulp.dest('dist/assets/json/'));
+});
+
+
+gulp.task('csv', ["csv:trainings", "csv:commits", "csv:projects"])
+
+
+gulp.task('build', ['html', 'images', 'fonts', 'misc', 'csv']);

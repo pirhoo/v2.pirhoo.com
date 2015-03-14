@@ -1,11 +1,15 @@
-@introduction-bg:#6D868A;
-@introduction-color:darken(@introduction-bg, 30%);
+@introduction-bg:#FCFAE1;
+@introduction-color:#4C1B1B;
 
 @activiy-bg:#471C34;
 @activiy-color:#F1556E;
 
-@projects-bg:#1b3550;
-@projects-color:#F5F9C8;
+@projects-bg:#1D181F;
+@projects-color:#D9CB9E;
+
+@thumb-max-width: 150px;
+@thumb-by-row: 5;
+@thumb-gutter: 10px;
 
 
 .browsehappy {
@@ -18,6 +22,20 @@
 body a {
   text-decoration:underline;
   color:inherit;
+}
+
+.container-base {
+  max-width: @thumb-max-width * @thumb-by-row * 1px;
+  margin:auto;
+
+  @media (max-width: @screen-sm-min) {
+    margin:0 20px;
+  }
+}
+
+.lead {
+  font-family: @font-family-serif;
+  font-weight: 200;
 }
 
 // injector

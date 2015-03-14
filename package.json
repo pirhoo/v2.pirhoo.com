@@ -38,6 +38,7 @@
     "jshint-stylish": "~1.0.0",
     "karma-jasmine": "~0.3.1",
     "karma-phantomjs-launcher": "~0.1.4",
+    "lodash": "^3.5.0",
     "main-bower-files": "~2.4.0",
     "protractor": "~1.4.0",
     "require-dir": "~0.1.0",

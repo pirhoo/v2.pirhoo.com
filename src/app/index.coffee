@@ -1,1 +1,7 @@
-angular.module "pirhoo", ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.bootstrap']
+angular.module "pirhoo", [
+  'ngAnimate'
+  'ngCookies'
+  'ngTouch'
+  'ngSanitize'
+  'ui.bootstrap'
+]

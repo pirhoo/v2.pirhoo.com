@@ -4,7 +4,7 @@ var gulp = require('gulp');
 
 var paths = gulp.paths;
 
-gulp.task('watch', ['markups', 'inject', 'activity'], function () {
+gulp.task('watch', ['markups', 'inject', 'csv'], function () {
   gulp.watch([
     paths.src + '/*.html',
     paths.src + '/{app,components}/**/*.less',
