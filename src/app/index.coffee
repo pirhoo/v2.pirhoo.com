@@ -4,4 +4,6 @@ angular.module "pirhoo", [
   'ngTouch'
   'ngSanitize'
   'ui.bootstrap'
+  'headroom'
+  'duScroll'
 ]

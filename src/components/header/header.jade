@@ -1,8 +1,7 @@
-.header.container-fluid
-  .row
-    .col-xs-4.header__section.header__section--introduction
-      a Pierre Romera
-    .col-xs-4.header__section.header__section--activity
-      a Activity
-    .col-xs-4.header__section.header__section--projects
-      a Projects
+.header(headroom)
+  .header__section.header__section--introduction(du-scrollspy="introduction")
+    a(href="#introduction", du-smooth-scroll) Introduction
+  .header__section.header__section--activity(du-scrollspy="activity")
+    a(href="#activity", du-smooth-scroll) Activity
+  .header__section.header__section--projects(du-scrollspy="projects")
+    a(href="#projects", du-smooth-scroll) Projects
