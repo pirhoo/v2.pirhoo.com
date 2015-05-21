@@ -1,11 +1,14 @@
-@introduction-bg:#FCFAE1;
-@introduction-color:#4C1B1B;
+@introduction-bg:#27272A;
+@introduction-color:#CBCBBE;
+@introduction-emphasize:white;
 
-@activiy-bg:#471C34;
-@activiy-color:#F1556E;
+@activity-bg:#1D2A3B;
+@activity-color:white;
+@activity-emphasize:#F28D1C;
 
-@projects-bg:#1D181F;
-@projects-color:#D9CB9E;
+@projects-bg:#E3E1DC;
+@projects-color:#791F33;
+@projects-emphasize:#BA3D49;
 
 @thumb-max-width: 150px;
 @thumb-by-row: 5;
@@ -36,6 +39,36 @@ body a {
 .lead {
   font-family: @font-family-serif;
   font-weight: 200;
+}
+
+.sectionize(@bg, @color, @emphasize) {
+
+  background-color:@bg;
+  color:@color;
+
+  &:before {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    height:300px;
+    content:"";
+    #gradient > .vertical(fade(@bg, 0), @bg);
+  }
+
+  & .main__section__panel {
+    background:fade(@bg, 70%);
+
+    &:before, &:after {
+      color:@emphasize;
+      border-color:@emphasize;
+    }
+  }
+
+  strong {
+    color:@emphasize;
+  }
+
 }
 
 // injector

@@ -99,7 +99,7 @@ gulp.task('csv:trainings', function(){
         category_count: _.countBy(data, "category"),
         months_count: _.countBy(data, function(commit) {
           var date = new Date(Date.parse(commit.date_start));
-          return date.getFullYear() + "-" + ("0"+ date.getMonth() ).slice(-2);
+          return date.getFullYear() + "-" + ("0"+ (date.getMonth() + 1) ).slice(-2) + "-01";
         }),
         older_training: _.min(data, function(training) {
           return new Date( Date.parse(training.date_start) )
@@ -122,7 +122,7 @@ gulp.task('csv:commits', function(){
         repositories_count: _.keys( _.countBy(data, "repository") ).length,
         months_count: _.countBy(data, function(commit) {
           var date = new Date(commit.timestamp * 1000);
-          return date.getFullYear() + "-" + ("0"+ date.getMonth() ).slice(-2);
+          return date.getFullYear() + "-" + ("0"+ (date.getMonth() + 1) ).slice(-2) + "-01";
         }),
         older_commit: _.min(data, "timestamp"),
         newer_commit: _.max(data, "timestamp")

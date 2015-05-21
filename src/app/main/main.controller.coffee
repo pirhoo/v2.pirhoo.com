@@ -5,7 +5,7 @@ angular.module "pirhoo"
       projects:  $http.get('assets/json/projects.json')
       trainings: $http.get('assets/json/trainings.json')
     }).then (hash)->
-      $scope.commits = hash.commits.data;
-      $scope.projects = hash.projects.data;
-      $scope.trainings = hash.trainings.data;
+      $scope.commits = hash.commits.data
+      $scope.projects = hash.projects.data
+      $scope.trainings = hash.trainings.data
 

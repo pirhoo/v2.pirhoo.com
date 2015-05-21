@@ -1,20 +1,30 @@
 .main__activity {
+  position: relative;
+  overflow: auto;
 
-  &__calendar {
-    margin:40px 60px;
-    padding-bottom:10px;
+  &__figures {
+    text-shadow:0 2px 2px @activity-bg;
+  }
 
-    &__view {
-      margin:20px 0;
-      display:block;
+  &__chart {
+    z-index: 100;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    height: 350px;
+    .translate(-50%, 0);
+    .container-base();
 
-      svg {
-        display:inline-block;
+    &__commits {
+
+      text {
+        fill:@activity-color;
+        font-family: @font-family-base;
+        font-size: 12px;
       }
 
-      .graph-label {
-        fill:fade(white, 90);
-        font-size:9px;
+      rect {
+        fill: @activity-color;
       }
     }
   }

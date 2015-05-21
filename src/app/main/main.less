@@ -4,6 +4,9 @@
     display:block;
     margin:0;
     padding:1px;
+    background: center center;
+    background-size: cover;
+    position: relative;
 
 
     strong {
@@ -17,6 +20,9 @@
       margin:40px auto;
       padding:30px;
 
+      @media (max-width: @screen-sm-min) {
+        margin:20px;
+      }
 
       @media (min-width: @screen-lg-min) {
         padding-left:150px;
@@ -60,26 +66,14 @@
   }
 
   &__introduction {
-    background:@introduction-bg;
-    color:@introduction-color;
-  }
-
-  &__introduction &__section__panel {
-    background:darken(@introduction-bg, 10);
-    strong, &:before, &:after {
-      color:#B9121B;
-      border-color:#B9121B;
-    }
+    .sectionize(@introduction-bg, @introduction-color, @introduction-emphasize);
   }
 
   &__activity {
-    background:@activiy-bg;
-    color:@activiy-color;
+    .sectionize(@activity-bg, @activity-color, @activity-emphasize);
   }
 
   &__projects {
-    background:@projects-bg;
-    color:@projects-color;
+    .sectionize(@projects-bg, @projects-color, @projects-emphasize);
   }
-
 }

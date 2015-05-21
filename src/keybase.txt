@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/pirhoo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pirhoo.com
+  * I am pirhoo (https://keybase.io/pirhoo) on keybase.
+  * I have a public key with fingerprint 5713 C735 4E9B A71C DA93  9524 FBC0 594D 4C47 18E1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "5713c7354e9ba71cda939524fbc0594d4c4718e1",
+            "host": "keybase.io",
+            "key_id": "FBC0594D4C4718E1",
+            "uid": "da4bfb52675f52b3376877280876af19",
+            "username": "pirhoo"
+        },
+        "merkle_root": {
+            "ctime": 1429181001,
+            "hash": "74c553d42dfeb2e1b2db5e0a51289c0ab2ba533d5dc9fe166af27ae8f3039c51d37eff9620903065671c72543ab4c818a0261ca796353f4b61f72914b6a38b8e",
+            "seqno": 203566
+        },
+        "service": {
+            "hostname": "pirhoo.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1429181126,
+    "expire_in": 157680000,
+    "prev": "222a5e89178bd9e96ec72a34511af8938dabb90b704d458d1ed913bca63c3c00",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkm2IVFUYx2fWbU1jI1YycyS3O0Zvy3he7rnnnnFZSFut0CBqo7B2OG935uru
+vTP3zu42bBNlCC5WlESfRMtae2GJiLAItY1gQ0XXSoQikKKSTWUp8oNJ2TmLUXs+
+nZff83+e//Ocl9sXZFqylycf37Rxw7IfssdmRKZv9a6pUUfEquEURx05EOqobncR
+H9RO0dmqG4KnuhDGnVGsdGFL2nmV6XKGdZKGcWQoUKAF6jS7LG6DgzAq66SahFbL
+IRRiSTFxNROcQqk4w4wgNxASEOYqV7oU+hoayUqc1udldeY0S6Eyt+vXrrP8ve46
+y/dafmjuQXFXBIIgj5KAIIEx9XxKkQ986vEAMgumOrlqqRomlTi21Q7qZOuALiVx
+PGdZ1kMLQBcx6EMAoKmHpxUTQl1JCFYuUoEWSEOBlCAacAKRzyTgAglOMFZESRZo
+6JmsiHLtBxhgJglUmOogYB4CDGDgEc90gSLiYi5c6UOfA+RBySnzMMGBKzwYUFOE
+2XDsC18bA6muRbFTRAATz2vaczIcSm3rtk2b560g40ETUk3ieizjAXNfqderRWu5
+3qhabkSLklV410iURBgpM7D/TxQadH47IPK6HP2USaBLoSWIaTIwy+bRw0YTIcSJ
+9hmkvlBMM08bjxy7BEIe+Az7igvBgKDAjJz4CmrFIBaSe1hiCcB/Jompk5eNZBqW
+I14fSrTTHMuuaM1kWzJt17TYL5tZvOiGf//xwz3XZp7ra/0Zn1x15qba3f25xfuv
+PLr0u6/e+2Yif6onH9feWNRx4vnz4Ehuqfp27J3zF7f0Tn75x1jIct07StHZi209
+v/3y0oYndx/r7v70XEc2d2DtubiyZHz6pzMvbH5reqL9lonJFUsmfh3pPP7x6dmc
+3EHKjWbPoY/WTPUO/fX2I/1r9tCDz7Si67IbB/f9/eORle6e++7PLJy55+itC7P6
+/dHRy9u/2HZ9/53PXrjw5of5A221uw717XvsxXxxio7f3ObmPvmd5U8vO/7aeO72
+7Op0Zvcr05tvPPX502ljZMHybasOPvDEifaO2eV3fD15W/PBS6+DP/deOdz32ezR
+Sx8MfL/ycHnsrLOz9tDJV/8B
+=K5gj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pirhoo
+
+==================================================================
+

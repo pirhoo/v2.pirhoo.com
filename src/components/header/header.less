@@ -4,7 +4,9 @@
   left:0;
   right:0;
   transform:translate(0, -100%);
+  transform:translate(0, 0%);
   display:none;
+  z-index:200;
 
   &__section {
 
@@ -17,6 +19,7 @@
       color:inherit;
       padding:20px;
       display:block;
+      text-decoration: none;
     }
 
     &--introduction {
@@ -24,10 +27,10 @@
       color:@introduction-color;
       //border-bottom:3px solid lighten(@introduction-bg, 20%);
     }
-    &--activiy {
-      background:@activiy-bg;
-      color:@activiy-color;
-      //border-bottom:3px solid lighten(@activiy-bg, 20%);
+    &--activity {
+      background:@activity-bg;
+      color:@activity-color;
+      //border-bottom:3px solid lighten(@activity-bg, 20%);
     }
     &--projects {
       background:@projects-bg;
