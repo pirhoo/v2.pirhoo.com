@@ -4,6 +4,18 @@
 
   &__figures {
     text-shadow:0 2px 2px @activity-bg;
+
+    &__item  {
+      padding:15px 15px 15px 85px;
+      position: relative;
+
+      &__icon {
+        position:absolute;
+        left:20px;
+        top:50%;
+        .translate(0, -50%);
+      }
+    }
   }
 
   &__chart {
