@@ -2,8 +2,15 @@
   position: relative;
   overflow: auto;
 
+  &__figures, .main__section__panel {
+    position: relative;
+    z-index: 100;
+  }
+
   &__figures {
 
+    min-height: 61px;
+    margin-bottom: 300px;
     background: white;
 
     strong {
@@ -34,24 +41,32 @@
   }
 
   &__chart {
-    z-index: 100;
+    z-index: 0;
     position: absolute;
     bottom:0;
     left:50%;
-    height: 350px;
     .translate(-50%, 0);
-    .container-base();
+
+    height: 200px;
 
     &__commits {
 
-      text {
-        fill:@activity-color;
+      text.label {
+        fill:@activity-bg;
         font-family: @font-family-base;
-        font-size: 12px;
+        font-size: 10px;
       }
 
-      rect {
-        fill: @activity-color;
+      rect.bar {
+        fill: @projects-bg;
+      }
+
+      g.year rect {
+        fill: fade(@projects-bg, 0);
+      }
+
+      g.year:nth-child(even) rect {
+        fill: fade(@projects-bg, 10);
       }
     }
   }
