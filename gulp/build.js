@@ -140,6 +140,20 @@ gulp.task('csv:projects', function(){
     .pipe(gulp.dest('dist/assets/json/'));
 });
 
+gulp.task('csv:awards', function(){
+  return gulp.src(['src/assets/csv/awards.csv'])
+    .pipe($.convert({ from: 'csv', to: 'json' }))
+    .pipe($.jsonEditor(function(data) {
+      return {
+        awards_count: data.length,
+        countries_count: _.keys( _.countBy(data, "country") ).length,
+        projects_count: _.keys( _.countBy(data, "project") ).length
+      };
+    }))
+    .pipe(gulp.dest('.tmp/serve/assets/json/'))
+    .pipe(gulp.dest('dist/assets/json/'));
+});
+
 
 gulp.task('csv', ["csv:trainings", "csv:commits", "csv:projects"])
 
