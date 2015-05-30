@@ -1,26 +1,23 @@
 section#activity.main__section.main__activity(screen-height="400", ng-controller="ActivityCtrl")
   .main__section__panel.main__section__panel--reverse(aria-section="Activity")
     h2 I've been busy,<br ><strong>let's the data talk</strong>
-    p I currently share my time between coding, investigating and teaching.
+    p.
+      Sharing my time between coding, investigating and teaching,
+      the data figures bellow are talking by themself.
 
   .container-base.main__activity__figures
-    .row.text-left
-
-      .col-md-6.lead.main__activity__figures__item
-        i.fa.fa-code.fa-2x.main__activity__figures__item__icon
-        | I authored
-        | <strong>{{ commits.commits_count }}</strong>&nbsp;
-        | commits over
-        | <strong>{{ commits.repositories_count }}</strong>&nbsp;projects
-
-      .col-md-6.lead.main__activity__figures__item
-        i.fa.fa-graduation-cap.fa-2x.main__activity__figures__item__icon
-        | I gave ±<strong>{{ trainings.hours_count }}</strong>&nbsp;hours
-        | of training in
-        | <strong>{{ trainings.countries_count }}</strong>&nbsp;countries
-
-      .col-md-6.lead.main__activity__figures__item
-        i.fa.fa-trophy.fa-2x.main__activity__figures__item__icon
-        | <strong>{{ awards.awards_count }}</strong>&nbsp;prizes rewarded
-        | <strong>{{awards.projects_count }}</strong>&nbsp;projects
-        | I worked on
+    .main__activity__figures__item
+      i.fa.fa-fw.fa-code.fa-2x.main__activity__figures__item__icon
+      | I authored
+      | <strong>{{ commits.commits_count }}</strong>&nbsp;commits over
+      | <strong>{{ commits.repositories_count }}</strong>&nbsp;projects
+    .main__activity__figures__item
+      i.fa.fa-fw.fa-graduation-cap.fa-2x.main__activity__figures__item__icon
+      | I gave ±<strong>{{ trainings.hours_count }}</strong>&nbsp;hours
+      | of training in
+      | <strong>{{ trainings.countries_count }}</strong>&nbsp;countries
+    .main__activity__figures__item
+      i.fa.fa-fw.fa-trophy.fa-2x.main__activity__figures__item__icon
+      | <strong>{{ awards.awards_count }}</strong>&nbsp;prizes rewarded
+      | <strong>{{awards.projects_count }}</strong>&nbsp;projects
+      | I worked on

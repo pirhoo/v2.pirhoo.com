@@ -9,8 +9,8 @@
 @activity-emphasize:#FFFFFF;
 
 @projects-bg:#FFFFFF;
-@projects-color:#455A64;
-@projects-emphasize:#455A64;
+@projects-color:#727272;
+@projects-emphasize:#212121;
 
 @thumb-max-width: 150px;
 @thumb-by-row: 5;
@@ -49,16 +49,6 @@ body a {
 
   background-color:@bg;
   color:@color;
-
-  &:before {
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    height:300px;
-    content:"";
-    #gradient > .vertical(fade(@bg, 0), @bg);
-  }
 
   & .main__section__panel {
     background:@panel-bg;
