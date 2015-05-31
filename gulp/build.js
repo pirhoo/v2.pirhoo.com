@@ -12,7 +12,7 @@ var $ = require('gulp-load-plugins')({
 gulp.task('partials', ['markups'], function () {
   return gulp.src([
     paths.src + '/{app,components}/**/*.html',
-    paths.tmp + '/{app,components}/**/*.html'
+    paths.tmp + '/serve/{app,components}/**/*.html'
   ])
     .pipe($.minifyHtml({
       empty: true,
