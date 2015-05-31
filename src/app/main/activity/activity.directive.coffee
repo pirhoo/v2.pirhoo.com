@@ -120,7 +120,7 @@ angular.module 'pirhoo'
             .attr "text-anchor", "middle"
             .attr "x", (d)->  xscale(d.month) + barWidth/2
             .attr "y", (d)-> (height - heightScale d.count) + 10
-            .text (d)-> d.count
+            .text (d)-> if heightScale(d.count) >= 25 then d.count else ''
 
 
       do init
