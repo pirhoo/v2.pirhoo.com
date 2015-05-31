@@ -21,4 +21,5 @@ section#activity.main__section.main__activity(screen-height="400", ng-controller
       | <strong>{{ awards.awards_count }}</strong>&nbsp;prizes rewarded
       | <strong>{{awards.projects_count }}</strong>&nbsp;projects
       | I worked on
-  activity(commits="commits", ng-if="commits")
+  .main__activity__chart-wrapper
+    activity(commits="commits", ng-if="commits")

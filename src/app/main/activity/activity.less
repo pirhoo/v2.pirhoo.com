@@ -40,14 +40,22 @@
     }
   }
 
+  &__chart-wrapper {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow: auto;
+    height: 220px;
+  }
+
   &__chart {
     z-index: 0;
+    height: 200px;
     position: absolute;
     bottom:0;
     left:50%;
     .translate(-50%, 0);
-
-    height: 200px;
 
     &__commits {
       font-family: @font-family-base;
