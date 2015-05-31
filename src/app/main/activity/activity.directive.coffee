@@ -53,7 +53,7 @@ angular.module 'pirhoo'
                       .append "defs"
                         .append "linearGradient"
                         .attr
-                          id: "year-gradient"
+                          id: "yeargradient"
                           x1: 0
                           x2: 0
                           y1: 0
