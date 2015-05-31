@@ -49,6 +49,26 @@ angular.module 'pirhoo'
 
       # Draw the rects
       draw = ->
+        gradirent = svg
+                      .append "defs"
+                        .append "linearGradient"
+                        .attr
+                          id: "year-gradient"
+                          x1: 0
+                          x2: 0
+                          y1: 0
+                          y2: 1
+
+        gradirent.append "stop"
+              .attr "offset", "0%"
+              .attr "stop-color", "white"
+              .attr "stop-opacity", 0
+
+        gradirent.append "stop"
+              .attr "offset", "100%"
+              .attr "stop-color", "white"
+              .attr "stop-opacity", 0.2
+
         svg.selectAll "g.year"
           .data years
           .enter()
@@ -65,7 +85,11 @@ angular.module 'pirhoo'
               .attr "class", "year-label"
               .text (y)-> y
               .attr "text-anchor", "middle"
-              .attr "x", (y)-> xscale( new Date(y, 0, 1) ) + yearWidth(y)/2
+              .attr "x", (y)->
+                x = xscale( new Date(y, 0, 1) ) + yearWidth(y)/2
+                # Avoid label to go outside the svg
+                x = Math.min width - 25, x
+                x = Math.max 25, x
               .attr "y", 20
 
         svg.selectAll "rect.bar"

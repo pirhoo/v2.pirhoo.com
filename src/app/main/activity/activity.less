@@ -53,15 +53,15 @@
       font-family: @font-family-base;
 
       g.year rect {
-        fill: fade(@projects-bg, 0);
+        fill: url("#year-gradient");
       }
 
       g.year:nth-child(even) rect {
-        fill: fade(@projects-bg, 10);
+        fill: fade(@projects-bg, 0);
       }
 
       g.year text {
-        fill: fade(@projects-bg, 20);
+        fill: fade(@projects-bg, 40);
       }
 
       text.bar-label {
@@ -74,13 +74,6 @@
         fill: @projects-bg;
       }
 
-      g.year-bg rect {
-        fill: fade(@projects-bg, 0);
-      }
-
-      g.year-bg:nth-child(even) rect {
-        fill: fade(@projects-bg, 10);
-      }
     }
   }
 
