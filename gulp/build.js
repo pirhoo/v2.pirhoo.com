@@ -77,7 +77,7 @@ gulp.task('fonts', function () {
 });
 
 gulp.task('misc', function () {
-  return gulp.src(paths.src + '/**/*.{ico,txt}')
+  return gulp.src([paths.src + '/**/*.{ico,txt}', paths.src + '/CNAME'])
     .pipe(gulp.dest(paths.dist + '/'));
 });
 
