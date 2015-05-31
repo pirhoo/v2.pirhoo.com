@@ -1,6 +1,6 @@
 .main__activity {
   position: relative;
-  overflow: auto;
+  overflow: visible;
 
   &__figures, .main__section__panel {
     position: relative;
@@ -47,6 +47,18 @@
     right:0;
     overflow: auto;
     height: 220px;
+
+  }
+
+  &__chart-title {
+    z-index: 110;
+    position: absolute;
+    left:50%;
+    top:100%;
+    .translate(-50%, 0);
+    font-size:1em;
+    text-transform:uppercase;
+    margin:5px;
   }
 
   &__chart {
@@ -55,6 +67,7 @@
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+    position: relative;
 
     &__commits {
       font-family: @font-family-base;
@@ -75,6 +88,7 @@
         fill:@activity-bg;
         font-family: @font-family-base;
         font-size: 10px;
+        pointer-events: none;
       }
 
       rect.bar {
