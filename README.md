@@ -1,4 +1,4 @@
-# pirhoo.com
+# pirhoo.com (v2)
 
 ## Install
 
