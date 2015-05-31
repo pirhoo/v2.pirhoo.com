@@ -7,11 +7,19 @@ angular.module 'pirhoo'
       commits: "="
     link: (scope, el) ->
       svg = d3.select el[0]
+      # Build tooltips function
+      tip = d3.tip().attr('class', 'd3-tip').html (d)->
+        # Tooltips content
+        months[ d.month.getMonth() ] + " " + d.month.getFullYear() + ": <strong>" + d.count + " commits</strong>"
+      svg.call tip
       # Available "globaly"
       width = height = 0
       heightScale = commits = null
       barWidth = 25
       barGutter = 0
+      # English months
+      months = ["January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"]
       # To scale x alongside months
       older = new Date(scope.commits.older_commit.timestamp*1000)
       newer = new Date(scope.commits.newer_commit.timestamp*1000)
@@ -101,6 +109,8 @@ angular.module 'pirhoo'
           .attr "y", (d)-> height - heightScale d.count
           .attr "width", barWidth
           .attr "height", (d)-> heightScale d.count
+          .on 'mouseover', tip.show
+          .on 'mouseout', tip.hide
 
         svg.selectAll "text.bar-label"
             .data data.commits
