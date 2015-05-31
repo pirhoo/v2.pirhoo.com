@@ -155,7 +155,13 @@ gulp.task('csv:awards', function(){
 });
 
 
-gulp.task('csv', ["csv:trainings", "csv:commits", "csv:projects"])
-
+gulp.task('csv', ["csv:trainings", "csv:commits", "csv:projects", "csv:awards"])
 
 gulp.task('build', ['html', 'images', 'fonts', 'misc', 'csv']);
+
+gulp.task('deploy', ['build'], function() {
+  gulp.src("./dist/**/*").pipe($.ghPages({
+    remoteUrl: "git@github.com:Pirhoo/pirhoo.wip.git"
+  }));
+});
+
