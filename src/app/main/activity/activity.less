@@ -50,8 +50,21 @@
     height: 200px;
 
     &__commits {
+      font-family: @font-family-base;
 
-      text.label {
+      g.year rect {
+        fill: fade(@projects-bg, 0);
+      }
+
+      g.year:nth-child(even) rect {
+        fill: fade(@projects-bg, 10);
+      }
+
+      g.year text {
+        fill: fade(@projects-bg, 20);
+      }
+
+      text.bar-label {
         fill:@activity-bg;
         font-family: @font-family-base;
         font-size: 10px;
@@ -61,11 +74,11 @@
         fill: @projects-bg;
       }
 
-      g.year rect {
+      g.year-bg rect {
         fill: fade(@projects-bg, 0);
       }
 
-      g.year:nth-child(even) rect {
+      g.year-bg:nth-child(even) rect {
         fill: fade(@projects-bg, 10);
       }
     }

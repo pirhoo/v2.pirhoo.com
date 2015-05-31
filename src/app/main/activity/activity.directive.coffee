@@ -19,6 +19,8 @@ angular.module 'pirhoo'
       years = ( y for y in [ older.getFullYear() .. newer.getFullYear() ] )
       # Month scale
       xscale = d3.time.scale().domain([older, newer])
+      # Width of a year
+      yearWidth = (y)-> xscale( new Date(y + 1, 0, 1) ) - xscale( new Date(y, 0, 1) )
       # Prepare data
       data =
         # Commits list by month must be an array
@@ -53,10 +55,18 @@ angular.module 'pirhoo'
             .append "g"
             .attr "class", "year"
             .append "rect"
-              .attr "x", (d)-> xscale( new Date(d, 0, 1) )
+              .attr "x", (y)-> xscale( new Date(y, 0, 1) )
               .attr "y", 0
-              .attr "width", (d)-> xscale( new Date(d + 1, 0, 1) ) - xscale( new Date(d, 0, 1) )
+              .attr "width", yearWidth
               .attr "height", height
+
+        svg.selectAll "g.year"
+            .append "text"
+              .attr "class", "year-label"
+              .text (y)-> y
+              .attr "text-anchor", "middle"
+              .attr "x", (y)-> xscale( new Date(y, 0, 1) ) + yearWidth(y)/2
+              .attr "y", 20
 
         svg.selectAll "rect.bar"
           .data data.commits
@@ -68,11 +78,11 @@ angular.module 'pirhoo'
           .attr "width", barWidth
           .attr "height", (d)-> heightScale d.count
 
-        svg.selectAll "text.label"
+        svg.selectAll "text.bar-label"
             .data data.commits
             .enter()
             .append "text"
-            .attr "class", "label"
+            .attr "class", "bar-label"
             .attr "text-anchor", "middle"
             .attr "x", (d)->  xscale(d.month) + barWidth/2
             .attr "y", (d)-> (height - heightScale d.count) + 10
