@@ -1,4 +1,6 @@
-title,thumbnail,url,color,year
+title,thumbnail,url,color,
+Radio France : Départementales 2015,assets/images/thumbnails/dep15.png,http://elections.radiofrance.fr/departementales-2015/#/france,#007BC6,2015
+MSF: One year of fight against Ebola,assets/images/thumbnails/ebola.png,http://www.msf-azg.be/ebola_data/,#E22000,2015
 RSF: Index de la liberté de la presse,assets/images/thumbnails/rsf.png,http://index.rsf.org,#DA032E,2015
 Iframe Scaffolder,assets/images/thumbnails/iframe.png,http://pirhoo.github.io/iframe-scaffolder/,#53BF6B,2014
 Global Witness: The Great Rip off,assets/images/thumbnails/gw.png,http://greatripoffmap.globalwitness.org/,#EC1C24,2014
@@ -14,7 +16,7 @@ France Télévision: Jeu d'Influences,assets/images/thumbnails/ftv-spin.png,http
 France Télévision: Municipaly,assets/images/thumbnails/municipaly.png,http://municipaly.fr,#00D59B,2014
 Fondation BNPP: Odyssée Jeunes,assets/images/thumbnails/bnpp.png,http://odysseejeunes.wedodata.fr/,#00A1B5,2014
 Arte: Une contre-histoire des Internets,assets/images/thumbnails/lesinternets-mini-150x150.png,http://lesinternets.arte.tv/,#EE9B00,2014
-Al Jazeera : Dragons Gifts,assets/images/thumbnails/dragons.png,http://www.aljazeera.com/indepth/interactive/2014/03/interactive-china-african-spending-spree-2014320121349799136.html,#FB9D04,2014
+Al Jazeera : Dragons Gifts,assets/images/thumbnails/dragons.png,http://www.aljazeera.com/indepth/interactive/2014/03/interactive-china-african-spending-spree-2014320121349799136.html,#FB9D04,2014
 Benford's Law Calculator,assets/images/thumbnails/brokenp.png,http://benford.jplusplus.org,#1A1E28,2013
 Hackaton: Broken Promises,assets/images/thumbnails/bp.png,http://brokenpromises.jplusplus.org,#5879A5,2013
 L’Express: Des données pour l’autisme,assets/images/thumbnails/dap.png,http://www.desdonneespourlautisme.fr/,#E20022,2013
