@@ -1,6 +1,7 @@
 'use strict';
 
 var gulp = require('gulp'),
+  sizeOf = require('image-size'),
        _ = require("lodash");
 
 var paths = gulp.paths;
@@ -8,6 +9,18 @@ var paths = gulp.paths;
 var $ = require('gulp-load-plugins')({
   pattern: ['gulp-*', 'main-bower-files', 'uglify-save-license', 'del']
 });
+
+gulp.task('resize', function() {
+  return gulp.src(paths.src + '/assets/images/thumbnails/*.{png,jpg}')
+    .pipe($.filter(function(image) {
+      return sizeOf(image.path).width !== 150
+    }))
+    .pipe($.imageResize({
+      width : 150,
+    }))
+    .pipe(gulp.dest(paths.src + '/assets/images/thumbnails/'));
+});
+
 
 gulp.task('partials', ['markups'], function () {
   return gulp.src([
