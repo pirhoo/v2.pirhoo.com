@@ -10,7 +10,7 @@ angular.module 'pirhoo'
       # Build tooltips function
       tip = d3.tip().attr('class', 'd3-tip').html (d)->
         # Tooltips content
-        months[ d.month.getMonth() ] + " " + d.month.getFullYear() + ": <strong>" + d.count + " commits</strong>"
+        months[ d.month.getMonth() ] + " " + d.month.getFullYear() + ": <strong>" + d.count + " commits</strong><br />on " + _.keys(d.repositories).length + " project(s)"
       svg.call tip
       # Available "globaly"
       width = height = 0
@@ -35,7 +35,8 @@ angular.module 'pirhoo'
         commits: _.sortBy( _.reduce( _.keys(scope.commits.months_count), (result, month)->
           result.push
             month: new Date(month)
-            count: scope.commits.months_count[month]
+            count: scope.commits.months_count[month].count
+            repositories: scope.commits.months_count[month].repositories
           result
         , []), "month")
       # Maximum count value

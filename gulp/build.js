@@ -131,13 +131,23 @@ gulp.task('csv:commits', function(){
   return gulp.src(['src/assets/csv/commits.csv'])
     .pipe($.convert({ from: 'csv', to: 'json' }))
     .pipe($.jsonEditor(function(data) {
+      // Grount commits by month
+      var months_count = _.groupBy(data, function(commit) {
+        var date = new Date(commit.timestamp * 1000);
+        return date.getFullYear() + "-" + ("0"+ (date.getMonth() + 1) ).slice(-2) + "-01";
+      });
+      // Aggregate commits data by month
+      months_count = _.reduce(months_count, function(result, month, key) {
+        result[key] = {
+          count: month.length,
+          repositories: _.countBy(month, 'repository')
+        }
+        return result;
+      }, {});
       return {
         commits_count: data.length,
         repositories_count: _.keys( _.countBy(data, "repository") ).length,
-        months_count: _.countBy(data, function(commit) {
-          var date = new Date(commit.timestamp * 1000);
-          return date.getFullYear() + "-" + ("0"+ (date.getMonth() + 1) ).slice(-2) + "-01";
-        }),
+        months_count: months_count,
         older_commit: _.min(data, "timestamp"),
         newer_commit: _.max(data, "timestamp")
       };
