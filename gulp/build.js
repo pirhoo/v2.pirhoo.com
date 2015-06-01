@@ -17,6 +17,7 @@ gulp.task('resize', function() {
     }))
     .pipe($.imageResize({
       width : 150,
+      upscale: true
     }))
     .pipe(gulp.dest(paths.src + '/assets/images/thumbnails/'));
 });
