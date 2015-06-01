@@ -1,6 +1,6 @@
 {
-  "commits_count": 8271,
-  "repositories_count": 77,
+  "commits_count": 8287,
+  "repositories_count": 78,
   "months_count": {
     "2014-11-01": 254,
     "2014-10-01": 324,
@@ -25,6 +25,7 @@
     "2012-04-01": 33,
     "2012-03-01": 18,
     "2014-03-01": 255,
+    "2015-06-01": 23,
     "2014-04-01": 318,
     "2014-02-01": 257,
     "2013-09-01": 221,
@@ -46,8 +47,7 @@
     "2011-06-01": 31,
     "2011-05-01": 38,
     "2011-04-01": 71,
-    "2011-09-01": 11,
-    "2015-06-01": 7
+    "2011-09-01": 11
   },
   "older_commit": {
     "repository": "influence-networks",
@@ -55,8 +55,8 @@
     "commit": "e785a32200da6ff707288fc8dc97498a10dba9ac"
   },
   "newer_commit": {
-    "repository": "v2.pirhoo.com",
-    "timestamp": "1433141894",
-    "commit": "3c49f8732b8452f184cb50a28328ce67e2227230"
+    "repository": "api.pirhoo.com",
+    "timestamp": "1433148518",
+    "commit": "2e2485888511ccdd84db13ed209703698a8deb37"
   }
 }
