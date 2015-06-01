@@ -2,52 +2,498 @@
   "commits_count": 8287,
   "repositories_count": 78,
   "months_count": {
-    "2014-11-01": 254,
-    "2014-10-01": 324,
-    "2014-06-01": 228,
-    "2014-01-01": 324,
-    "2013-12-01": 146,
-    "2013-06-01": 195,
-    "2013-05-01": 239,
-    "2013-04-01": 218,
-    "2013-03-01": 513,
-    "2014-09-01": 280,
-    "2013-07-01": 129,
-    "2013-01-01": 71,
-    "2012-12-01": 68,
-    "2012-11-01": 115,
-    "2012-10-01": 24,
-    "2012-09-01": 107,
-    "2012-08-01": 85,
-    "2012-07-01": 81,
-    "2012-06-01": 244,
-    "2012-05-01": 156,
-    "2012-04-01": 33,
-    "2012-03-01": 18,
-    "2014-03-01": 255,
-    "2015-06-01": 23,
-    "2014-04-01": 318,
-    "2014-02-01": 257,
-    "2013-09-01": 221,
-    "2015-05-01": 374,
-    "2015-04-01": 203,
-    "2015-03-01": 346,
-    "2014-05-01": 246,
-    "2013-08-01": 143,
-    "2013-11-01": 174,
-    "2013-10-01": 257,
-    "2014-08-01": 172,
-    "2013-02-01": 167,
-    "2015-02-01": 253,
-    "2014-12-01": 193,
-    "2014-07-01": 391,
-    "2015-01-01": 208,
-    "2011-08-01": 2,
-    "2011-07-01": 81,
-    "2011-06-01": 31,
-    "2011-05-01": 38,
-    "2011-04-01": 71,
-    "2011-09-01": 11
+    "2014-11-01": {
+      "count": 254,
+      "repositories": {
+        "afdas-interactive": 2,
+        "detective.io": 123,
+        "fledit.io": 42,
+        "idf-interactive": 25,
+        "idf-lycees": 2,
+        "iframe-scaffolder": 57,
+        "pltv-spin": 1,
+        "quiz-idf": 1,
+        "v1.pirhoo.com": 1
+      }
+    },
+    "2014-10-01": {
+      "count": 324,
+      "repositories": {
+        "afdas-interactive": 141,
+        "detective.io": 60,
+        "gw-greatripoffmap-private": 71,
+        "idf-interactive": 36,
+        "idf-lycees": 4,
+        "marmhut": 4,
+        "quiz-idf": 8
+      }
+    },
+    "2014-06-01": {
+      "count": 228,
+      "repositories": {
+        "afdas-interactive": 8,
+        "bnpp-odyssee-jeunes": 5,
+        "detective.io": 78,
+        "foeng": 5,
+        "idf-barometre": 2,
+        "idf-cartocfa": 89,
+        "idf-interactive": 8,
+        "logo.js": 1,
+        "pltv-spin": 3,
+        "presentations": 4,
+        "quiz-idf": 25
+      }
+    },
+    "2014-01-01": {
+      "count": 324,
+      "repositories": {
+        "afdas-interactive": 1,
+        "detective.io": 91,
+        "ftv-municipaly": 195,
+        "idf-barometre": 4,
+        "idf-budget": 26,
+        "idf-interactive": 1,
+        "idf-lycees": 4,
+        "wikileaks-kissinger-cables": 2
+      }
+    },
+    "2013-12-01": {
+      "count": 146,
+      "repositories": {
+        "afdas-interactive": 2,
+        "aucun-lien": 2,
+        "bnpp-odyssee-jeunes": 7,
+        "broken-promises-client": 1,
+        "detective.io": 78,
+        "idf-budget": 21,
+        "idf-interactive": 2,
+        "jplusplus.org": 10,
+        "jpp-birthday-2013": 12,
+        "presentations": 8,
+        "wikileaks-kissinger-cables": 3
+      }
+    },
+    "2013-06-01": {
+      "count": 195,
+      "repositories": {
+        "afdas-interactive": 40,
+        "afp-ediplomacy": 1,
+        "desdonneespourlautisme": 1,
+        "idf-barometre": 78,
+        "idf-interactive": 40,
+        "janus": 4,
+        "jplusplus.org": 31
+      }
+    },
+    "2013-05-01": {
+      "count": 239,
+      "repositories": {
+        "afdas-interactive": 15,
+        "arte-chi": 107,
+        "baucis": 2,
+        "dataplayer": 90,
+        "idf-interactive": 15,
+        "idf-lycees": 5,
+        "jplusplus.org": 5
+      }
+    },
+    "2013-04-01": {
+      "count": 218,
+      "repositories": {
+        "afdas-interactive": 5,
+        "arte-chi": 60,
+        "camcuts": 2,
+        "dataplayer": 96,
+        "idf-interactive": 5,
+        "wikileaks-kissinger-cables": 50
+      }
+    },
+    "2013-03-01": {
+      "count": 513,
+      "repositories": {
+        "afdas-interactive": 77,
+        "arte-chi": 329,
+        "desdonneespourlautisme": 7,
+        "idf-interactive": 77,
+        "jplusplus.org": 3,
+        "jquest-client": 1,
+        "jquest-core": 1,
+        "nkb-prez": 4,
+        "presentations": 4,
+        "wikileaks-kissinger-cables": 10
+      }
+    },
+    "2014-09-01": {
+      "count": 280,
+      "repositories": {
+        "afp-ediplomacy": 2,
+        "alt-j": 22,
+        "detective.io": 90,
+        "gw-greatripoffmap-private": 141,
+        "marmhut": 18,
+        "wut": 7
+      }
+    },
+    "2013-07-01": {
+      "count": 129,
+      "repositories": {
+        "afp-ediplomacy": 3,
+        "bnpp-odyssee-jeunes": 40,
+        "detective.io": 18,
+        "idf-barometre": 64,
+        "jplusplus.org": 4
+      }
+    },
+    "2013-01-01": {
+      "count": 71,
+      "repositories": {
+        "afp-ediplomacy": 4,
+        "jplusplus.org": 16,
+        "jquest-client": 27,
+        "jquest-core": 15,
+        "nkb-prez": 3,
+        "presentations": 3,
+        "styleguide": 3
+      }
+    },
+    "2012-12-01": {
+      "count": 68,
+      "repositories": {
+        "afp-ediplomacy": 27,
+        "idf-lycees": 5,
+        "jplusplus.org": 9,
+        "jquest-client": 27
+      }
+    },
+    "2012-11-01": {
+      "count": 115,
+      "repositories": {
+        "afp-ediplomacy": 30,
+        "idf-lycees": 40,
+        "jplusplus.org": 5,
+        "nkb-prez": 20,
+        "presentations": 20
+      }
+    },
+    "2012-10-01": {
+      "count": 24,
+      "repositories": {
+        "afp-ediplomacy": 1,
+        "idf-lycees": 21,
+        "jplusplus.org": 2
+      }
+    },
+    "2012-09-01": {
+      "count": 107,
+      "repositories": {
+        "afp-ediplomacy": 4,
+        "heroku-buildpack-php": 1,
+        "jplusplus.org": 13,
+        "jquest-client": 56,
+        "jquest-mission": 31,
+        "LODP": 2
+      }
+    },
+    "2012-08-01": {
+      "count": 85,
+      "repositories": {
+        "afp-ediplomacy": 20,
+        "jplusplus.org": 35,
+        "jquest-client": 19,
+        "jquest-mission": 11
+      }
+    },
+    "2012-07-01": {
+      "count": 81,
+      "repositories": {
+        "afp-ediplomacy": 4,
+        "feowl": 50,
+        "heroku-buildpack-nodejs-phantomjs": 9,
+        "jplusplus.org": 17,
+        "jquest-client": 1
+      }
+    },
+    "2012-06-01": {
+      "count": 244,
+      "repositories": {
+        "afp-ediplomacy": 104,
+        "feowl": 54,
+        "jquest-client": 31,
+        "Trainspot": 55
+      }
+    },
+    "2012-05-01": {
+      "count": 156,
+      "repositories": {
+        "afp-ediplomacy": 153,
+        "feowl": 2,
+        "tipsy": 1
+      }
+    },
+    "2012-04-01": {
+      "count": 33,
+      "repositories": {
+        "afp-ediplomacy": 32,
+        "branche-ton-sontone": 1
+      }
+    },
+    "2012-03-01": {
+      "count": 18,
+      "repositories": {
+        "afp-ediplomacy": 18
+      }
+    },
+    "2014-03-01": {
+      "count": 255,
+      "repositories": {
+        "angular-nouislider": 1,
+        "arte-world-of-work": 74,
+        "bnpp-odyssee-jeunes": 1,
+        "detective.io": 40,
+        "edj-cgvv": 6,
+        "edj-stereopub": 14,
+        "foeng": 7,
+        "idf-barometre": 20,
+        "pltv-spin": 88,
+        "presentations": 4
+      }
+    },
+    "2015-06-01": {
+      "count": 23,
+      "repositories": {
+        "api.pirhoo.com": 10,
+        "v1.pirhoo.com": 2,
+        "v2.pirhoo.com": 11
+      }
+    },
+    "2014-04-01": {
+      "count": 318,
+      "repositories": {
+        "arte-world-of-work": 1,
+        "bnpp-odyssee-jeunes": 5,
+        "datavis-canvas": 3,
+        "detective.io": 1,
+        "dystopia-tracker": 9,
+        "edj-cgvv": 5,
+        "edj-stereopub": 2,
+        "marmhut": 9,
+        "pltv-spin": 283
+      }
+    },
+    "2014-02-01": {
+      "count": 257,
+      "repositories": {
+        "arte-world-of-work": 89,
+        "branche-ton-sontone": 5,
+        "detective.io": 133,
+        "dragons-gifts": 16,
+        "jplusplus.org": 1,
+        "v1.pirhoo.com": 13
+      }
+    },
+    "2013-09-01": {
+      "count": 221,
+      "repositories": {
+        "benford-calculator": 15,
+        "bnpp-odyssee-jeunes": 50,
+        "detective.io": 85,
+        "heroku-buildpack-django": 2,
+        "idf-pnr": 63,
+        "jplusplus.org": 3,
+        "theme-nyancat": 3
+      }
+    },
+    "2015-05-01": {
+      "count": 374,
+      "repositories": {
+        "bnpp-odyssee-jeunes": 2,
+        "cartodb-layers": 8,
+        "detective.io": 17,
+        "diercke-gis": 153,
+        "fledit.cdn": 5,
+        "fledit.io": 23,
+        "fledit.js": 32,
+        "gw-greatripoffmap-private": 2,
+        "lemondeatilundirecteur.fr": 12,
+        "logo.js": 3,
+        "rts-parlometre": 60,
+        "themigrantsfiles.com": 13,
+        "v2.pirhoo.com": 44
+      }
+    },
+    "2015-04-01": {
+      "count": 203,
+      "repositories": {
+        "bnpp-odyssee-jeunes": 1,
+        "cartodb-layers": 9,
+        "detective.io": 11,
+        "diercke-gis": 127,
+        "fledit.io": 31,
+        "fledit.js": 4,
+        "gw-greatripoffmap-private": 1,
+        "logo.js": 2,
+        "msf-ebola": 8,
+        "owni-plr": 9
+      }
+    },
+    "2015-03-01": {
+      "count": 346,
+      "repositories": {
+        "bnpp-odyssee-jeunes": 5,
+        "cartodb-layers": 26,
+        "detective.io": 12,
+        "diercke-gis": 15,
+        "fledit.io": 13,
+        "msf-ebola": 167,
+        "owni-plr": 55,
+        "raw": 2,
+        "rf-departementales-2015": 48,
+        "v1.pirhoo.com": 2,
+        "v2.pirhoo.com": 1
+      }
+    },
+    "2014-05-01": {
+      "count": 246,
+      "repositories": {
+        "bnpp-odyssee-jeunes": 75,
+        "detective.io": 42,
+        "idf-barometre": 27,
+        "logo.js": 2,
+        "neo4django": 7,
+        "pltv-spin": 39,
+        "quiz-idf": 54
+      }
+    },
+    "2013-08-01": {
+      "count": 143,
+      "repositories": {
+        "bnpp-odyssee-jeunes": 9,
+        "datawrapper": 6,
+        "detective.io": 107,
+        "jplusplus.org": 7,
+        "neo4django": 4,
+        "theme-nyancat": 10
+      }
+    },
+    "2013-11-01": {
+      "count": 174,
+      "repositories": {
+        "broken-promises-client": 1,
+        "detective.io": 105,
+        "idf-barometre": 12,
+        "jplusplus.org": 6,
+        "presentations": 16,
+        "rss2wp": 9,
+        "wikileaks-cg-analyser": 12,
+        "wikileaks-kissinger-cables": 13
+      }
+    },
+    "2013-10-01": {
+      "count": 257,
+      "repositories": {
+        "broken-promises-client": 16,
+        "detective.io": 202,
+        "heroku-buildpack-django": 24,
+        "idf-barometre": 1,
+        "jplusplus.org": 10,
+        "neo4django": 4
+      }
+    },
+    "2014-08-01": {
+      "count": 172,
+      "repositories": {
+        "coffee-once": 13,
+        "detective.io": 49,
+        "gw-greatripoffmap-private": 87,
+        "marmhut": 12,
+        "v1.pirhoo.com": 11
+      }
+    },
+    "2013-02-01": {
+      "count": 167,
+      "repositories": {
+        "desdonneespourlautisme": 19,
+        "jquest-client": 53,
+        "jquest-core": 37,
+        "jquest-mission": 16,
+        "kartograph.org": 2,
+        "wikileaks-kissinger-cables": 40
+      }
+    },
+    "2015-02-01": {
+      "count": 253,
+      "repositories": {
+        "detective.io": 78,
+        "dystopia-tracker": 2,
+        "iframe-scaffolder": 8,
+        "msf-ebola": 70,
+        "rsf-index-2015": 91,
+        "v2.pirhoo.com": 4
+      }
+    },
+    "2014-12-01": {
+      "count": 193,
+      "repositories": {
+        "detective.io": 160,
+        "fledit.io": 30,
+        "gw-greatripoffmap-private": 1,
+        "idf-budget": 1,
+        "quiz-idf": 1
+      }
+    },
+    "2014-07-01": {
+      "count": 391,
+      "repositories": {
+        "detective.io": 282,
+        "gw-greatripoffmap-private": 25,
+        "marmhut": 75,
+        "quiz-idf": 9
+      }
+    },
+    "2015-01-01": {
+      "count": 208,
+      "repositories": {
+        "fledit.io": 11,
+        "jpp-prerender": 1,
+        "rsf-index-2015": 196
+      }
+    },
+    "2011-08-01": {
+      "count": 2,
+      "repositories": {
+        "influence-networks": 2
+      }
+    },
+    "2011-07-01": {
+      "count": 81,
+      "repositories": {
+        "influence-networks": 81
+      }
+    },
+    "2011-06-01": {
+      "count": 31,
+      "repositories": {
+        "influence-networks": 31
+      }
+    },
+    "2011-05-01": {
+      "count": 38,
+      "repositories": {
+        "influence-networks": 38
+      }
+    },
+    "2011-04-01": {
+      "count": 71,
+      "repositories": {
+        "influence-networks": 71
+      }
+    },
+    "2011-09-01": {
+      "count": 11,
+      "repositories": {
+        "LODP": 11
+      }
+    }
   },
   "older_commit": {
     "repository": "influence-networks",
