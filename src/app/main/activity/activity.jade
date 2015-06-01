@@ -9,7 +9,8 @@ section#activity.main__section.main__activity(screen-height="400", ng-controller
     .main__activity__figures__item
       i.fa.fa-fw.fa-code.fa-2x.main__activity__figures__item__icon
       | I authored
-      | <strong>{{ commits.commits_count }}</strong>&nbsp;commits over
+      | <strong>{{ commits.commits_count }}</strong>&nbsp;
+      | <abbr title="A submission of the latest changes of a source code">commits</abbr> over
       | <strong>{{ commits.repositories_count }}</strong>&nbsp;projects
     .main__activity__figures__item
       i.fa.fa-fw.fa-graduation-cap.fa-2x.main__activity__figures__item__icon
@@ -23,4 +24,6 @@ section#activity.main__section.main__activity(screen-height="400", ng-controller
       | I worked on
   .main__activity__chart-wrapper
     activity(commits="commits", ng-if="commits")
-  h3.main__activity__chart-title Commits by month
+  h3.main__activity__chart-title.
+    <abbr title="A submission of the latest changes of a source code">Commits</abbr>
+    by month
