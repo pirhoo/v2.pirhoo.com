@@ -1,6 +1,6 @@
 {
-  "commits_count": 8287,
-  "repositories_count": 78,
+  "commits_count": 8330,
+  "repositories_count": 79,
   "months_count": {
     "2014-11-01": {
       "count": 254,
@@ -259,11 +259,15 @@
       }
     },
     "2015-06-01": {
-      "count": 23,
+      "count": 66,
       "repositories": {
         "api.pirhoo.com": 10,
+        "cartodb-layers": 10,
+        "diercke-gis": 13,
+        "mf2-moneytrail": 11,
+        "themigrantsfiles.com": 4,
         "v1.pirhoo.com": 2,
-        "v2.pirhoo.com": 11
+        "v2.pirhoo.com": 16
       }
     },
     "2014-04-01": {
@@ -501,8 +505,8 @@
     "commit": "e785a32200da6ff707288fc8dc97498a10dba9ac"
   },
   "newer_commit": {
-    "repository": "api.pirhoo.com",
-    "timestamp": "1433148518",
-    "commit": "2e2485888511ccdd84db13ed209703698a8deb37"
+    "repository": "diercke-gis",
+    "timestamp": "1433347662",
+    "commit": "be17bca66693dafeda7b574f3166d855c4d9a8ac"
   }
 }
