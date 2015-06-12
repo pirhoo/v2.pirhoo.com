@@ -1,6 +1,6 @@
 {
-  "commits_count": 8409,
-  "repositories_count": 81,
+  "commits_count": 8482,
+  "repositories_count": 84,
   "months_count": {
     "2014-11-01": {
       "count": 254,
@@ -259,19 +259,23 @@
       }
     },
     "2015-06-01": {
-      "count": 145,
+      "count": 218,
       "repositories": {
         "api.pirhoo.com": 10,
         "cartodb-layers": 20,
-        "diercke-gis": 31,
+        "check": 1,
+        "diercke-gis": 32,
         "fledit.js": 6,
+        "iframe-scaffolder": 2,
         "liquidoc": 20,
-        "rts-parlometre": 1,
-        "themigrantsfiles.com": 8,
-        "tmf-map": 17,
+        "redirect.themigrantsfiles.com": 2,
+        "rts-parlometre": 32,
+        "rts-parlometre-generator": 19,
+        "themigrantsfiles.com": 17,
+        "tmf-map": 20,
         "tmf-moneytrail": 11,
-        "v1.pirhoo.com": 2,
-        "v2.pirhoo.com": 19
+        "v1.pirhoo.com": 6,
+        "v2.pirhoo.com": 20
       }
     },
     "2014-04-01": {
@@ -509,8 +513,8 @@
     "commit": "e785a32200da6ff707288fc8dc97498a10dba9ac"
   },
   "newer_commit": {
-    "repository": "themigrantsfiles.com",
-    "timestamp": "1433917649",
-    "commit": "6e776ecff6ee835f6518c8cfc67aecd4a10249f4"
+    "repository": "rts-parlometre",
+    "timestamp": "1434128003",
+    "commit": "546c2145315ac354cefc87e063d6f39ca9f44c1a"
   }
 }
