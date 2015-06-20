@@ -17,6 +17,16 @@
 @thumb-gutter: 5px;
 
 
+.mixi-bounces() {
+    from { .translate(0, 0); }
+    50%  { .translate(0, -10px); }
+    to   { .translate(0, 0); }
+}
+
+@keyframes bounce{ .mixi-bounces(); }
+@-webkit-keyframes bounce{ .mixi-bounces(); }
+@-moz-keyframes bounce{ .mixi-bounces(); }
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;

@@ -1,5 +1,23 @@
 .main__introduction {
 
+  &__discover,
+  &__discover:hover,
+  &__discover:focus,
+  &__discover:active {
+    cursor: pointer;
+    position: absolute;
+    left:50%;
+    bottom:20px;
+    color:white;
+    outline:0;
+    .translate(-50%, 0);
+
+
+    i {
+      .animation(bounce 1s ease infinite);
+    }
+  }
+
   &__social {
 
     display: block;
