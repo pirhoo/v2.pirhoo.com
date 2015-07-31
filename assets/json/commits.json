@@ -1,6 +1,6 @@
 {
-  "commits_count": 8516,
-  "repositories_count": 88,
+  "commits_count": 8881,
+  "repositories_count": 91,
   "months_count": {
     "2014-12-01": {
       "count": 195,
@@ -14,11 +14,12 @@
       }
     },
     "2014-11-01": {
-      "count": 256,
+      "count": 313,
       "repositories": {
         "afdas-interactive": 2,
         "detective.io": 123,
         "fledit.io": 42,
+        "google-iframe-scaffolder": 57,
         "idf-interactive": 25,
         "idf-lycees": 3,
         "iframe-scaffolder": 57,
@@ -259,7 +260,7 @@
       "count": 33,
       "repositories": {
         "afp": 32,
-        "branche-ton-sontone": 1
+        "branche-ton-sonotone-theme": 1
       }
     },
     "2012-03-01": {
@@ -314,7 +315,7 @@
       "count": 257,
       "repositories": {
         "arte-world-of-work": 89,
-        "branche-ton-sontone": 5,
+        "branche-ton-sonotone-theme": 5,
         "detective.io": 133,
         "dragons-gifts": 16,
         "jplusplus.org": 1,
@@ -342,10 +343,11 @@
       }
     },
     "2015-05-01": {
-      "count": 356,
+      "count": 373,
       "repositories": {
         "bnpp-odyssee-jeunes": 2,
         "cartodb-layers": 8,
+        "detective.io": 17,
         "diercke-gis": 153,
         "fledit.cdn": 5,
         "fledit.io": 23,
@@ -360,11 +362,11 @@
       }
     },
     "2015-04-01": {
-      "count": 196,
+      "count": 205,
       "repositories": {
         "bnpp-odyssee-jeunes": 1,
         "cartodb-layers": 9,
-        "detective.io": 2,
+        "detective.io": 11,
         "diercke-gis": 127,
         "fledit.io": 31,
         "fledit.js": 4,
@@ -415,6 +417,29 @@
         "theme-nyancat": 10
       }
     },
+    "2015-06-01": {
+      "count": 428,
+      "repositories": {
+        "branche-ton-sonotone-theme": 1,
+        "cartodb-layers": 30,
+        "check": 1,
+        "diercke-gis": 127,
+        "fledit.io": 1,
+        "fledit.js": 5,
+        "google-iframe-scaffolder": 6,
+        "iframe-scaffolder": 6,
+        "liquidoc": 20,
+        "presentations": 6,
+        "redirect.themigrantsfiles.com": 3,
+        "rts-parlometre": 92,
+        "rts-parlometre-generator": 22,
+        "themigrantsfiles.com": 22,
+        "tmf-map": 22,
+        "tmf-moneytrail": 27,
+        "v1.pirhoo.com": 6,
+        "v2.pirhoo.com": 31
+      }
+    },
     "2013-11-01": {
       "count": 175,
       "repositories": {
@@ -441,27 +466,6 @@
         "spendingstories": 16
       }
     },
-    "2015-06-01": {
-      "count": 365,
-      "repositories": {
-        "cartodb-layers": 30,
-        "check": 1,
-        "diercke-gis": 73,
-        "fledit.io": 1,
-        "fledit.js": 5,
-        "iframe-scaffolder": 6,
-        "liquidoc": 20,
-        "presentations": 6,
-        "redirect.themigrantsfiles.com": 3,
-        "rts-parlometre": 92,
-        "rts-parlometre-generator": 22,
-        "themigrantsfiles.com": 22,
-        "tmf-map": 22,
-        "tmf-moneytrail": 27,
-        "v1.pirhoo.com": 6,
-        "v2.pirhoo.com": 29
-      }
-    },
     "2014-08-01": {
       "count": 165,
       "repositories": {
@@ -483,11 +487,27 @@
         "wikileaks-kissinger-cables": 40
       }
     },
+    "2015-07-01": {
+      "count": 211,
+      "repositories": {
+        "detective.io": 6,
+        "diercke-gis": 50,
+        "fledit.io": 3,
+        "google-iframe-scaffolder": 74,
+        "graveyard": 9,
+        "iframe-scaffolder": 24,
+        "rentswatch": 36,
+        "rts-parlometre": 3,
+        "rts-parlometre-generator": 4,
+        "v2.pirhoo.com": 2
+      }
+    },
     "2015-02-01": {
-      "count": 253,
+      "count": 261,
       "repositories": {
         "detective.io": 78,
         "dystopia-tracker": 2,
+        "google-iframe-scaffolder": 8,
         "iframe-scaffolder": 8,
         "msf-ebola": 70,
         "rsf-index-2015": 91,
@@ -529,8 +549,8 @@
     "commit": "56ceb4ffa83bb44659701de0db44c8774dc9a33c"
   },
   "newer_commit": {
-    "repository": "v2.pirhoo.com",
-    "timestamp": "1435414396",
-    "commit": "a397bf9918f9a10800052f45464a5ad1e133f0d2"
+    "repository": "graveyard",
+    "timestamp": "1438356086",
+    "commit": "8db86a17ff8e389070eeeee87f7f42b3f47830e6"
   }
 }
