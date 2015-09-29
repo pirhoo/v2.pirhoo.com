@@ -1,5 +1,33 @@
 [
   {
+    "title": "RTS: Parlomètre Roman",
+    "thumbnail": "assets/images/thumbnails/parlometre.png",
+    "url": "http://www.parlometre.ch/",
+    "color": "#B5001E",
+    "year": "2015"
+  },
+  {
+    "title": "Journalism++ Graveyard",
+    "thumbnail": "assets/images/thumbnails/graveyard.png",
+    "url": "http://jplusplus.github.io/graveyard/",
+    "color": "#2E2E2E",
+    "year": "2015"
+  },
+  {
+    "title": "Google Iframe Scaffolder",
+    "thumbnail": "assets/images/thumbnails/google.png",
+    "url": "http://googletrends.github.io/iframe-scaffolder/",
+    "color": "#4285F4",
+    "year": "2015"
+  },
+  {
+    "title": "Diercke GIS",
+    "thumbnail": "assets/images/thumbnails/diercke.png",
+    "url": "http://www.diercke.de/diercke-webgis",
+    "color": "#1B2C8A",
+    "year": "2015"
+  },
+  {
     "title": "The Migrant Files",
     "thumbnail": "assets/images/thumbnails/tmf.png",
     "url": "http://www.themigrantsfiles.com/",
