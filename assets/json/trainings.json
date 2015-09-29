@@ -1,10 +1,10 @@
 {
-  "hours_count": 856,
-  "countries_count": 6,
-  "customers_count": 26,
+  "hours_count": 904,
+  "countries_count": 7,
+  "customers_count": 28,
   "category_count": {
-    "ddj": 35,
-    "code": 5,
+    "ddj": 37,
+    "code": 6,
     "security": 1
   },
   "months_count": {
@@ -35,7 +35,7 @@
     "2015-02-01": 1,
     "2015-04-01": 4,
     "2015-03-01": 1,
-    "2015-09-01": 2
+    "2015-09-01": 5
   },
   "older_training": {
     "category": "ddj",
@@ -47,10 +47,10 @@
   },
   "newer_training": {
     "category": "ddj",
-    "customer": "Le Monde",
-    "date_start": "2015-09-18",
-    "date_end": "18/09/2015",
-    "duration": "1",
-    "country": "FRA"
+    "customer": "CFJM",
+    "date_start": "2015-09-28",
+    "date_end": "2015-09-29",
+    "duration": "2",
+    "country": "CHF"
   }
 }

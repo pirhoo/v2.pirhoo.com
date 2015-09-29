@@ -1,5 +1,5 @@
 {
-  "commits_count": 9707,
+  "commits_count": 9715,
   "repositories_count": 96,
   "months_count": {
     "2014-12-01": {
@@ -573,21 +573,24 @@
         "marmhut": 75
       }
     },
+    "2015-09-01": {
+      "count": 184,
+      "repositories": {
+        "fledit.io": 2,
+        "google-iframe-scaffolder": 101,
+        "iframe-scaffolder": 68,
+        "rentswatch": 3,
+        "v2.pirhoo.com": 2,
+        "white-shortener": 5,
+        "wut": 3
+      }
+    },
     "2015-01-01": {
       "count": 208,
       "repositories": {
         "fledit.io": 11,
         "jpp-prerender": 1,
         "rsf-index-2015": 196
-      }
-    },
-    "2015-09-01": {
-      "count": 176,
-      "repositories": {
-        "google-iframe-scaffolder": 100,
-        "iframe-scaffolder": 68,
-        "rentswatch": 3,
-        "white-shortener": 5
       }
     },
     "2011-09-01": {
@@ -609,8 +612,8 @@
     "commit": "56ceb4ffa83bb44659701de0db44c8774dc9a33c"
   },
   "newer_commit": {
-    "repository": "google-iframe-scaffolder",
-    "timestamp": "1442416310",
-    "commit": "05538f2939984326e3e2eda3d294ff70943f0f34"
+    "repository": "wut",
+    "timestamp": "1443475393",
+    "commit": "e58079e2e950b272288da141bd795e08d667c321"
   }
 }
