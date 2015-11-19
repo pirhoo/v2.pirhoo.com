@@ -1,11 +1,11 @@
 {
-  "hours_count": 904,
-  "countries_count": 7,
-  "customers_count": 28,
+  "hours_count": 984,
+  "countries_count": 8,
+  "customers_count": 31,
   "category_count": {
-    "ddj": 37,
+    "ddj": 40,
     "code": 6,
-    "security": 1
+    "security": 2
   },
   "months_count": {
     "2011-10-01": 1,
@@ -35,7 +35,8 @@
     "2015-02-01": 1,
     "2015-04-01": 4,
     "2015-03-01": 1,
-    "2015-09-01": 5
+    "2015-09-01": 5,
+    "2015-10-01": 4
   },
   "older_training": {
     "category": "ddj",
@@ -47,10 +48,10 @@
   },
   "newer_training": {
     "category": "ddj",
-    "customer": "CFJM",
-    "date_start": "2015-09-28",
-    "date_end": "2015-09-29",
-    "duration": "2",
-    "country": "CHF"
+    "customer": "Medialab Katowice",
+    "date_start": "2015-10-22",
+    "date_end": "2015-10-25",
+    "duration": "4",
+    "country": "POL"
   }
 }

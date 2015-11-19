@@ -1,6 +1,6 @@
 {
-  "commits_count": 9715,
-  "repositories_count": 96,
+  "commits_count": 9925,
+  "repositories_count": 103,
   "months_count": {
     "2014-12-01": {
       "count": 196,
@@ -277,6 +277,17 @@
       "count": 18,
       "repositories": {
         "afp": 18
+      }
+    },
+    "2015-10-01": {
+      "count": 59,
+      "repositories": {
+        "air-quality-kat": 3,
+        "feminismeBot": 10,
+        "fledit.io": 33,
+        "idf-quiz": 2,
+        "morano-2017": 7,
+        "rentswatch": 4
       }
     },
     "2011-11-01": {
@@ -574,15 +585,16 @@
       }
     },
     "2015-09-01": {
-      "count": 184,
+      "count": 221,
       "repositories": {
         "fledit.io": 2,
         "google-iframe-scaffolder": 101,
         "iframe-scaffolder": 68,
+        "morano-2017": 31,
         "rentswatch": 3,
-        "v2.pirhoo.com": 2,
-        "white-shortener": 5,
-        "wut": 3
+        "v2.pirhoo.com": 4,
+        "white-shortener": 7,
+        "wut": 5
       }
     },
     "2015-01-01": {
@@ -591,6 +603,18 @@
         "fledit.io": 11,
         "jpp-prerender": 1,
         "rsf-index-2015": 196
+      }
+    },
+    "2015-11-01": {
+      "count": 114,
+      "repositories": {
+        "football-tax": 9,
+        "logo.js": 3,
+        "rentswatch": 14,
+        "rentswatch-blog": 26,
+        "rentswatch-landing": 19,
+        "rentswatch-scraper": 40,
+        "v2.jplusplus.org": 3
       }
     },
     "2011-09-01": {
@@ -612,8 +636,8 @@
     "commit": "56ceb4ffa83bb44659701de0db44c8774dc9a33c"
   },
   "newer_commit": {
-    "repository": "wut",
-    "timestamp": "1443475393",
-    "commit": "e58079e2e950b272288da141bd795e08d667c321"
+    "repository": "football-tax",
+    "timestamp": "1447963599",
+    "commit": "0b8878bcbad55e408b2c89bb51950b5c0125d21a"
   }
 }
