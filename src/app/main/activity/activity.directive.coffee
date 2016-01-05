@@ -16,7 +16,7 @@ angular.module 'pirhoo'
       width = height = 0
       heightScale = commits = null
       barWidth = 25
-      barGutter = 0
+      barGutter = -1
       # English months
       months = ["January", "February", "March", "April", "May", "June",
                 "July", "August", "September", "October", "November", "December"]
