@@ -10,4 +10,3 @@ angular.module "pirhoo"
       $scope.projects  = hash.projects.data
       $scope.trainings = hash.trainings.data
       $scope.awards    = hash.awards.data
-

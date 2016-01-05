@@ -1,29 +1,30 @@
 section#activity.main__section.main__activity(screen-height="600", ng-controller="ActivityCtrl")
-  .main__section__panel.main__section__panel--reverse(aria-section="Activity")
-    h2 I’ve been busy,<br ><strong>let the data talk</strong>
-    p.
-      My time is split between coding, investigating and teaching.
-      I’m better with numbers so let the figures below speak for themselves.
+  .wrapper
+    .main__section__panel.main__section__panel--reverse(aria-section="Activity")
+      h2 I’ve been busy,<br ><strong>let the data talk</strong>
+      p.
+        My time is split between coding, investigating and teaching.
+        I’m better with numbers so let the figures below speak for themselves.
 
-  .container-base.main__activity__figures
-    .main__activity__figures__item
-      i.fa.fa-fw.fa-code.fa-2x.main__activity__figures__item__icon
-      | I authored
-      | <strong>{{ commits.commits_count }}</strong>&nbsp;
-      | <abbr title="A submission of my latest changes of a source code">commits</abbr> over
-      | <strong>{{ commits.repositories_count }}</strong>&nbsp;projects
-    .main__activity__figures__item
-      i.fa.fa-fw.fa-graduation-cap.fa-2x.main__activity__figures__item__icon
-      | I gave ±<strong>{{ trainings.hours_count }}</strong>&nbsp;hours
-      | of training in
-      | <strong>{{ trainings.countries_count }}</strong>&nbsp;countries
-    .main__activity__figures__item
-      i.fa.fa-fw.fa-trophy.fa-2x.main__activity__figures__item__icon
-      | <strong>{{ awards.awards_count }}</strong>&nbsp;prizes awarded for
-      | <strong>{{awards.projects_count }}</strong>&nbsp;projects
-      | I worked on
-  .main__activity__chart-wrapper
-    activity(commits="commits", ng-if="commits")
-  h3.main__activity__chart-title.
-    <abbr title="A submission of my latest changes of a source code">Commits</abbr>
-    by month
+    .container-base.main__activity__figures
+      .main__activity__figures__item
+        i.fa.fa-fw.fa-code.fa-2x.main__activity__figures__item__icon
+        | I authored
+        | <strong>{{ commits.commits_count }}</strong>&nbsp;
+        | <abbr title="A submission of my latest changes of a source code">commits</abbr> over
+        | <strong>{{ commits.repositories_count }}</strong>&nbsp;projects
+      .main__activity__figures__item
+        i.fa.fa-fw.fa-graduation-cap.fa-2x.main__activity__figures__item__icon
+        | I gave ±<strong>{{ trainings.hours_count }}</strong>&nbsp;hours
+        | of training in
+        | <strong>{{ trainings.countries_count }}</strong>&nbsp;countries
+      .main__activity__figures__item
+        i.fa.fa-fw.fa-trophy.fa-2x.main__activity__figures__item__icon
+        | <strong>{{ awards.awards_count }}</strong>&nbsp;prizes awarded for
+        | <strong>{{awards.projects_count }}</strong>&nbsp;projects
+        | I worked on
+    .main__activity__chart-wrapper
+      activity(commits="commits", ng-if="commits")
+    h3.main__activity__chart-title.
+      <abbr title="A submission of my latest changes of a source code">Commits</abbr>
+      by month

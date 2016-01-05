@@ -57,7 +57,11 @@ body a {
 
   @panel-bg: mix( mix( contrast(@color), @bg, 20), @emphasize, 99);
 
-  background-color:@bg;
+  background: black;
+  .wrapper {
+    background-color:@bg;
+  }
+
   color:@color;
 
   & .main__section__panel {
