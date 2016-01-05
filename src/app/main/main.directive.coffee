@@ -8,13 +8,19 @@ angular.module "pirhoo"
           $timeout =>
             # Select elements
             do @ui
-            # Bind request on AnimationFrame
+            # Create animationFrame object
+            @animationFrame = new AnimationFrame
+            # Bind request on AnimationFrame or Scroll
             do @bind
           , 700
         ui: =>
           @sections = el.find(".main__section:not(:last)")
         bind: =>
-          $(window).on 'scroll', @raf
+          if do @useFrame
+            @animationId = @animationFrame.request @raf
+          else
+            $(window).on 'scroll', @raf
+        useFrame: => 'ontouchstart' in window
         raf: (time)=>
           scrollTop = do $(window).scrollTop
           windowHeight = do $(window).height
@@ -32,5 +38,7 @@ angular.module "pirhoo"
             y = windowHeight - (windowHeight * scale) + 'px'
             # Scale down the section according to the delta
             section.find('.wrapper').css
-              transform: 'translateY(' + y + ')'
+              transform: 'translateY(' + y + ') '
               opacity: 1 - delta
+          # Rebind event when using frame
+          do @bind if do @useFrame
