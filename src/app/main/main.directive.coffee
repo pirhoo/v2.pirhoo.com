@@ -4,6 +4,8 @@ angular.module "pirhoo"
     link: (scope, el)->
       new class Main
         constructor: ->
+          # Disable on ios
+          return if /iPad|iPhone|iPod/.test navigator.platform
           # Wait for the dom to be rendered
           $timeout =>
             # Select elements
