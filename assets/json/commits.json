@@ -1,6 +1,6 @@
 {
-  "commits_count": 10040,
-  "repositories_count": 106,
+  "commits_count": 10164,
+  "repositories_count": 108,
   "months_count": {
     "2014-12-01": {
       "count": 196,
@@ -524,6 +524,23 @@
         "v1.jplusplus.org": 10
       }
     },
+    "2015-12-01": {
+      "count": 114,
+      "repositories": {
+        "cartodb-layers": 2,
+        "diercke-gis": 13,
+        "feedlist": 4,
+        "football-tax": 28,
+        "football-tax-blog": 2,
+        "football-tax-landing": 4,
+        "logo.js": 2,
+        "rentswatch": 22,
+        "rentswatch-app": 25,
+        "rentswatch-landing": 1,
+        "rentswatch-scraper": 10,
+        "v2.pirhoo.com": 1
+      }
+    },
     "2014-08-01": {
       "count": 252,
       "repositories": {
@@ -584,17 +601,14 @@
         "marmhut": 75
       }
     },
-    "2015-12-01": {
-      "count": 22,
+    "2016-01-01": {
+      "count": 32,
       "repositories": {
-        "feedlist": 1,
-        "football-tax": 10,
-        "football-tax-blog": 2,
-        "football-tax-landing": 4,
-        "logo.js": 2,
-        "rentswatch": 1,
-        "rentswatch-landing": 1,
-        "rentswatch-scraper": 1
+        "feedlist": 7,
+        "football-tax": 8,
+        "python_course": 3,
+        "rentswatch-app": 9,
+        "v2.pirhoo.com": 5
       }
     },
     "2015-11-01": {
@@ -651,8 +665,8 @@
     "commit": "56ceb4ffa83bb44659701de0db44c8774dc9a33c"
   },
   "newer_commit": {
-    "repository": "rentswatch",
-    "timestamp": "1449069595",
-    "commit": "132edf907e0556f93215c46b6b6df8f5ee06a96f"
+    "repository": "rentswatch-app",
+    "timestamp": "1452273748",
+    "commit": "59421cb3cacc3de931b011f70b6ebcb65e519109"
   }
 }
