@@ -1,6 +1,6 @@
 {
-  "commits_count": 10164,
-  "repositories_count": 108,
+  "commits_count": 10248,
+  "repositories_count": 110,
   "months_count": {
     "2014-12-01": {
       "count": 196,
@@ -602,13 +602,19 @@
       }
     },
     "2016-01-01": {
-      "count": 32,
+      "count": 116,
       "repositories": {
-        "feedlist": 7,
-        "football-tax": 8,
+        "feedlist": 8,
+        "football-tax": 19,
+        "global-directory": 2,
+        "idf-quiz": 10,
+        "jquest": 2,
         "python_course": 3,
+        "rentswatch": 6,
         "rentswatch-app": 9,
-        "v2.pirhoo.com": 5
+        "rentswatch-scraper": 3,
+        "rubycon": 47,
+        "v2.pirhoo.com": 7
       }
     },
     "2015-11-01": {
@@ -665,8 +671,8 @@
     "commit": "56ceb4ffa83bb44659701de0db44c8774dc9a33c"
   },
   "newer_commit": {
-    "repository": "rentswatch-app",
-    "timestamp": "1452273748",
-    "commit": "59421cb3cacc3de931b011f70b6ebcb65e519109"
+    "repository": "rentswatch",
+    "timestamp": "1453466712",
+    "commit": "8337018ee3c726059db0dd0781b3612c032dc627"
   }
 }
