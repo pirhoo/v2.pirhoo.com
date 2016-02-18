@@ -1,9 +1,9 @@
 {
-  "hours_count": 992,
+  "hours_count": 1024,
   "countries_count": 8,
-  "customers_count": 31,
+  "customers_count": 32,
   "category_count": {
-    "ddj": 40,
+    "ddj": 42,
     "code": 7,
     "security": 2
   },
@@ -37,7 +37,8 @@
     "2015-03-01": 1,
     "2015-09-01": 5,
     "2015-10-01": 4,
-    "2016-01-01": 1
+    "2016-01-01": 2,
+    "2016-02-01": 1
   },
   "older_training": {
     "category": "ddj",
@@ -48,11 +49,11 @@
     "country": "FRA"
   },
   "newer_training": {
-    "category": "code",
-    "customer": "Le Monde",
-    "date_start": "2016-01-06",
-    "date_end": "2016-01-06",
-    "duration": "1",
+    "category": "ddj",
+    "customer": "ICM Grenoble",
+    "date_start": "2016-02-02",
+    "date_end": "2016-02-03",
+    "duration": "2",
     "country": "FRA"
   }
 }

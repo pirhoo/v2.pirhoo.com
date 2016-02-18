@@ -1,6 +1,6 @@
 {
-  "commits_count": 10248,
-  "repositories_count": 110,
+  "commits_count": 10402,
+  "repositories_count": 111,
   "months_count": {
     "2014-12-01": {
       "count": 196,
@@ -525,10 +525,10 @@
       }
     },
     "2015-12-01": {
-      "count": 114,
+      "count": 115,
       "repositories": {
         "cartodb-layers": 2,
-        "diercke-gis": 13,
+        "diercke-gis": 14,
         "feedlist": 4,
         "football-tax": 28,
         "football-tax-blog": 2,
@@ -601,20 +601,32 @@
         "marmhut": 75
       }
     },
-    "2016-01-01": {
-      "count": 116,
+    "2016-02-01": {
+      "count": 131,
       "repositories": {
+        "diercke-gis": 34,
+        "football-tax": 21,
+        "google-iframe-scaffolder": 2,
+        "oeko-kostenrechner": 63,
+        "rentswatch": 2,
+        "rentswatch-app": 9
+      }
+    },
+    "2016-01-01": {
+      "count": 138,
+      "repositories": {
+        "diercke-gis": 9,
         "feedlist": 8,
-        "football-tax": 19,
+        "football-tax": 29,
         "global-directory": 2,
         "idf-quiz": 10,
         "jquest": 2,
         "python_course": 3,
-        "rentswatch": 6,
+        "rentswatch": 8,
         "rentswatch-app": 9,
         "rentswatch-scraper": 3,
         "rubycon": 47,
-        "v2.pirhoo.com": 7
+        "v2.pirhoo.com": 8
       }
     },
     "2015-11-01": {
@@ -671,8 +683,8 @@
     "commit": "56ceb4ffa83bb44659701de0db44c8774dc9a33c"
   },
   "newer_commit": {
-    "repository": "rentswatch",
-    "timestamp": "1453466712",
-    "commit": "8337018ee3c726059db0dd0781b3612c032dc627"
+    "repository": "oeko-kostenrechner",
+    "timestamp": "1455795464",
+    "commit": "e012b74b54ae09aaace7978ce987189b55a33180"
   }
 }
