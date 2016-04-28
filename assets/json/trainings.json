@@ -1,11 +1,12 @@
 {
-  "hours_count": 1024,
+  "hours_count": 1056,
   "countries_count": 8,
-  "customers_count": 32,
+  "customers_count": 33,
   "category_count": {
-    "ddj": 42,
+    "ddj": 43,
     "code": 7,
-    "security": 2
+    "security": 2,
+    "cartodb": 1
   },
   "months_count": {
     "2011-10-01": 1,
@@ -38,7 +39,8 @@
     "2015-09-01": 5,
     "2015-10-01": 4,
     "2016-01-01": 2,
-    "2016-02-01": 1
+    "2016-02-01": 1,
+    "2016-04-01": 2
   },
   "older_training": {
     "category": "ddj",
@@ -50,10 +52,10 @@
   },
   "newer_training": {
     "category": "ddj",
-    "customer": "ICM Grenoble",
-    "date_start": "2016-02-02",
-    "date_end": "2016-02-03",
-    "duration": "2",
+    "customer": "CFJ",
+    "date_start": "2016-04-11",
+    "date_end": "2016-04-13",
+    "duration": "3",
     "country": "FRA"
   }
 }
