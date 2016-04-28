@@ -17,53 +17,70 @@
     &__item {
       max-width:@thumb-max-width;
       width:(100/@thumb-by-row) * 1%;
-      margin:@thumb-gutter 0;
-      padding:0 @thumb-gutter;
-      position: relative;
-      overflow: hidden;
+      padding:@thumb-gutter;
 
-      img {
+      &__wrapper {
         display: block;
-        width: 100%;
-        filter:grayscale(100%);
-        .transition(0.6s);
-      }
+        position: relative;
+        overflow: hidden;
+        .box-shadow(0 2px 2px fade(black, 10) );
 
-      &__overlay {
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:@thumb-gutter;
-        right:@thumb-gutter;
-        opacity:0.8;
-        z-index:100;
-        .box-shadow(0 0 0 150px fade(black, 25) inset);
-        .transition(0.6s);
-      }
+        img {
+          display: block;
+          width: 100%;
+          filter:grayscale(80%) contrast(105%);
+          .transition(0.6s);
+        }
 
-      &__title {
-        position:absolute;
-        left:@thumb-gutter + 5px;
-        right:@thumb-gutter + 5px;
-        bottom:5px;
-        color:white;
-        z-index: 110;
-        font-size:.7vw;
-        font-weight: bold;
-        .transition(0.6s);
-      }
+        &__overlay {
+          background:inherit;
+          position:absolute;
+          top:0;
+          bottom:0;
+          left:0;
+          right:0;
+          opacity:0.8;
+          z-index:100;
+          .transition(0.4s);
+        }
+
+        &__title {
+          position:absolute;
+          padding:10px;
+          left:0;
+          right:0;
+          top:0;
+          color:inherit;
+          z-index: 110;
+          font-size:12px;
+          font-weight: bold;
+          background:fade(white, 80);
+          .transition(0.6s);
+        }
 
 
-      &:hover &__overlay {
-        opacity:0;
-      }
+        &:hover &__overlay {
+          opacity:0;
+        }
 
-      &:hover img {
-        filter:grayscale(0%);
-      }
+        &:hover img {
+          filter:grayscale(0%) contrast(100%);
+        }
 
-      &:hover &__title {
-        .translate(0, 200%)
+        &:hover &__title {
+          .translate(0, -100%)
+        }
+
+        &:after {
+          // Disabled
+          // content:"";
+          border:5px fade(white, 20) solid;
+          position: absolute;
+          left:0;
+          right:0;
+          top:0;
+          bottom:0;
+        }
       }
     }
   }

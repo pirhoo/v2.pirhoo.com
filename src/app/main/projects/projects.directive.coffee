@@ -6,5 +6,6 @@ angular.module 'pirhoo'
         imagesLoaded el, ->
           new Isotope el[0],
             itemSelector: '.main__projects__cascading__item'
-            gutter: 0
+            masonry:
+              gutter: 0
             isHorizontal: yes

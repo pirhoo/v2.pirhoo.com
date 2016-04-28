@@ -4,8 +4,9 @@ angular.module "pirhoo"
     link: (scope, el)->
       new class Main
         constructor: ->
+          # !! DISABLED !!
           # Disable on ios
-          return if /iPad|iPhone|iPod/.test navigator.platform
+          return if /iPad|iPhone|iPod/.test(navigator.platform) or yes
           # Wait for the dom to be rendered
           $timeout =>
             # Select elements
@@ -43,4 +44,4 @@ angular.module "pirhoo"
               transform: 'translateY(' + y + ') '
               opacity: 1 - delta
           # Rebind event when using frame
-          # do @bind if do @useFrame
+          do @bind if do @useFrame
