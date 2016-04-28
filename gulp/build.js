@@ -13,10 +13,10 @@ var $ = require('gulp-load-plugins')({
 gulp.task('resize', function() {
   return gulp.src(paths.src + '/assets/images/thumbnails/*.{png,jpg}')
     .pipe($.filter(function(image) {
-      return sizeOf(image.path).width !== 150
+      return sizeOf(image.path).width !== 200
     }))
     .pipe($.imageResize({
-      width : 150,
+      width : 200,
       upscale: true
     }))
     .pipe(gulp.dest(paths.src + '/assets/images/thumbnails/'));
@@ -188,4 +188,3 @@ gulp.task('deploy', ['build'], function() {
     remoteUrl: "git@github.com:Pirhoo/pirhoo.wip.git"
   }));
 });
-

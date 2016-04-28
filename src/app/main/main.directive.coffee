@@ -43,4 +43,4 @@ angular.module "pirhoo"
               transform: 'translateY(' + y + ') '
               opacity: 1 - delta
           # Rebind event when using frame
-          do @bind if do @useFrame
+          # do @bind if do @useFrame
