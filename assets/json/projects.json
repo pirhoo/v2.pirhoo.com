@@ -1,5 +1,40 @@
 [
   {
+    "title": "The Football Tax",
+    "thumbnail": "assets/images/thumbnails/tft.png",
+    "url": "http://www.thefootballtax.com/",
+    "color": "#FFDF54",
+    "year": "2016"
+  },
+  {
+    "title": "Oeko Kostenrechner",
+    "thumbnail": "assets/images/thumbnails/ok.png",
+    "url": "http://jplusplus.github.io/oeko-kostenrechner/",
+    "color": "#71BF44",
+    "year": "2016"
+  },
+  {
+    "title": "Future by Trump",
+    "thumbnail": "assets/images/thumbnails/fbt.png",
+    "url": "http://www.futurebytrump.com/",
+    "color": "#B20107",
+    "year": "2016"
+  },
+  {
+    "title": "Fledit",
+    "thumbnail": "assets/images/thumbnails/fledit.png",
+    "url": "http://fledit.io/",
+    "color": "#474244",
+    "year": "2015"
+  },
+  {
+    "title": "Morano 2017",
+    "thumbnail": "assets/images/thumbnails/morano.png",
+    "url": "http://morano2017.com/",
+    "color": "#3695ff",
+    "year": "2015"
+  },
+  {
     "title": "RTS: Parlomètre Roman",
     "thumbnail": "assets/images/thumbnails/parlometre.png",
     "url": "http://www.parlometre.ch/",
