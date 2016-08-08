@@ -1,14 +1,13 @@
 {
-  "commits_count": 10929,
-  "repositories_count": 119,
+  "commits_count": 11097,
+  "repositories_count": 116,
   "months_count": {
     "2014-12-01": {
-      "count": 196,
+      "count": 195,
       "repositories": {
         "afdas-interactive": 1,
         "detective.io": 160,
         "fledit.io": 30,
-        "gw-greatripoffmap": 1,
         "gw-greatripoffmap-private": 1,
         "idf-budget": 1,
         "v2.jplusplus.org": 2
@@ -31,11 +30,10 @@
       }
     },
     "2014-10-01": {
-      "count": 392,
+      "count": 321,
       "repositories": {
         "afdas-interactive": 141,
         "detective.io": 60,
-        "gw-greatripoffmap": 71,
         "gw-greatripoffmap-private": 71,
         "idf-interactive": 36,
         "idf-lycees": 4,
@@ -103,10 +101,10 @@
       }
     },
     "2013-05-01": {
-      "count": 229,
+      "count": 241,
       "repositories": {
         "afdas-interactive": 15,
-        "arte-chi": 95,
+        "arte-chi": 107,
         "baucis": 2,
         "dataplayer": 90,
         "feowl-frontend": 2,
@@ -119,11 +117,10 @@
       "count": 218,
       "repositories": {
         "afdas-interactive": 5,
-        "arte-chi": 58,
+        "arte-chi": 60,
         "camcuts": 2,
         "dataplayer": 96,
         "idf-interactive": 5,
-        "oeildupirate.com": 2,
         "wikileaks-kissinger-cables": 50
       }
     },
@@ -142,20 +139,19 @@
       }
     },
     "2014-09-01": {
-      "count": 422,
+      "count": 281,
       "repositories": {
         "afp": 2,
         "alt-j": 22,
         "detective.io": 90,
         "edj-cgvv": 1,
-        "gw-greatripoffmap": 141,
         "gw-greatripoffmap-private": 141,
         "marmhut": 18,
         "wut": 7
       }
     },
     "2013-07-01": {
-      "count": 161,
+      "count": 160,
       "repositories": {
         "afp": 3,
         "aucunlien-fetch": 7,
@@ -164,7 +160,6 @@
         "feowl-api": 4,
         "feowl-frontend": 20,
         "idf-barometre": 64,
-        "oeildupirate.com": 1,
         "v1.jplusplus.org": 4
       }
     },
@@ -191,13 +186,12 @@
       }
     },
     "2012-11-01": {
-      "count": 196,
+      "count": 185,
       "repositories": {
         "afp": 30,
         "aucunlien-fetch": 5,
         "feowl-frontend": 85,
         "idf-lycees": 40,
-        "oeildupirate.com": 11,
         "presentations": 20,
         "v1.jplusplus.org": 5
       }
@@ -213,19 +207,18 @@
       }
     },
     "2012-09-01": {
-      "count": 120,
+      "count": 107,
       "repositories": {
         "afp": 4,
         "heroku-buildpack-php": 1,
         "jquest-client-archive": 56,
         "jquest-mission-archive": 31,
-        "lodp": 2,
-        "oeildupirate.com": 13,
+        "LODP": 2,
         "v1.jplusplus.org": 13
       }
     },
     "2012-08-01": {
-      "count": 93,
+      "count": 92,
       "repositories": {
         "afp": 20,
         "alertepolitique": 1,
@@ -233,7 +226,6 @@
         "feowl-frontend": 5,
         "jquest-client-archive": 19,
         "jquest-mission-archive": 11,
-        "marmhut.landing": 1,
         "v1.jplusplus.org": 35
       }
     },
@@ -270,25 +262,13 @@
       "count": 33,
       "repositories": {
         "afp": 32,
-        "branche-ton-sonotone-theme": 1
+        "branche-ton-sontone": 1
       }
     },
     "2012-03-01": {
       "count": 18,
       "repositories": {
         "afp": 18
-      }
-    },
-    "2015-10-01": {
-      "count": 66,
-      "repositories": {
-        "air-quality-kat": 3,
-        "feminismeBot": 10,
-        "fledit.io": 33,
-        "futurebytrump": 7,
-        "idf-quiz": 2,
-        "morano-2017": 7,
-        "rentswatch": 4
       }
     },
     "2011-11-01": {
@@ -298,10 +278,9 @@
       }
     },
     "2011-10-01": {
-      "count": 46,
+      "count": 35,
       "repositories": {
-        "alertepolitique": 35,
-        "primaires": 11
+        "alertepolitique": 35
       }
     },
     "2014-03-01": {
@@ -320,15 +299,13 @@
       }
     },
     "2015-08-01": {
-      "count": 206,
+      "count": 189,
       "repositories": {
-        "arte-chi": 6,
+        "arte-chi": 5,
         "arte-world-of-work": 7,
-        "benford-calculator": 1,
-        "bnpp-odyssee-jeunes": 9,
+        "bnpp-odyssee-jeunes": 8,
         "desdonneespourlautisme": 4,
-        "detective.io": 16,
-        "detective-static": 3,
+        "detective.io": 14,
         "diercke-gis": 2,
         "dystopia-tracker": 5,
         "edj-cgvv": 1,
@@ -337,16 +314,15 @@
         "fledit.io": 1,
         "fledit.js": 9,
         "google-iframe-scaffolder": 1,
-        "gw-greatripoffmap": 7,
+        "gw-greatripoffmap": 1,
         "gw-greatripoffmap-private": 3,
         "idf-barometre": 6,
         "idf-lycees": 2,
         "jpp-prerender": 12,
+        "LODP": 2,
         "logo.js": 1,
-        "oeildupirate.com": 3,
         "presentations": 1,
         "rentswatch": 89,
-        "spendingstories": 2,
         "themigrantsfiles.com": 8,
         "v2.jplusplus.org": 4,
         "v2.pirhoo.com": 1
@@ -367,13 +343,12 @@
       }
     },
     "2014-02-01": {
-      "count": 258,
+      "count": 257,
       "repositories": {
         "arte-world-of-work": 89,
-        "branche-ton-sonotone-theme": 5,
+        "branche-ton-sontone": 5,
         "detective.io": 133,
         "dragons-gifts": 16,
-        "oeildupirate.com": 1,
         "v1.jplusplus.org": 1,
         "v1.pirhoo.com": 13
       }
@@ -408,9 +383,8 @@
         "fledit.cdn": 5,
         "fledit.io": 23,
         "fledit.js": 32,
-        "gw-greatripoffmap": 2,
         "gw-greatripoffmap-private": 2,
-        "lemondeatilundirecteur.fr": 10,
+        "lemondeatilundirecteur.fr": 12,
         "logo.js": 3,
         "rts-parlometre": 60,
         "themigrantsfiles.com": 13,
@@ -418,7 +392,7 @@
       }
     },
     "2015-04-01": {
-      "count": 206,
+      "count": 205,
       "repositories": {
         "bnpp-odyssee-jeunes": 1,
         "cartodb-layers": 9,
@@ -426,7 +400,6 @@
         "diercke-gis": 127,
         "fledit.io": 31,
         "fledit.js": 4,
-        "gw-greatripoffmap": 1,
         "gw-greatripoffmap-private": 1,
         "logo.js": 2,
         "msf-ebola": 6,
@@ -462,10 +435,9 @@
       }
     },
     "2013-08-01": {
-      "count": 211,
+      "count": 205,
       "repositories": {
         "bnpp-odyssee-jeunes": 9,
-        "datawrapper": 6,
         "detective.io": 107,
         "feowl-api": 1,
         "neo4django": 4,
@@ -476,9 +448,9 @@
       }
     },
     "2015-06-01": {
-      "count": 428,
+      "count": 429,
       "repositories": {
-        "branche-ton-sonotone-theme": 1,
+        "branche-ton-sontone": 1,
         "cartodb-layers": 30,
         "check": 1,
         "diercke-gis": 127,
@@ -486,6 +458,7 @@
         "fledit.js": 5,
         "google-iframe-scaffolder": 6,
         "iframe-scaffolder": 6,
+        "lemondeatilundirecteur.fr": 1,
         "liquidoc": 20,
         "presentations": 6,
         "redirect.themigrantsfiles.com": 3,
@@ -499,12 +472,11 @@
       }
     },
     "2013-11-01": {
-      "count": 176,
+      "count": 175,
       "repositories": {
         "broken-promises-client": 1,
         "detective.io": 105,
         "idf-barometre": 12,
-        "oeildupirate.com": 1,
         "presentations": 16,
         "rss2wp": 9,
         "spendingstories": 1,
@@ -523,6 +495,41 @@
         "neo4django": 4,
         "spendingstories": 16,
         "v1.jplusplus.org": 10
+      }
+    },
+    "2016-06-01": {
+      "count": 251,
+      "repositories": {
+        "cartodb-layers": 1,
+        "diercke-gis": 15,
+        "jquest": 94,
+        "jquest-pg": 66,
+        "markovera": 4,
+        "oeko-kostenrechner": 2,
+        "rentswatch": 3,
+        "rentswatch-api": 6,
+        "rentswatch-app": 7,
+        "rentswatch-scraper": 1,
+        "surveybot": 10,
+        "turkish-puppets": 9,
+        "wege-rhein-erft": 33
+      }
+    },
+    "2016-05-01": {
+      "count": 143,
+      "repositories": {
+        "cartodb-layers": 2,
+        "diercke-gis": 12,
+        "feedlist": 1,
+        "jquest": 3,
+        "markovera": 7,
+        "oeko-kostenrechner": 21,
+        "rentswatch": 4,
+        "rentswatch-api": 6,
+        "rentswatch-app": 7,
+        "rentswatch-scraper": 1,
+        "turkish-puppets": 10,
+        "wege-rhein-erft": 69
       }
     },
     "2016-02-01": {
@@ -545,22 +552,20 @@
         "diercke-gis": 14,
         "feedlist": 4,
         "football-tax": 28,
-        "football-tax-blog": 2,
+        "football-tax-blog": 3,
         "football-tax-landing": 4,
         "logo.js": 2,
         "rentswatch": 22,
         "rentswatch-app": 25,
-        "rentswatch-landing": 1,
         "rentswatch-scraper": 10,
         "v2.pirhoo.com": 1
       }
     },
     "2014-08-01": {
-      "count": 252,
+      "count": 165,
       "repositories": {
         "coffee-once": 6,
         "detective.io": 49,
-        "gw-greatripoffmap": 87,
         "gw-greatripoffmap-private": 87,
         "marmhut": 12,
         "v1.pirhoo.com": 11
@@ -605,35 +610,45 @@
       }
     },
     "2014-07-01": {
-      "count": 418,
+      "count": 393,
       "repositories": {
         "detective.io": 282,
         "global-directory": 2,
-        "gw-greatripoffmap": 25,
         "gw-greatripoffmap-private": 25,
         "idf-quiz": 9,
         "marmhut": 75
       }
     },
-    "2016-04-01": {
-      "count": 195,
+    "2016-07-01": {
+      "count": 115,
       "repositories": {
-        "diercke-gis": 23,
-        "empty-block": 3,
+        "diercke-gis": 4,
+        "jquest": 66,
+        "jquest-blog": 2,
+        "jquest-pg": 39,
+        "rentswatch-app": 1,
+        "wege-rhein-erft": 3
+      }
+    },
+    "2016-04-01": {
+      "count": 213,
+      "repositories": {
+        "diercke-gis": 22,
         "jquest": 13,
         "jquest-pg": 5,
         "oeko-kostenrechner": 22,
-        "osf-pictograms": 11,
-        "rentswatch": 16,
-        "rentswatch-api": 10,
-        "rentswatch-app": 73,
+        "rentswatch": 17,
+        "rentswatch-api": 12,
+        "rentswatch-app": 96,
         "rentswatch-scraper": 13,
+        "rentswatch-stats": 2,
         "turkish-puppets": 5,
-        "v2.jplusplus.org": 1
+        "v2.jplusplus.org": 1,
+        "v2.pirhoo.com": 5
       }
     },
     "2016-03-01": {
-      "count": 230,
+      "count": 228,
       "repositories": {
         "diercke-gis": 27,
         "feedlist": 1,
@@ -641,7 +656,6 @@
         "futurebytrump": 15,
         "intern-jpp": 4,
         "jquest": 45,
-        "jquest-legacy": 2,
         "jquest-pg": 11,
         "oeko-kostenrechner": 47,
         "rentswatch": 5,
@@ -651,27 +665,26 @@
       }
     },
     "2016-01-01": {
-      "count": 138,
+      "count": 89,
       "repositories": {
         "diercke-gis": 9,
         "feedlist": 8,
         "football-tax": 29,
         "global-directory": 2,
         "idf-quiz": 10,
-        "jquest-legacy": 2,
-        "python_course": 3,
+        "python_course_en": 3,
         "rentswatch": 8,
         "rentswatch-app": 9,
         "rentswatch-scraper": 3,
-        "rubycon": 47,
         "v2.pirhoo.com": 8
       }
     },
     "2015-11-01": {
-      "count": 207,
+      "count": 208,
       "repositories": {
         "feedlist": 8,
         "football-tax": 89,
+        "idf-cartocfa": 1,
         "logo.js": 3,
         "rentswatch": 16,
         "rentswatch-blog": 26,
@@ -679,6 +692,18 @@
         "rentswatch-scraper": 42,
         "v2.jplusplus.org": 3,
         "v2.pirhoo.com": 1
+      }
+    },
+    "2015-10-01": {
+      "count": 73,
+      "repositories": {
+        "feminismebot": 10,
+        "feminismeBot": 10,
+        "fledit.io": 33,
+        "futurebytrump": 7,
+        "idf-quiz": 2,
+        "morano-2017": 7,
+        "rentswatch": 4
       }
     },
     "2015-09-01": {
@@ -703,27 +728,29 @@
         "rsf-index-2015": 196
       }
     },
+    "2016-08-01": {
+      "count": 80,
+      "repositories": {
+        "jquest": 41,
+        "jquest-pg": 38,
+        "pgbot": 1
+      }
+    },
     "2011-09-01": {
       "count": 11,
       "repositories": {
-        "lodp": 11
-      }
-    },
-    "2012-01-01": {
-      "count": 21,
-      "repositories": {
-        "marmhut.landing": 21
+        "LODP": 11
       }
     }
   },
   "older_commit": {
-    "repository": "lodp",
+    "repository": "LODP",
     "timestamp": "1316253181",
     "commit": "56ceb4ffa83bb44659701de0db44c8774dc9a33c"
   },
   "newer_commit": {
-    "repository": "diercke-gis",
-    "timestamp": "1461833997",
-    "commit": "f4d15c905871c3e3ca01b1c4198a78f5920c99de"
+    "repository": "jquest",
+    "timestamp": "1470649195",
+    "commit": "008104415d3488d71edf69aff5abdd3fcc6a7d71"
   }
 }
