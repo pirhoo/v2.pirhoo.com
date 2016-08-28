@@ -1,5 +1,5 @@
 {
-  "commits_count": 11097,
+  "commits_count": 11245,
   "repositories_count": 116,
   "months_count": {
     "2014-12-01": {
@@ -41,7 +41,7 @@
         "marmhut": 1
       }
     },
-    "2014-06-01": {
+    "2014-6-01": {
       "count": 228,
       "repositories": {
         "afdas-interactive": 8,
@@ -57,7 +57,7 @@
         "presentations": 4
       }
     },
-    "2014-01-01": {
+    "2014-1-01": {
       "count": 129,
       "repositories": {
         "afdas-interactive": 1,
@@ -86,7 +86,7 @@
         "wikileaks-kissinger-cables": 3
       }
     },
-    "2013-06-01": {
+    "2013-6-01": {
       "count": 203,
       "repositories": {
         "afdas-interactive": 40,
@@ -100,7 +100,7 @@
         "v1.jplusplus.org": 31
       }
     },
-    "2013-05-01": {
+    "2013-5-01": {
       "count": 241,
       "repositories": {
         "afdas-interactive": 15,
@@ -113,7 +113,7 @@
         "v1.jplusplus.org": 5
       }
     },
-    "2013-04-01": {
+    "2013-4-01": {
       "count": 218,
       "repositories": {
         "afdas-interactive": 5,
@@ -124,7 +124,7 @@
         "wikileaks-kissinger-cables": 50
       }
     },
-    "2013-03-01": {
+    "2013-3-01": {
       "count": 509,
       "repositories": {
         "afdas-interactive": 77,
@@ -138,7 +138,7 @@
         "wikileaks-kissinger-cables": 10
       }
     },
-    "2014-09-01": {
+    "2014-9-01": {
       "count": 281,
       "repositories": {
         "afp": 2,
@@ -150,7 +150,7 @@
         "wut": 7
       }
     },
-    "2013-07-01": {
+    "2013-7-01": {
       "count": 160,
       "repositories": {
         "afp": 3,
@@ -163,7 +163,7 @@
         "v1.jplusplus.org": 4
       }
     },
-    "2013-01-01": {
+    "2013-1-01": {
       "count": 71,
       "repositories": {
         "afp": 4,
@@ -206,30 +206,30 @@
         "v1.jplusplus.org": 2
       }
     },
-    "2012-09-01": {
-      "count": 107,
+    "2012-9-01": {
+      "count": 105,
       "repositories": {
         "afp": 4,
         "heroku-buildpack-php": 1,
-        "jquest-client-archive": 56,
-        "jquest-mission-archive": 31,
+        "jquest-client-archive": 55,
+        "jquest-mission-archive": 30,
         "LODP": 2,
         "v1.jplusplus.org": 13
       }
     },
-    "2012-08-01": {
-      "count": 92,
+    "2012-8-01": {
+      "count": 94,
       "repositories": {
         "afp": 20,
         "alertepolitique": 1,
         "aucunlien-fetch": 1,
         "feowl-frontend": 5,
-        "jquest-client-archive": 19,
-        "jquest-mission-archive": 11,
+        "jquest-client-archive": 20,
+        "jquest-mission-archive": 12,
         "v1.jplusplus.org": 35
       }
     },
-    "2012-07-01": {
+    "2012-7-01": {
       "count": 122,
       "repositories": {
         "afp": 4,
@@ -240,7 +240,7 @@
         "v1.jplusplus.org": 17
       }
     },
-    "2012-06-01": {
+    "2012-6-01": {
       "count": 285,
       "repositories": {
         "afp": 104,
@@ -250,7 +250,7 @@
         "trainspot": 55
       }
     },
-    "2012-05-01": {
+    "2012-5-01": {
       "count": 156,
       "repositories": {
         "afp": 153,
@@ -258,17 +258,17 @@
         "tipsy": 1
       }
     },
-    "2012-04-01": {
-      "count": 33,
+    "2012-4-01": {
+      "count": 31,
       "repositories": {
-        "afp": 32,
+        "afp": 30,
         "branche-ton-sontone": 1
       }
     },
-    "2012-03-01": {
-      "count": 18,
+    "2012-3-01": {
+      "count": 20,
       "repositories": {
-        "afp": 18
+        "afp": 20
       }
     },
     "2011-11-01": {
@@ -283,7 +283,7 @@
         "alertepolitique": 35
       }
     },
-    "2014-03-01": {
+    "2014-3-01": {
       "count": 255,
       "repositories": {
         "angular-nouislider": 1,
@@ -298,7 +298,7 @@
         "presentations": 4
       }
     },
-    "2015-08-01": {
+    "2015-8-01": {
       "count": 189,
       "repositories": {
         "arte-chi": 5,
@@ -328,7 +328,7 @@
         "v2.pirhoo.com": 1
       }
     },
-    "2014-04-01": {
+    "2014-4-01": {
       "count": 316,
       "repositories": {
         "arte-world-of-work": 1,
@@ -342,7 +342,7 @@
         "programmers-proverbs": 2
       }
     },
-    "2014-02-01": {
+    "2014-2-01": {
       "count": 257,
       "repositories": {
         "arte-world-of-work": 89,
@@ -359,7 +359,7 @@
         "aucunlien-fetch": 1
       }
     },
-    "2013-09-01": {
+    "2013-9-01": {
       "count": 232,
       "repositories": {
         "benford-calculator": 15,
@@ -373,13 +373,13 @@
         "v1.jplusplus.org": 3
       }
     },
-    "2015-05-01": {
-      "count": 374,
+    "2015-5-01": {
+      "count": 370,
       "repositories": {
         "bnpp-odyssee-jeunes": 2,
         "cartodb-layers": 8,
         "detective.io": 17,
-        "diercke-gis": 153,
+        "diercke-gis": 149,
         "fledit.cdn": 5,
         "fledit.io": 23,
         "fledit.js": 32,
@@ -391,24 +391,24 @@
         "v2.pirhoo.com": 44
       }
     },
-    "2015-04-01": {
-      "count": 205,
+    "2015-4-01": {
+      "count": 200,
       "repositories": {
         "bnpp-odyssee-jeunes": 1,
         "cartodb-layers": 9,
         "detective.io": 11,
-        "diercke-gis": 127,
+        "diercke-gis": 131,
         "fledit.io": 31,
         "fledit.js": 4,
         "gw-greatripoffmap-private": 1,
         "logo.js": 2,
         "msf-ebola": 6,
-        "owni-plr": 11,
+        "owni-plr": 2,
         "v2.jplusplus.org": 2
       }
     },
-    "2015-03-01": {
-      "count": 344,
+    "2015-3-01": {
+      "count": 353,
       "repositories": {
         "bnpp-odyssee-jeunes": 5,
         "cartodb-layers": 26,
@@ -416,13 +416,13 @@
         "diercke-gis": 15,
         "fledit.io": 13,
         "msf-ebola": 167,
-        "owni-plr": 55,
+        "owni-plr": 64,
         "rf-departementales-2015": 48,
         "v1.pirhoo.com": 2,
         "v2.pirhoo.com": 1
       }
     },
-    "2014-05-01": {
+    "2014-5-01": {
       "count": 242,
       "repositories": {
         "bnpp-odyssee-jeunes": 75,
@@ -434,7 +434,7 @@
         "pltv-jeudinfluences": 39
       }
     },
-    "2013-08-01": {
+    "2013-8-01": {
       "count": 205,
       "repositories": {
         "bnpp-odyssee-jeunes": 9,
@@ -447,7 +447,7 @@
         "v1.jplusplus.org": 7
       }
     },
-    "2015-06-01": {
+    "2015-6-01": {
       "count": 429,
       "repositories": {
         "branche-ton-sontone": 1,
@@ -497,7 +497,7 @@
         "v1.jplusplus.org": 10
       }
     },
-    "2016-06-01": {
+    "2016-6-01": {
       "count": 251,
       "repositories": {
         "cartodb-layers": 1,
@@ -515,7 +515,7 @@
         "wege-rhein-erft": 33
       }
     },
-    "2016-05-01": {
+    "2016-5-01": {
       "count": 143,
       "repositories": {
         "cartodb-layers": 2,
@@ -532,7 +532,7 @@
         "wege-rhein-erft": 69
       }
     },
-    "2016-02-01": {
+    "2016-2-01": {
       "count": 195,
       "repositories": {
         "cartodb-layers": 5,
@@ -561,7 +561,7 @@
         "v2.pirhoo.com": 1
       }
     },
-    "2014-08-01": {
+    "2014-8-01": {
       "count": 165,
       "repositories": {
         "coffee-once": 6,
@@ -571,7 +571,7 @@
         "v1.pirhoo.com": 11
       }
     },
-    "2013-02-01": {
+    "2013-2-01": {
       "count": 167,
       "repositories": {
         "desdonneespourlautisme": 19,
@@ -582,7 +582,7 @@
         "wikileaks-kissinger-cables": 40
       }
     },
-    "2015-07-01": {
+    "2015-7-01": {
       "count": 215,
       "repositories": {
         "detective.io": 7,
@@ -597,7 +597,7 @@
         "v2.pirhoo.com": 5
       }
     },
-    "2015-02-01": {
+    "2015-2-01": {
       "count": 261,
       "repositories": {
         "detective.io": 78,
@@ -609,7 +609,7 @@
         "v2.pirhoo.com": 4
       }
     },
-    "2014-07-01": {
+    "2014-7-01": {
       "count": 393,
       "repositories": {
         "detective.io": 282,
@@ -619,7 +619,7 @@
         "marmhut": 75
       }
     },
-    "2016-07-01": {
+    "2016-7-01": {
       "count": 115,
       "repositories": {
         "diercke-gis": 4,
@@ -630,7 +630,7 @@
         "wege-rhein-erft": 3
       }
     },
-    "2016-04-01": {
+    "2016-4-01": {
       "count": 213,
       "repositories": {
         "diercke-gis": 22,
@@ -647,7 +647,7 @@
         "v2.pirhoo.com": 5
       }
     },
-    "2016-03-01": {
+    "2016-3-01": {
       "count": 228,
       "repositories": {
         "diercke-gis": 27,
@@ -664,7 +664,7 @@
         "rentswatch-scraper": 7
       }
     },
-    "2016-01-01": {
+    "2016-1-01": {
       "count": 89,
       "repositories": {
         "diercke-gis": 9,
@@ -706,7 +706,7 @@
         "rentswatch": 4
       }
     },
-    "2015-09-01": {
+    "2015-9-01": {
       "count": 252,
       "repositories": {
         "fledit.io": 2,
@@ -720,7 +720,7 @@
         "wut": 5
       }
     },
-    "2015-01-01": {
+    "2015-1-01": {
       "count": 208,
       "repositories": {
         "fledit.io": 11,
@@ -728,15 +728,17 @@
         "rsf-index-2015": 196
       }
     },
-    "2016-08-01": {
-      "count": 80,
+    "2016-8-01": {
+      "count": 228,
       "repositories": {
-        "jquest": 41,
-        "jquest-pg": 38,
-        "pgbot": 1
+        "jquest": 116,
+        "jquest-pg": 109,
+        "pgbot": 1,
+        "v2.pirhoo.com": 1,
+        "wege-rhein-erft": 1
       }
     },
-    "2011-09-01": {
+    "2011-9-01": {
       "count": 11,
       "repositories": {
         "LODP": 11
@@ -750,7 +752,7 @@
   },
   "newer_commit": {
     "repository": "jquest",
-    "timestamp": "1470649195",
-    "commit": "008104415d3488d71edf69aff5abdd3fcc6a7d71"
+    "timestamp": "1472334290",
+    "commit": "b2fdb3f2bb6d15608bb31436df690cfc8128b890"
   }
 }
