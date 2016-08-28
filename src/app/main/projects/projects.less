@@ -4,71 +4,67 @@
   display: block;
   overflow: visible;
 
-  .main__section__panel {
+  & .main__section__panel {
     background: #efefef;
+    position: absolute;
+    left:50%;
+    top:0;
+    margin-top:15px;
+    .translate(-50%, 0%);
+
+    @media (max-width: @screen-sm-min) {
+      width:100%;
+    }
   }
 
   &__cascading {
 
     display: block;
-    max-width: @thumb-max-width * @thumb-by-row * 1px;
-    margin:auto;
+    margin:0 auto;
 
     &__item {
-      max-width:@thumb-max-width;
-      width:(100/@thumb-by-row) * 1%;
-      padding:@thumb-gutter;
+      width:100/8%;
+      padding:15px;
+
+      @media (max-width: @screen-lg-min) {
+        width:100/6%;
+      }
+
+      @media (max-width: @screen-md-min) {
+        width:100/4%;
+      }
+
+      @media (max-width: @screen-sm-min) {
+        width:100/2%;
+      }
+
+      @media (max-width: @screen-xs-min) {
+        width:100%;
+      }
+
 
       &__wrapper {
         display: block;
         position: relative;
         overflow: hidden;
-        .box-shadow(0 2px 2px fade(black, 10) );
+        padding:5px;
+        text-decoration: none;
 
         img {
           display: block;
           width: 100%;
-          filter:grayscale(80%) contrast(105%);
-          .transition(0.6s);
-        }
-
-        &__overlay {
-          background:inherit;
-          position:absolute;
-          top:0;
-          bottom:0;
-          left:0;
-          right:0;
-          opacity:0.8;
-          z-index:100;
-          .transition(0.4s);
+          border:15px white solid;
         }
 
         &__title {
-          position:absolute;
-          padding:10px;
-          left:0;
-          right:0;
-          top:0;
+          padding:5px;
           color:inherit;
-          z-index: 110;
-          font-size:12px;
-          font-weight: bold;
-          background:fade(white, 80);
-          .transition(0.6s);
-        }
-
-
-        &:hover &__overlay {
-          opacity:0;
-        }
-
-        &:hover img {
-          filter:grayscale(0%) contrast(100%);
-        }
-
-        &:hover &__title {
-          .translate(0, -100%)
+          font-size:10px;
+          font-weight: lighter;
+          display: block;
+          background: white;
+          text-align: center;
+          text-decoration: none;
         }
 
         &:after {

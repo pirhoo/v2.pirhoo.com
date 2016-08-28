@@ -134,7 +134,7 @@ gulp.task('csv:commits', function(){
       // Grount commits by month
       var months_count = _.groupBy(data, function(commit) {
         var date = new Date(commit.timestamp * 1000);
-        return date.getFullYear() + "-" + ("0"+ (date.getMonth() + 1) ).slice(-2) + "-01";
+        return date.getFullYear() + "-" + (date.getMonth() + 1) + "-01";
       });
       // Aggregate commits data by month
       months_count = _.reduce(months_count, function(result, month, key) {

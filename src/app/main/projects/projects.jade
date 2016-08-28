@@ -1,15 +1,13 @@
 section#projects.main__section.main__projects(ng-if="projects")
   .wrapper(screen-height="600")
-    .main__section__panel(aria-section="Projects")
-      h2 Here’s what I’ve <strong>done</strong>
-      p.
-        According to my <a href="http://coderstats.net/github/pirhoo/" target="_blank">Github Stats</a>
-        I mostly code in Javascript and Python. Both are my favorite languages.
-        Almost all my projects are Open Source and available on <a href="https://github.com/pirhoo?tab=activity" target="_blank">Github</a>.
-
     .main__projects__cascading(projects)
+      .main__section__panel(aria-section="Projects")
+        h2 Here’s what I’ve <strong>done</strong>
+        p.
+          According to my <a href="http://coderstats.net/github/pirhoo/" target="_blank">Github Stats</a>
+          I mostly code in Javascript and Python. Both are my favorite languages.
+          Almost all my projects are Open Source and available on <a href="https://github.com/pirhoo?tab=activity" target="_blank">Github</a>.        
       .main__projects__cascading__item(ng-repeat="project in projects")
-        a.main__projects__cascading__item__wrapper(ng-href="{{ project.url }}", ng-style="{ color: project.color, background: project.color }")
-          .main__projects__cascading__item__wrapper__overlay
+        a.main__projects__cascading__item__wrapper(ng-href="{{ project.url }}")          
           img.main__projects__cascading__item__wrapper__thumbnail(ng-src="{{ project.thumbnail }}")
           .main__projects__cascading__item__wrapper__title {{ project.title }}

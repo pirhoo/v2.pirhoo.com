@@ -4,8 +4,10 @@ angular.module 'pirhoo'
     link: (scope, el) ->
       $timeout ->
         imagesLoaded el, ->
-          new Isotope el[0],
+          # Create grade on images
+          Grade document.querySelectorAll('.main__projects__cascading__item a')
+          # Change layout
+          $(el).isotope
             itemSelector: '.main__projects__cascading__item'
-            masonry:
-              gutter: 0
-            isHorizontal: yes
+            stamp: $(el).find('.main__section__panel')
+            percentPosition: true
