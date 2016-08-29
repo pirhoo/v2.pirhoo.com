@@ -1,5 +1,26 @@
 [
   {
+    "title": "jQuest",
+    "thumbnail": "assets/images/thumbnails/jquest.png",
+    "url": "http://www.jquestapp.com",
+    "color": "",
+    "year": "2016"
+  },
+  {
+    "title": "The Turkish Puppets",
+    "thumbnail": "assets/images/thumbnails/turkishpuppets.png",
+    "url": "http://www.turkishpuppets.com/",
+    "color": "",
+    "year": "2016"
+  },
+  {
+    "title": "Rentswatch",
+    "thumbnail": "assets/images/thumbnails/rentswatch.png",
+    "url": "http://www.rentswatch.com",
+    "color": "",
+    "year": "2016"
+  },
+  {
     "title": "The Football Tax",
     "thumbnail": "assets/images/thumbnails/tft.png",
     "url": "http://www.thefootballtax.com/",
