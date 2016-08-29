@@ -1,68 +1,84 @@
-title,thumbnail,url,color,year
-jQuest,assets/images/thumbnails/jquest.png,http://www.jquestapp.com,,2016
-The Turkish Puppets,assets/images/thumbnails/turkishpuppets.png,http://www.turkishpuppets.com/,,2016
-Rentswatch,assets/images/thumbnails/rentswatch.png,http://www.rentswatch.com,,2016
-The Football Tax,assets/images/thumbnails/tft.png,http://www.thefootballtax.com/,#FFDF54,2016
-Oeko Kostenrechner,assets/images/thumbnails/ok.png,http://jplusplus.github.io/oeko-kostenrechner/,#71BF44,2016
-Future by Trump,assets/images/thumbnails/fbt.png,http://www.futurebytrump.com/,#B20107,2016
-Fledit,assets/images/thumbnails/fledit.png,http://fledit.io/,#474244,2015
-Morano 2017,assets/images/thumbnails/morano.png,http://morano2017.com/,#3695ff,2015
-RTS: Parlomètre Roman,assets/images/thumbnails/parlometre.png,http://www.parlometre.ch/,#B5001E,2015
-Journalism++ Graveyard,assets/images/thumbnails/graveyard.png,http://jplusplus.github.io/graveyard/,#2E2E2E,2015
-Google Iframe Scaffolder,assets/images/thumbnails/google.png,http://googletrends.github.io/iframe-scaffolder/,#4285F4,2015
-Diercke GIS,assets/images/thumbnails/diercke.png,http://www.diercke.de/diercke-webgis,#1B2C8A,2015
-The Migrant Files,assets/images/thumbnails/tmf.png,http://www.themigrantsfiles.com/,#A30000,2015
-Radio France : Départementales 2015,assets/images/thumbnails/dep15.png,http://elections.radiofrance.fr/departementales-2015/#/france,#007BC6,2015
-MSF: One year of fight against Ebola,assets/images/thumbnails/ebola.png,http://www.msf-azg.be/ebola_data/,#E22000,2015
-RSF: Index de la liberté de la presse,assets/images/thumbnails/rsf.png,http://index.rsf.org,#DA032E,2015
-Iframe Scaffolder,assets/images/thumbnails/iframe.png,http://pirhoo.github.io/iframe-scaffolder/,#53BF6B,2014
-Global Witness: The Great Rip off,assets/images/thumbnails/gw.png,http://greatripoffmap.globalwitness.org/,#EC1C24,2014
-Île de France: 10 recettes,assets/images/thumbnails/recettes.png,http://www.iledefrance.fr/fil-actus-region/10-recettes-chefs-gaspiller-moins,#E1C1C2,2014
-AFDAS: carte de presse en 2015,assets/images/thumbnails/afdas.png,http://data.metiers-presse.org/,#4DBFAC,2014
-Île de France: les CFA de votre région,assets/images/thumbnails/idf-cfa.png,http://jplusplus.github.io/idf-cartocfa/,#00ACA8,2014
-Arte: World of Work,assets/images/thumbnails/arte-wow.png,http://europe.arte.tv/fr/evenements/world-of-work/,#4A912E,2014
-Detective.io,assets/images/thumbnails/detective.png,http://detective.io,#237490,2014
-OKF: Spending Stories,assets/images/thumbnails/spst.png,http://spendingstories.org,#DF1B4F,2014
-Wikileaks: Kissinger Cables,assets/images/thumbnails/wl.png,http://wikileaks.org/plusd/graph,#8BD6E5,2014
-Île de France: Le Grand Quiz,assets/images/thumbnails/idf-quiz.png,http://quiz.iledefrance.fr/quiz/quiz-loisirs-verts/,#FF0000,2014
-France Télévision: Jeu d'Influences,assets/images/thumbnails/ftv-spin.png,http://jeudinfluences.fr/,#440000,2014
-France Télévision: Municipaly,assets/images/thumbnails/municipaly.png,http://municipaly.fr,#00D59B,2014
-Fondation BNPP: Odyssée Jeunes,assets/images/thumbnails/bnpp.png,http://odysseejeunes.wedodata.fr/,#00A1B5,2014
-Arte: Une contre-histoire des Internets,assets/images/thumbnails/lesinternets-mini-150x150.png,http://lesinternets.arte.tv/,#EE9B00,2014
-Al Jazeera : Dragons Gifts,assets/images/thumbnails/dragons.png,http://www.aljazeera.com/indepth/interactive/2014/03/interactive-china-african-spending-spree-2014320121349799136.html,#FB9D04,2014
-Benford's Law Calculator,assets/images/thumbnails/brokenp.png,http://benford.jplusplus.org,#1A1E28,2013
-Hackaton: Broken Promises,assets/images/thumbnails/bp.png,http://brokenpromises.jplusplus.org,#5879A5,2013
-L’Express: Des données pour l’autisme,assets/images/thumbnails/dap.png,http://www.desdonneespourlautisme.fr/,#E20022,2013
-Dataplayer,assets/images/thumbnails/dp.png,http://dataplayer.org,#00DBB5,2013
-Île de France: apps intéractives,assets/images/thumbnails/idf.png,http://www.iledefrance.fr/action-quotidienne/se-loger,#F7C53C,2013
-Île de France: les parcs naturels,assets/images/thumbnails/idf-pnr.png,http://www.iledefrance.fr/zoom-region-demain/infographie-parcs-naturels-ile-france,#00975E,2013
-Feowl: blackouts à Douala,assets/images/thumbnails/feowl.jpg,http://feowl.com/,#5999A2,2012
-Île de France: les lycées de votre région,assets/images/thumbnails/lycee.jpg,http://cartolycees.iledefrance.fr/,#E81C0C,2012
-AFP: The e-diplomacy hub,assets/images/thumbnails/afp.png,http://ediplomacy.afp.com,#323B90,2012
-Rue89: Alerte Politique !,assets/images/thumbnails/image-alerte-politique_0.png,https://itunes.apple.com/fr/app/alertepolitique/id503609138,#333239,2012
-Aucun Lien,assets/images/thumbnails/al-150x150.png,http://aucun-lien.com,#FF0095,2012
-Journalism++: we build data-first newsrooms,assets/images/thumbnails/j-150x150.png,http://jplusplus.org,#9A0E3F,2012
-RFI: les lois antiterroristes dans le monde,assets/images/thumbnails/1109.png,http://stm-own.france24.com/0911/,#910008,2011
-Influence Networks: cartographie des réseaux d’influence,assets/images/thumbnails/in.png,https://web.archive.org/web/20120515070728/http://influencenetworks.org/,#5C2980,2011
-Eurosport: Transferts 2011,assets/images/thumbnails/mercato.png,http://mercato2011.eurosport.com/,#892AB3,2011
-UPIAN & 5ème étage Prod: Opposition Birmane,assets/images/thumbnails/birmane.png,https://web.archive.org/web/20130123101501/http://app.owni.fr/burmese-opposition/fr/,#991B63,2011
-"France Inter: Serge Gainsbourg, aux Graph Et Cætera…",assets/images/thumbnails/gainsbourg.png,http://owni.fr/2011/03/01/app-gainsbourg-influences-20-ans-anniversaire-verneuil/,#D0C78A,2011
-"OWNI: A Paris, la police aura des yeux tout partout",assets/images/thumbnails/camera.png,http://owni.fr/2011/01/05/a-paris-la-police-aura-des-yeux-tout-partout/,#494397,2011
-Geoffrey Dorne: Graphisme & interactivité,assets/images/thumbnails/graphism.png,http://graphism.fr/,#3E3E3E,2011
-Radio Nova: Nuit Sujet #2,assets/images/thumbnails/nuit-sujet-2.png,https://web.archive.org/web/20130318184958/http://nuitsujet.com/hack/,#DBDB7E,2011
-Radio Nova: Nuit Sujet #1,assets/images/thumbnails/nuit-sujet-1.png,https://web.archive.org/web/20121020014003/http://app.owni.fr/nuit-sujet/2011-22-03/,#FF0032,2011
-Iconomani: Vern1ssage,assets/images/thumbnails/vern1ssage.png,http://web.archive.org/web/20110319043117/http://vern1ssage.com/,#F8D3A8,2011
-OWNI Live,assets/images/thumbnails/owni-live.png,http://www.ownilive.com/,#D83500,2011
-OWNI Leaks,assets/images/thumbnails/owni-wl.png,http://wikileaks.owni.fr/,#6AC3D5,2011
-FIDH: Despotic Mind,assets/images/thumbnails/despoticmind.png,http://app.owni.fr/despoticmind/,#F37E00,2010
-Presseurop: Fonctionnement de la nouvelle Diplomatie Europeenne,assets/images/thumbnails/eeas.png,http://www.presseurop.eu/fr/eeas,#E90000,2010
-"Galerie Interactive, Argos et l’eau",assets/images/thumbnails/galerie.png,http://app.owni.fr/owni-gallery/?id=8&p=52567,#93AFC9,2010
-IFOP: l’emploi des jeunes,assets/images/thumbnails/ifop.png,http://owni.fr/2010/12/17/sondage-les-francais-les-jeunes-et-le-travail/,#7E1B41,2010
-Wikileaks: Warlogs Irakiens,assets/images/thumbnails/warlogs2.png,http://web.archive.org/web/20130311020454/http://warlogs.owni.fr/,#970003,2010
-La pilule de quel lendemain ?,assets/images/thumbnails/adolescente.png,http://app.owni.fr/adolescente/,#00BCBD,2010
-Wikileaks: Warlogs Afghans,assets/images/thumbnails/warlogs1.png,http://web.archive.org/web/20120331035757/http://app.owni.fr/warlogs/,#D90000,2010
-L’Oeil Du Pirate,assets/images/thumbnails/odp.png,http://oeildupirate.com,#010101,2010
-Ubsek et Rica: What if?,assets/images/thumbnails/whatif.png,http://whatif.owni.fr,#F7FA00,2010
-OWNI v2,assets/images/thumbnails/owni.jpg,http://owni.fr/,#2D2D2F,2010
-RFI: Les objets symboles des indépendances africaines,assets/images/thumbnails/afrique.png,http://stm-own.france24.com/indeafrique/,#F1F631,2009
-"Branche ton Sontone, le webzine qui t’aide à pécho en te donnant une super culture musicale",assets/images/thumbnails/bts.png,http://branchetonsonotone.com,#BC0E23,2009
+title,thumbnail,url,color,year,width,height
+jQuest,assets/images/thumbnails/jquest.png,http://www.jquestapp.com,,2016,,
+The Turkish Puppets,assets/images/thumbnails/turkishpuppets.png,http://www.turkishpuppets.com/,,2016,,
+Rentswatch,assets/images/thumbnails/rentswatch.png,http://www.rentswatch.com,,2016,,
+The Football Tax,assets/images/thumbnails/tft.png,http://www.thefootballtax.com/,#FFDF54,2016,,
+Oeko Kostenrechner,assets/images/thumbnails/ok.png,http://jplusplus.github.io/oeko-kostenrechner/,#71BF44,2016,,
+Future by Trump,assets/images/thumbnails/fbt.png,http://www.futurebytrump.com/,#B20107,2016,,
+Fledit,assets/images/thumbnails/fledit.png,http://fledit.io/,#474244,2015,,
+Morano 2017,assets/images/thumbnails/morano.png,http://morano2017.com/,#3695ff,2015,,
+RTS: Parlomètre Roman,assets/images/thumbnails/parlometre.png,http://www.parlometre.ch/,#B5001E,2015,,
+Journalism++ Graveyard,assets/images/thumbnails/graveyard.png,http://jplusplus.github.io/graveyard/,#2E2E2E,2015,,
+Google Iframe Scaffolder,assets/images/thumbnails/google.png,http://googletrends.github.io/iframe-scaffolder/,#4285F4,2015,,
+Diercke GIS,assets/images/thumbnails/diercke.png,http://www.diercke.de/diercke-webgis,#1B2C8A,2015,,
+The Migrant Files,assets/images/thumbnails/tmf.png,http://www.themigrantsfiles.com/,#A30000,2015,,
+Radio France : Départementales 2015,assets/images/thumbnails/dep15.png,http://elections.radiofrance.fr/departementales-2015/#/france,#007BC6,2015,,
+MSF: One year of fight against Ebola,assets/images/thumbnails/ebola.png,http://www.msf-azg.be/ebola_data/,#E22000,2015,,
+RSF: Index de la liberté de la presse,assets/images/thumbnails/rsf.png,http://index.rsf.org,#DA032E,2015,,
+Iframe Scaffolder,assets/images/thumbnails/iframe.png,http://pirhoo.github.io/iframe-scaffolder/,#53BF6B,2014,,
+Global Witness: The Great Rip off,assets/images/thumbnails/gw.png,http://greatripoffmap.globalwitness.org/,#EC1C24,2014,,
+Île de France: 10 recettes,assets/images/thumbnails/recettes.png,http://www.iledefrance.fr/fil-actus-region/10-recettes-chefs-gaspiller-moins,#E1C1C2,2014,,
+AFDAS: carte de presse en 2015,assets/images/thumbnails/afdas.png,http://data.metiers-presse.org/,#4DBFAC,2014,,
+Île de France: les CFA de votre région,assets/images/thumbnails/idf-cfa.png,http://jplusplus.github.io/idf-cartocfa/,#00ACA8,2014,,
+Arte: World of Work,assets/images/thumbnails/arte-wow.png,http://europe.arte.tv/fr/evenements/world-of-work/,#4A912E,2014,,
+Detective.io,assets/images/thumbnails/detective.png,http://detective.io,#237490,2014,,
+OKF: Spending Stories,assets/images/thumbnails/spst.png,http://spendingstories.org,#DF1B4F,2014,,
+Wikileaks: Kissinger Cables,assets/images/thumbnails/wl.png,http://wikileaks.org/plusd/graph,#8BD6E5,2014,,
+Île de France: Le Grand Quiz,assets/images/thumbnails/idf-quiz.png,http://quiz.iledefrance.fr/quiz/quiz-loisirs-verts/,#FF0000,2014,,
+France Télévision: Jeu d'Influences,assets/images/thumbnails/ftv-spin.png,http://jeudinfluences.fr/,#440000,2014,,
+France Télévision: Municipaly,assets/images/thumbnails/municipaly.png,http://municipaly.fr,#00D59B,2014,,
+Fondation BNPP: Odyssée Jeunes,assets/images/thumbnails/bnpp.png,http://odysseejeunes.wedodata.fr/,#00A1B5,2014,,
+Arte: Une contre-histoire des Internets,assets/images/thumbnails/lesinternets-mini-150x150.png,http://lesinternets.arte.tv/,#EE9B00,2014,,
+Al Jazeera : Dragons Gifts,assets/images/thumbnails/dragons.png,http://www.aljazeera.com/indepth/interactive/2014/03/interactive-china-african-spending-spree-2014320121349799136.html,#FB9D04,2014,,
+Benford's Law Calculator,assets/images/thumbnails/brokenp.png,http://benford.jplusplus.org,#1A1E28,2013,,
+Hackaton: Broken Promises,assets/images/thumbnails/bp.png,http://brokenpromises.jplusplus.org,#5879A5,2013,,
+L’Express: Des données pour l’autisme,assets/images/thumbnails/dap.png,http://www.desdonneespourlautisme.fr/,#E20022,2013,,
+Dataplayer,assets/images/thumbnails/dp.png,http://dataplayer.org,#00DBB5,2013,,
+Île de France:  Actions pour le femmes,,http://idf-interactive.herokuapp.com/actions-femmes.html,,2013,813,493
+Île de France:  Aides aux entreprises,,http://idf-interactive.herokuapp.com/aides-entreprises.html,,2013,813,493
+Île de France: Coworking,,http://idf-interactive.herokuapp.com/coworking.html,,2013,813,493
+Île de France: se divertir,,http://idf-interactive.herokuapp.com/divertir.html,,2013,940,600
+Île de France: entreprendre,,http://idf-interactive.herokuapp.com/entreprendre.html,,2013,940,600
+Île de France: environnement,,http://idf-interactive.herokuapp.com/environnement.html,,2013,940,600
+Île de France: étudier,,http://idf-interactive.herokuapp.com/etudier.html,,2013,940,600
+Île de France: à l'international,,http://idf-interactive.herokuapp.com/international.html,,2013,940,600
+Île de France: se loger,,http://idf-interactive.herokuapp.com/logement.html,,2013,940,600
+Île de France: la recherche,,http://idf-interactive.herokuapp.com/recherche.html,,2013,940,600
+Île de France: les transports,,http://idf-interactive.herokuapp.com/transports.html,,2013,940,600
+Île de France: RA 2013 - BU,,http://idf-interactive.herokuapp.com/ra2013-bu.html,,2013,1380,692
+Île de France: RA 2013 - Energies,,http://idf-interactive.herokuapp.com/ra2013-energies-positif.html,,2013,1380,692
+Île de France: RA 2013 - Magazine,,http://idf-interactive.herokuapp.com/ra2013-magazine.html,,2013,1380,692
+Île de France: RA 2013 - Opendata,,http://idf-interactive.herokuapp.com/ra2013-opendata.html,,2013,1380,692
+Île de France: RA 2013 - Tourisme,,http://idf-interactive.herokuapp.com/ra2013-tourisme.html,,2013,1380,692
+Île de France: RA 2013 - Transports,,http://idf-interactive.herokuapp.com/ra2013-transports.html,,2013,1380,692
+Île de France: les parcs naturels,assets/images/thumbnails/idf-pnr.png,http://www.iledefrance.fr/zoom-region-demain/infographie-parcs-naturels-ile-france,#00975E,2013,,
+Feowl: blackouts à Douala,assets/images/thumbnails/feowl.jpg,http://feowl.com/,#5999A2,2012,,
+Île de France: les lycées de votre région,assets/images/thumbnails/lycee.jpg,http://cartolycees.iledefrance.fr/,#E81C0C,2012,,
+AFP: The e-diplomacy hub,assets/images/thumbnails/afp.png,http://ediplomacy.afp.com,#323B90,2012,,
+Rue89: Alerte Politique !,assets/images/thumbnails/image-alerte-politique_0.png,https://itunes.apple.com/fr/app/alertepolitique/id503609138,#333239,2012,,
+Aucun Lien,assets/images/thumbnails/al-150x150.png,http://aucun-lien.com,#FF0095,2012,,
+Journalism++: we build data-first newsrooms,assets/images/thumbnails/j-150x150.png,http://jplusplus.org,#9A0E3F,2012,,
+RFI: les lois antiterroristes dans le monde,assets/images/thumbnails/1109.png,http://stm-own.france24.com/0911/,#910008,2011,,
+Influence Networks: cartographie des réseaux d’influence,assets/images/thumbnails/in.png,https://web.archive.org/web/20120515070728/http://influencenetworks.org/,#5C2980,2011,,
+Eurosport: Transferts 2011,assets/images/thumbnails/mercato.png,http://mercato2011.eurosport.com/,#892AB3,2011,,
+UPIAN & 5ème étage Prod: Opposition Birmane,assets/images/thumbnails/birmane.png,https://web.archive.org/web/20130123101501/http://app.owni.fr/burmese-opposition/fr/,#991B63,2011,,
+"France Inter: Serge Gainsbourg, aux Graph Et Cætera…",assets/images/thumbnails/gainsbourg.png,http://owni.fr/2011/03/01/app-gainsbourg-influences-20-ans-anniversaire-verneuil/,#D0C78A,2011,,
+"OWNI: A Paris, la police aura des yeux tout partout",assets/images/thumbnails/camera.png,http://owni.fr/2011/01/05/a-paris-la-police-aura-des-yeux-tout-partout/,#494397,2011,,
+Geoffrey Dorne: Graphisme & interactivité,assets/images/thumbnails/graphism.png,http://graphism.fr/,#3E3E3E,2011,,
+Radio Nova: Nuit Sujet #2,assets/images/thumbnails/nuit-sujet-2.png,https://web.archive.org/web/20130318184958/http://nuitsujet.com/hack/,#DBDB7E,2011,,
+Radio Nova: Nuit Sujet #1,assets/images/thumbnails/nuit-sujet-1.png,https://web.archive.org/web/20121020014003/http://app.owni.fr/nuit-sujet/2011-22-03/,#FF0032,2011,,
+Iconomani: Vern1ssage,assets/images/thumbnails/vern1ssage.png,http://web.archive.org/web/20110319043117/http://vern1ssage.com/,#F8D3A8,2011,,
+OWNI Live,assets/images/thumbnails/owni-live.png,http://www.ownilive.com/,#D83500,2011,,
+OWNI Leaks,assets/images/thumbnails/owni-wl.png,http://wikileaks.owni.fr/,#6AC3D5,2011,,
+FIDH: Despotic Mind,assets/images/thumbnails/despoticmind.png,http://app.owni.fr/despoticmind/,#F37E00,2010,,
+Presseurop: Fonctionnement de la nouvelle Diplomatie Europeenne,assets/images/thumbnails/eeas.png,http://www.presseurop.eu/fr/eeas,#E90000,2010,,
+"Galerie Interactive, Argos et l’eau",assets/images/thumbnails/galerie.png,http://app.owni.fr/owni-gallery/?id=8&p=52567,#93AFC9,2010,,
+IFOP: l’emploi des jeunes,assets/images/thumbnails/ifop.png,http://owni.fr/2010/12/17/sondage-les-francais-les-jeunes-et-le-travail/,#7E1B41,2010,,
+Wikileaks: Warlogs Irakiens,assets/images/thumbnails/warlogs2.png,http://web.archive.org/web/20130311020454/http://warlogs.owni.fr/,#970003,2010,,
+La pilule de quel lendemain ?,assets/images/thumbnails/adolescente.png,http://app.owni.fr/adolescente/,#00BCBD,2010,,
+Wikileaks: Warlogs Afghans,assets/images/thumbnails/warlogs1.png,http://web.archive.org/web/20120331035757/http://app.owni.fr/warlogs/,#D90000,2010,,
+L’Oeil Du Pirate,assets/images/thumbnails/odp.png,http://oeildupirate.com,#010101,2010,,
+Ubsek et Rica: What if?,assets/images/thumbnails/whatif.png,http://whatif.owni.fr,#F7FA00,2010,,
+OWNI v2,assets/images/thumbnails/owni.jpg,http://owni.fr/,#2D2D2F,2010,,
+RFI: Les objets symboles des indépendances africaines,assets/images/thumbnails/afrique.png,http://stm-own.france24.com/indeafrique/,#F1F631,2009,,
+"Branche ton Sontone, le webzine qui t’aide à pécho en te donnant une super culture musicale",assets/images/thumbnails/bts.png,http://branchetonsonotone.com,#BC0E23,2009,,

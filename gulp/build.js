@@ -2,6 +2,11 @@
 
 var gulp = require('gulp'),
   sizeOf = require('image-size'),
+    slug = require('slug'),
+   async = require('async'),
+      fs = require('fs'),
+ webshot = require('webshot'),
+ through = require('through2'),
        _ = require("lodash");
 
 var paths = gulp.paths;
@@ -9,6 +14,15 @@ var paths = gulp.paths;
 var $ = require('gulp-load-plugins')({
   pattern: ['gulp-*', 'main-bower-files', 'uglify-save-license', 'del']
 });
+
+
+var removeHttp = function(str) {
+  return str.replace('http://', '').replace('https://', '');
+}
+var toThumbnailPath = function(str) {
+  str = removeHttp(str)
+  return 'assets/images/thumbnails/' +  slug(str).toLowerCase() + '.png';
+};
 
 gulp.task('resize', function() {
   return gulp.src(paths.src + '/assets/images/thumbnails/*.{png,jpg}')
@@ -160,6 +174,12 @@ gulp.task('csv:commits', function(){
 gulp.task('csv:projects', function(){
   return gulp.src(['src/assets/csv/projects.csv'])
     .pipe($.convert({ from: 'csv', to: 'json' }))
+    .pipe($.jsonEditor(function(data) {
+      return _.map(data, function(site) {
+        site.thumbnail = site.thumbnail || toThumbnailPath(site.url, true);
+        return site;
+      })
+    }))
     .pipe(gulp.dest('.tmp/serve/assets/json/'))
     .pipe(gulp.dest('dist/assets/json/'));
 });
@@ -178,8 +198,35 @@ gulp.task('csv:awards', function(){
     .pipe(gulp.dest('dist/assets/json/'));
 });
 
+gulp.task('csv:webshots', function() {
+  return gulp.src(['src/assets/csv/projects.csv'])
+    .pipe($.convert({ from: 'csv', to: 'json' }))
+    .pipe(through.obj(function(file, enc, cb) {
+      var data = JSON.parse(file.contents);
+      // Filter data to only have the website with no screenshot yet
+      data = _.filter(data, function(site) {
+        var thumbnailPath = 'src/' + toThumbnailPath(site.url);
+        return site.thumbnail == '' && !fs.existsSync(thumbnailPath)
+      });
+      // Async function to iterate over websites
+      async.eachSeries(data, function(site, next) {
+        // Inform the user
+        $.util.log('Screenshoting %s', site.url)
+        // Start the screenshot
+        webshot( removeHttp(site.url), 'src/' + toThumbnailPath(site.url), {
+          // We are not in hurry
+          renderDelay: 6000,
+          // We need a bigger screen
+          windowSize: {
+            width: site.width || 1600,
+            height: site.height || 900
+          }
+        }, next);
+      }, cb);
+    }))
+});
 
-gulp.task('csv', ["csv:trainings", "csv:commits", "csv:projects", "csv:awards"])
+gulp.task('csv', ["csv:trainings", "csv:commits", "csv:projects", "csv:awards", "csv:webshots"])
 
 gulp.task('build', ['html', 'images', 'fonts', 'misc', 'csv']);
 
