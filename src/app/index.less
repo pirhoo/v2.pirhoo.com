@@ -1,16 +1,16 @@
 @header-height: 60px;
 
 @introduction-bg:#291c29;
-@introduction-color:white;
-@introduction-emphasize:#9c819c;
+@introduction-color:mix(@introduction-bg, @text-color, 20);
+@introduction-emphasize:#C4657E;
 
 @activity-bg:#025066;
-@activity-color:#CFD8DC;
-@activity-emphasize:mix(#025066, white);
+@activity-color:mix(@activity-bg, @text-color, 20);
+@activity-emphasize:#649e8a;
 
 @projects-bg:#DC6448;
-@projects-color:#291c1d;
-@projects-emphasize:mix(#DC6448, white);
+@projects-color:mix(@projects-bg, @text-color, 20);
+@projects-emphasize:#EDD0A3;
 
 
 .mixi-bounces() {
@@ -55,10 +55,13 @@ body a {
 
   & .main__section__panel {
     background: transparent;
-    border:5px solid @bg;
-    color: @text-color;
+    color: @color;
 
-    &:before, &:after {
+    &:before {
+      #gradient > .directional(@emphasize, @bg, 360deg/-8);
+    }
+
+    h2:before, h2:after {
       color:@emphasize;
       border-color:@emphasize;
     }
@@ -69,7 +72,7 @@ body a {
   }
 
   .list {
-    background: @bg;
+    #gradient > .directional(@emphasize, @bg, 360deg/8);
     color:white;
 
     a, strong {

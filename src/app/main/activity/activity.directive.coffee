@@ -46,6 +46,7 @@ angular.module 'pirhoo'
       line = d3.svg.line()
         .x( (d)-> xscale d.month )
         .y( (d)-> heightScale d.count )
+        .interpolate "monotone"
       # Setup chart
       init = ->
         [ width, height ] = [ (barWidth + barGutter) * (data.commits.length), el.height() - padding * 2]
