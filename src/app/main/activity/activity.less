@@ -11,7 +11,6 @@
 
     min-height: 61px;
     margin-bottom: 300px;
-    background: white;
     &:extend(.clearfix all);
 
     strong {
@@ -19,8 +18,6 @@
     }
 
     &__item  {
-      background:@activity-emphasize;
-      color:@activity-bg;
       display: inline-block;
       width:100%/3%;
       float: left;
@@ -48,7 +45,6 @@
     right:0;
     overflow: auto;
     overflow-y:hidden;
-    height: 220px;
   }
 
   &__chart-title {
@@ -71,33 +67,37 @@
     margin: 0 auto;
     margin-top: 20px;
     position: relative;
+    background: @activity-emphasize;
 
     &__commits {
       font-family: @font-family-base;
 
       g.year rect {
-        fill: url("#yeargradient");
-      }
-
-      g.year:nth-child(even) rect {
-        fill: fade(@projects-bg, 0);
+        fill: white;
       }
 
       g.year text {
-        fill: fade(@projects-bg, 40);
+        fill: @activity-bg;
       }
 
       text.bar-label {
-        fill:@activity-bg;
+        fill: fade(@activity-bg, 40);
         font-family: @font-family-base;
         font-size: 10px;
         pointer-events: none;
+        visibility: hidden;
       }
 
-      rect.bar {
-        fill: @projects-bg;
+
+      path.line {
+        stroke:@activity-bg;
+        stroke-width:3px;
+        fill:transparent;
       }
 
+      circle.dot {
+        fill:@activity-bg;
+      }
     }
   }
 

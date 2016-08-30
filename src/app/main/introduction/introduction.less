@@ -8,7 +8,7 @@
     position: absolute;
     left:50%;
     bottom:20px;
-    color:white;
+    color:@introduction-emphasize;
     outline:0;
     .translate(-50%, 0);
 
@@ -19,8 +19,8 @@
 
   &__social {
 
-    display: block;
     .container-base();
+    display: block;
     min-height: 61px;
     margin:20px auto;
     &:extend(.clearfix all);
@@ -30,8 +30,6 @@
     }
 
     &__item {
-      background:@introduction-color;
-      color:@introduction-bg;
       display: inline-block;
       width:100%/4%;
       margin:0;

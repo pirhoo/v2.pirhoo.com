@@ -14,9 +14,10 @@ angular.module 'pirhoo'
       svg.call tip
       # Available "globaly"
       width = height = 0
+      padding = 10
       heightScale = commits = null
-      barWidth = 25
-      barGutter = -1
+      barWidth = 20
+      barGutter = 5
       # English months
       months = ["January", "February", "March", "April", "May", "June",
                 "July", "August", "September", "October", "November", "December"]
@@ -42,15 +43,18 @@ angular.module 'pirhoo'
       # Maximum count value
       commitMax = _.max(data.commits, "count").count
 
+      line = d3.svg.line()
+        .x( (d)-> xscale d.month )
+        .y( (d)-> heightScale d.count )
       # Setup chart
       init = ->
-        [ width, height ] = [ (barWidth + barGutter) * (data.commits.length), el.height() ]
+        [ width, height ] = [ (barWidth + barGutter) * (data.commits.length), el.height() - padding * 2]
         # Set SVG sizes
         svg.style "width", width + "px"
         # Scale on x according to the svg with
-        xscale.range([0, width - barWidth])
+        xscale.range([padding * 2, width - barWidth - padding])
         # Dynamic scale
-        heightScale = d3.scale.linear().domain([0, commitMax]).range([0, height])
+        heightScale = d3.scale.linear().domain([0, commitMax]).range([height - padding, padding])
         # Create groups
         svg = svg.append("g").attr "class", "main__activity__chart__commits"
         # Then draw
@@ -58,26 +62,6 @@ angular.module 'pirhoo'
 
       # Draw the rects
       draw = ->
-        gradirent = svg
-                      .append "defs"
-                        .append "linearGradient"
-                        .attr
-                          id: "yeargradient"
-                          x1: 0
-                          x2: 0
-                          y1: 0
-                          y2: 1
-
-        gradirent.append "stop"
-              .attr "offset", "0%"
-              .attr "stop-color", "white"
-              .attr "stop-opacity", 0
-
-        gradirent.append "stop"
-              .attr "offset", "100%"
-              .attr "stop-color", "white"
-              .attr "stop-opacity", 0.2
-
         svg.selectAll "g.year"
           .data years
           .enter()
@@ -87,7 +71,7 @@ angular.module 'pirhoo'
               .attr "x", (y)-> xscale( new Date(y, 0, 1) )
               .attr "y", 0
               .attr "width", yearWidth
-              .attr "height", height
+              .attr "height", height + padding * 2
 
         svg.selectAll "g.year"
             .append "text"
@@ -101,26 +85,30 @@ angular.module 'pirhoo'
                 x = Math.max 25, x
               .attr "y", 20
 
-        svg.selectAll "rect.bar"
-          .data data.commits
-          .enter()
-          .append "rect"
-          .attr "class", "bar"
-          .attr "x", (d)-> xscale(d.month)
-          .attr "y", (d)-> height - heightScale d.count
-          .attr "width", barWidth
-          .attr "height", (d)-> heightScale d.count
-          .on 'mouseover', tip.show
-          .on 'mouseout', tip.hide
+        svg.append("path")
+          .datum data.commits
+          .attr "class", "line"
+          .attr "d", line
+
+        svg.selectAll "circle.dot"
+            .data data.commits
+            .enter()
+            .append "circle"
+            .attr "class", "dot"
+            .attr "cx", (d)->  xscale(d.month)
+            .attr "cy", (d)-> heightScale(d.count)
+            .attr "r", 3
+            .on 'mouseover', tip.show
+            .on 'mouseout', tip.hide
 
         svg.selectAll "text.bar-label"
             .data data.commits
             .enter()
             .append "text"
             .attr "class", "bar-label"
-            .attr "text-anchor", "middle"
-            .attr "x", (d)->  xscale(d.month) + barWidth/2
-            .attr "y", (d)-> (height - heightScale d.count) + 10
+            .attr "text-anchor", "left"
+            .attr "x", (d)->  xscale(d.month) + 6
+            .attr "y", (d)-> heightScale(d.count) + 3
             .text (d)-> if heightScale(d.count) >= 25 then d.count else ''
 
 

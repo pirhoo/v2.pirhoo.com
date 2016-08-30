@@ -4,44 +4,27 @@
   display: block;
   overflow: visible;
 
-  & .main__section__panel {
-    background: #efefef;
-    position: absolute;
-    left:50%;
-    top:0;
-    margin-top:15px;
-    .translate(-50%, 0%);
-
-    @media (max-width: @screen-sm-min) {
-      width:100%;
-    }
-  }
-
   &__cascading {
-
+    position: relative;
     display: block;
     margin:0 auto;
+    max-width: 800 + 30px;
 
     &__item {
-      width:100/8%;
+      width:100/4%;
       padding:15px;
-
-      @media (max-width: @screen-lg-min) {
-        width:100/6%;
-      }
 
       @media (max-width: @screen-md-min) {
         width:100/4%;
       }
 
       @media (max-width: @screen-sm-min) {
-        width:100/2%;
+        width:100/3%;
       }
 
       @media (max-width: @screen-xs-min) {
-        width:100%;
+        width:100/2%;
       }
-
 
       &__wrapper {
         display: block;
