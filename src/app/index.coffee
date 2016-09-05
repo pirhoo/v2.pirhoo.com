@@ -6,4 +6,5 @@ angular.module "pirhoo", [
   'ui.bootstrap'
   'headroom'
   'duScroll'
+  'angular-inview'
 ]

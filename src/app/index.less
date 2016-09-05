@@ -19,9 +19,19 @@
   to   { .translate(0, 0); }
 }
 
+.mixi-fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
 @keyframes bounce{ .mixi-bounces(); }
 @-webkit-keyframes bounce{ .mixi-bounces(); }
 @-moz-keyframes bounce{ .mixi-bounces(); }
+
+@keyframes fadeIn{ .mixi-fadeIn(); }
+@-webkit-keyframes fadeIn{ .mixi-fadeIn(); }
+@-moz-keyframes fadeIn{ .mixi-fadeIn(); }
 
 .browsehappy {
   margin: 0.2em 0;

@@ -86,10 +86,21 @@ angular.module 'pirhoo'
                 x = Math.max 25, x
               .attr "y", 20
 
-        svg.append("path")
+        path = svg.append("path")
           .datum data.commits
           .attr "class", "line"
           .attr "d", line
+
+        totalLength = path.node().getTotalLength()
+
+        path
+          .attr("stroke-dasharray", totalLength + " " + totalLength)
+          .attr("stroke-dashoffset", totalLength)
+          .transition()
+            .duration(2000)
+            .ease("linear")
+            .attr("stroke-dashoffset", 0)
+
 
         svg.selectAll "circle.dot"
             .data data.commits

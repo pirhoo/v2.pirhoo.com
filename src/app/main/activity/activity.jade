@@ -24,8 +24,8 @@ section#activity.main__section.main__activity(ng-controller="ActivityCtrl")
         | <strong>{{ awards.awards_count }}</strong>&nbsp;prizes awarded for
         | <strong>{{awards.projects_count }}</strong>&nbsp;projects
         | I worked on
-    .main__activity__chart-wrapper
-      activity(commits="commits", ng-if="commits")
+    .main__activity__chart-wrapper(in-view="projectsInView = projectsInView || $inview")
+      activity(commits="commits", ng-if="commits && projectsInView")
     h3.main__activity__chart-title.
       <abbr title="A submission of my latest changes of a source code">Commits</abbr>
       by month

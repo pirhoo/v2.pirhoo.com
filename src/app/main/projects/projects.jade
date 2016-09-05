@@ -8,7 +8,9 @@ section#projects.main__section.main__projects(ng-if="projects")
         I mostly code in Javascript and Python. Both are my favorite languages.
         Almost all my projects are Open Source and available on <a href="https://github.com/pirhoo?tab=activity" target="_blank">Github</a>.        
     .main__projects__cascading.container-base(projects)
-      .main__projects__cascading__item(ng-repeat="project in projects")
+      .main__projects__cascading__item(ng-repeat="project in projects", 
+                                       ng-class="{ 'main__projects__cascading__item--in-view': project.inView }"
+                                       in-view="project.inView = project.inView || $inview")
         a.main__projects__cascading__item__wrapper(ng-href="{{ project.url }}")          
           img.main__projects__cascading__item__wrapper__thumbnail(ng-src="{{ project.thumbnail }}")
           .main__projects__cascading__item__wrapper__title {{ project.title }}
