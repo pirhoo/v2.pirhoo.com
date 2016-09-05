@@ -207,25 +207,25 @@
       }
     },
     "2012-9-01": {
-      "count": 105,
+      "count": 107,
       "repositories": {
         "afp": 4,
         "heroku-buildpack-php": 1,
-        "jquest-client-archive": 55,
-        "jquest-mission-archive": 30,
+        "jquest-client-archive": 56,
+        "jquest-mission-archive": 31,
         "LODP": 2,
         "v1.jplusplus.org": 13
       }
     },
     "2012-8-01": {
-      "count": 94,
+      "count": 92,
       "repositories": {
         "afp": 20,
         "alertepolitique": 1,
         "aucunlien-fetch": 1,
         "feowl-frontend": 5,
-        "jquest-client-archive": 20,
-        "jquest-mission-archive": 12,
+        "jquest-client-archive": 19,
+        "jquest-mission-archive": 11,
         "v1.jplusplus.org": 35
       }
     },
@@ -259,16 +259,16 @@
       }
     },
     "2012-4-01": {
-      "count": 31,
+      "count": 33,
       "repositories": {
-        "afp": 30,
+        "afp": 32,
         "branche-ton-sontone": 1
       }
     },
     "2012-3-01": {
-      "count": 20,
+      "count": 18,
       "repositories": {
-        "afp": 20
+        "afp": 18
       }
     },
     "2011-11-01": {
@@ -374,12 +374,12 @@
       }
     },
     "2015-5-01": {
-      "count": 370,
+      "count": 374,
       "repositories": {
         "bnpp-odyssee-jeunes": 2,
         "cartodb-layers": 8,
         "detective.io": 17,
-        "diercke-gis": 149,
+        "diercke-gis": 153,
         "fledit.cdn": 5,
         "fledit.io": 23,
         "fledit.js": 32,
@@ -392,23 +392,23 @@
       }
     },
     "2015-4-01": {
-      "count": 200,
+      "count": 205,
       "repositories": {
         "bnpp-odyssee-jeunes": 1,
         "cartodb-layers": 9,
         "detective.io": 11,
-        "diercke-gis": 131,
+        "diercke-gis": 127,
         "fledit.io": 31,
         "fledit.js": 4,
         "gw-greatripoffmap-private": 1,
         "logo.js": 2,
         "msf-ebola": 6,
-        "owni-plr": 2,
+        "owni-plr": 11,
         "v2.jplusplus.org": 2
       }
     },
     "2015-3-01": {
-      "count": 353,
+      "count": 344,
       "repositories": {
         "bnpp-odyssee-jeunes": 5,
         "cartodb-layers": 26,
@@ -416,7 +416,7 @@
         "diercke-gis": 15,
         "fledit.io": 13,
         "msf-ebola": 167,
-        "owni-plr": 64,
+        "owni-plr": 55,
         "rf-departementales-2015": 48,
         "v1.pirhoo.com": 2,
         "v2.pirhoo.com": 1
