@@ -226,7 +226,19 @@ gulp.task('csv:webshots', function() {
     }))
 });
 
-gulp.task('csv', ["csv:trainings", "csv:commits", "csv:projects", "csv:awards", "csv:webshots"])
+gulp.task('csv:sizes', function(){
+  return gulp.src(['dist/assets/json/projects.json'])
+    .pipe($.jsonEditor(function(data) {
+      return _.map(data, function(site) {
+        return _.extend(site, sizeOf('src/'+ site.thumbnail) );
+      });
+    }))
+    .pipe(gulp.dest('.tmp/serve/assets/json/'))
+    .pipe(gulp.dest('dist/assets/json/'));
+});
+
+
+gulp.task('csv', ["csv:trainings", "csv:commits", "csv:projects", "csv:awards", "csv:webshots", "csv:sizes"])
 
 gulp.task('build', ['html', 'images', 'fonts', 'misc', 'csv']);
 

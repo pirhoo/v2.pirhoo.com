@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "dependencies": {
     "jquery": "1.9.*",
+    "masonry": "https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.js",
     "angular": "~1.3.4",
+    "angular-masonry": "^0.16.0",
     "angular-animate": "~1.3.4",
     "angular-cookies": "~1.3.4",
     "angular-touch": "~1.3.4",
@@ -21,8 +23,7 @@
     "animation-frame": "~0.2.5",
     "Stickyfill": "^1.1.4",
     "angular-inview": "^2.0.0",
-    "ngInfiniteScroll": "^1.3.0",
-    "angular-masonry": "^0.16.0"
+    "ngInfiniteScroll": "^1.3.0"
   },
   "devDependencies": {
     "angular-mocks": "~1.3.4"
@@ -30,6 +31,6 @@
   "resolutions": {
     "angular": "~1.3.4",
     "jquery": "1.9.*",
-    "imagesloaded": "~4.1.0"
+    "masonry": "*"
   }
 }

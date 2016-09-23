@@ -16,8 +16,8 @@
       padding:15px;
       position: absolute;
       top:100%;
-      opacity:0;
-      transform: translate(0%, 20%) scale(.7);
+      /* opacity:0;
+      transform: translate(0%, 20%) scale(.7); */
       .transition(.4s);
 
       &--in-view {
@@ -44,10 +44,17 @@
         padding:5px;
         text-decoration: none;
 
+        &__ghost {
+          border:15px white solid;
+        }
+
         img {
           display: block;
-          width: 100%;
+          width: calc(~"100% - 10px");
           border:15px white solid;
+          position: absolute;
+          left:5px;
+          top:5px;
         }
 
         &__title {
