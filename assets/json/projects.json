@@ -662,4 +662,57 @@
   "year": "2009",
   "width": "",
   "height": ""
+}]"Wikileaks: Warlogs Afghans",
+  "thumbnail": "assets/images/thumbnails/warlogs1.png",
+  "url": "http://web.archive.org/web/20120331035757/http://app.owni.fr/warlogs/",
+  "color": "#D90000",
+  "year": "2010",
+  "width": 200,
+  "height": 151,
+  "type": "png"
+}, {
+  "title": "L’Oeil Du Pirate",
+  "thumbnail": "assets/images/thumbnails/odp.png",
+  "url": "http://oeildupirate.com",
+  "color": "#010101",
+  "year": "2010",
+  "width": 200,
+  "height": 492,
+  "type": "png"
+}, {
+  "title": "Ubsek et Rica: What if?",
+  "thumbnail": "assets/images/thumbnails/whatif.png",
+  "url": "http://whatif.owni.fr",
+  "color": "#F7FA00",
+  "year": "2010",
+  "width": 200,
+  "height": 281,
+  "type": "png"
+}, {
+  "title": "OWNI v2",
+  "thumbnail": "assets/images/thumbnails/owni.jpg",
+  "url": "http://owni.fr/",
+  "color": "#2D2D2F",
+  "year": "2010",
+  "width": 200,
+  "height": 311,
+  "type": "jpg"
+}, {
+  "title": "RFI: Les objets symboles des indépendances africaines",
+  "thumbnail": "assets/images/thumbnails/afrique.png",
+  "url": "http://stm-own.france24.com/indeafrique/",
+  "color": "#F1F631",
+  "year": "2009",
+  "width": 200,
+  "height": 151,
+  "type": "png"
+}, {
+  "title": "Branche ton Sontone, le webzine qui t’aide à pécho en te donnant une super culture musicale",
+  "thumbnail": "assets/images/thumbnails/bts.png",
+  "url": "http://branchetonsonotone.com",
+  "color": "#BC0E23",
+  "year": "2009",
+  "width": 200,
+  "height": 277,
+  "type": "png"
 }]
