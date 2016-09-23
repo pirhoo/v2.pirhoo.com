@@ -7,4 +7,6 @@ angular.module "pirhoo", [
   'headroom'
   'duScroll'
   'angular-inview'
+  'infinite-scroll'
+  'wu.masonry'
 ]

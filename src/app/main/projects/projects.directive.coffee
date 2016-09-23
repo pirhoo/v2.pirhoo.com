@@ -1,13 +1,21 @@
 angular.module 'pirhoo'
-  .directive 'projects', ($timeout)->
+  .directive 'projects', ($rootScope)->
     restrict: 'EA'
-    link: (scope, el) ->
-      $timeout ->
-        imagesLoaded el, ->
-          # Create grade on images
-          Grade document.querySelectorAll('.main__projects__cascading__item a')
-          # Change layout
-          $(el).isotope
-            itemSelector: '.main__projects__cascading__item'
-            # stamp: $(el).find('.main__section__panel')
-            percentPosition: true
+    link: (scope, el, attrs) ->
+      init = ->
+        # Freeze!
+        $(el).imagesLoaded()
+          .progress (instance, image)->
+            # Get the image parent
+            container = $(image.img).parent()
+            # Create grade on images
+            Grade container[0] unless container.hasClass 'graded'
+            # Add a class to avoid grade the image twice
+            container.addClass 'graded'
+            # Broadcast an event
+            $rootScope.$broadcast 'images:progress', image
+          .done ->
+            # Broadcast an event
+            $rootScope.$broadcast 'images:over'
+      # Init grade when projects changed
+      scope.$watch 'projects.objects.length', init
