@@ -10,7 +10,7 @@ section#projects.main__section.main__projects(ng-if="projects")
     masonry.main__projects__cascading.container-base(projects, reload-on-resize, infinite-scroll="projects.next()", infinite-scroll-disabled='projects.busy')
       .masonry-brick.main__projects__cascading__item(ng-repeat="project in projects.objects",
                                        ng-class="{ 'main__projects__cascading__item--in-view': project.inView }"
-                                       yolo-in-view="project.inView = project.inView || $inview")
+                                       in-view="project.inView = project.inView || $inview")
         a.main__projects__cascading__item__wrapper(ng-href="{{ project.url }}")          
           .main__projects__cascading__item__wrapper__ghost
             div(ng-style="{ 'padding-top': project.height / project.width * 100 + '%' }")

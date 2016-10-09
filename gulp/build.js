@@ -226,7 +226,7 @@ gulp.task('csv:webshots', function() {
     }))
 });
 
-gulp.task('csv:sizes', function(){
+gulp.task('csv:sizes', ["csv:webshots"],  function(){
   return gulp.src(['dist/assets/json/projects.json'])
     .pipe($.jsonEditor(function(data) {
       return _.map(data, function(site) {
