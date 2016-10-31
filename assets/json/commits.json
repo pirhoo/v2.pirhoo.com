@@ -1,7 +1,55 @@
 {
-  "commits_count": 11245,
-  "repositories_count": 116,
+  "commits_count": 11816,
+  "repositories_count": 157,
   "months_count": {
+    "2016-10-01": {
+      "count": 160,
+      "repositories": {
+        "22mars": 1,
+        "assos-pikante": 1,
+        "chatbot": 1,
+        "chihuahua-or-muffin": 1,
+        "feedlist": 1,
+        "graphism.fr": 1,
+        "grenoble-premiere": 1,
+        "iconomanie": 1,
+        "jquest": 11,
+        "jquest-pg": 2,
+        "markovera": 2,
+        "meps-scanner": 1,
+        "oeko-flotte": 106,
+        "owni": 1,
+        "owni-14juillet": 1,
+        "owni-alertecliches": 1,
+        "owni-animviewer": 1,
+        "owni-carto-f24": 1,
+        "owni-chine-afrique": 1,
+        "owni-despoticmind": 1,
+        "owni-fetedelazic": 1,
+        "owni-flashball": 1,
+        "owni-gaz": 1,
+        "owni-independance": 1,
+        "owni-justeprix": 1,
+        "owni-kaboul": 1,
+        "owni-lula": 1,
+        "owni-manif12102010": 1,
+        "owni-manif19oct": 1,
+        "owni-manif23septembre": 1,
+        "owni-manif7septembre": 1,
+        "owni-midterm": 1,
+        "owni-necro": 1,
+        "owni-omd": 1,
+        "owni-perquiump": 1,
+        "owni-quel-lendemain": 1,
+        "owni-sarkosecu": 1,
+        "owni-taxepro": 1,
+        "owni-the-spying-state": 1,
+        "owni-warlogs-irak": 1,
+        "the-nutty-wall": 1,
+        "twitter-sans-aucun-lien": 1,
+        "v2.pirhoo.com": 1
+      }
+    },
     "2014-12-01": {
       "count": 195,
       "repositories": {
@@ -278,9 +326,11 @@
       }
     },
     "2011-10-01": {
-      "count": 35,
+      "count": 49,
       "repositories": {
-        "alertepolitique": 35
+        "alertepolitique": 35,
+        "obs-primaires": 11,
+        "v0.pirhoo.com": 3
       }
     },
     "2014-3-01": {
@@ -728,31 +778,75 @@
         "rsf-index-2015": 196
       }
     },
-    "2016-8-01": {
-      "count": 228,
+    "2011-8-01": {
+      "count": 1,
       "repositories": {
-        "jquest": 116,
-        "jquest-pg": 109,
-        "pgbot": 1,
-        "v2.pirhoo.com": 1,
+        "influence-networks": 1
+      }
+    },
+    "2011-7-01": {
+      "count": 84,
+      "repositories": {
+        "influence-networks": 81,
+        "v0.pirhoo.com": 3
+      }
+    },
+    "2011-6-01": {
+      "count": 31,
+      "repositories": {
+        "influence-networks": 31
+      }
+    },
+    "2011-5-01": {
+      "count": 38,
+      "repositories": {
+        "influence-networks": 38
+      }
+    },
+    "2011-4-01": {
+      "count": 71,
+      "repositories": {
+        "influence-networks": 71
+      }
+    },
+    "2016-9-01": {
+      "count": 134,
+      "repositories": {
+        "jquest": 70,
+        "jquest-pg": 47,
+        "markovera": 1,
+        "oeko-flotte": 3,
+        "political-gaps": 8,
+        "rentswatch-app": 1,
+        "rentswatch-blog": 1,
+        "v2.pirhoo.com": 3
+      }
+    },
+    "2016-8-01": {
+      "count": 247,
+      "repositories": {
+        "jquest": 124,
+        "jquest-pg": 115,
+        "v2.pirhoo.com": 7,
         "wege-rhein-erft": 1
       }
     },
     "2011-9-01": {
-      "count": 11,
+      "count": 30,
       "repositories": {
-        "LODP": 11
+        "LODP": 11,
+        "v0.pirhoo.com": 19
       }
     }
   },
   "older_commit": {
-    "repository": "LODP",
-    "timestamp": "1316253181",
-    "commit": "56ceb4ffa83bb44659701de0db44c8774dc9a33c"
+    "repository": "influence-networks",
+    "timestamp": "1302281839",
+    "commit": "e785a32200da6ff707288fc8dc97498a10dba9ac"
   },
   "newer_commit": {
-    "repository": "jquest",
-    "timestamp": "1472334290",
-    "commit": "b2fdb3f2bb6d15608bb31436df690cfc8128b890"
+    "repository": "the-nutty-wall",
+    "timestamp": "1477924926",
+    "commit": "4c9cd7b348742aa53c89b0f8377cba92c5e8bc8f"
   }
 }
