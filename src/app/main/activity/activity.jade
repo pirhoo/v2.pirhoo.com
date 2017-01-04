@@ -1,7 +1,7 @@
 section#activity.main__section.main__activity(ng-controller="ActivityCtrl")
   .wrapper(screen-height="600")
     .main__section__panel
-      h2(aria-section="Activity") 
+      h2(aria-section="Activity")
         | I’ve been busy,<br ><strong>let the data talk</strong>
       p.
         My time is split between coding, investigating and teaching.
@@ -11,18 +11,18 @@ section#activity.main__section.main__activity(ng-controller="ActivityCtrl")
       .main__activity__figures__item
         i.fa.fa-fw.fa-code.fa-2x.main__activity__figures__item__icon
         | I authored
-        | <strong>{{ commits.commits_count }}</strong>&nbsp;
+        | <strong>{{ commits.commits_count | number }}</strong>&nbsp;
         | <abbr title="A submission of my latest changes of a source code">commits</abbr> over
-        | <strong>{{ commits.repositories_count }}</strong>&nbsp;projects
+        | <strong>{{ commits.repositories_count | number }}</strong>&nbsp;projects
       .main__activity__figures__item
         i.fa.fa-fw.fa-graduation-cap.fa-2x.main__activity__figures__item__icon
-        | I gave ±<strong>{{ trainings.hours_count }}</strong>&nbsp;hours
+        | I gave ±<strong>{{ trainings.hours_count | number }}</strong>&nbsp;hours
         | of training in
-        | <strong>{{ trainings.countries_count }}</strong>&nbsp;countries
+        | <strong>{{ trainings.countries_count | number }}</strong>&nbsp;countries
       .main__activity__figures__item
         i.fa.fa-fw.fa-trophy.fa-2x.main__activity__figures__item__icon
-        | <strong>{{ awards.awards_count }}</strong>&nbsp;prizes awarded for
-        | <strong>{{awards.projects_count }}</strong>&nbsp;projects
+        | <strong>{{ awards.awards_count | number }}</strong>&nbsp;prizes awarded for
+        | <strong>{{awards.projects_count | number }}</strong>&nbsp;projects
         | I worked on
     .main__activity__chart-wrapper(in-view="projectsInView = projectsInView || $inview")
       activity(commits="commits", ng-if="commits && projectsInView")
