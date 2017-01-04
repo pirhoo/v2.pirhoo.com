@@ -476,6 +476,15 @@
   "height": 128,
   "type": "png"
 }, {
+  "title": "Ile de France: Baromêtre",
+  "thumbnail": "assets/images/thumbnails/idf-barometreherokuappcombarometre.png",
+  "url": "http://idf-barometre.herokuapp.com/barometre/#/",
+  "color": "",
+  "year": "2013",
+  "width": 900,
+  "height": 620,
+  "type": "png"
+}, {
   "title": "Feowl: blackouts à Douala",
   "thumbnail": "assets/images/thumbnails/feowl.jpg",
   "url": "http://feowl.com/",
