@@ -1,6 +1,6 @@
 {
-  "commits_count": 11115,
-  "repositories_count": 148,
+  "commits_count": 11286,
+  "repositories_count": 150,
   "months_count": {
     "2014-12-01": {
       "count": 194,
@@ -150,18 +150,23 @@
       }
     },
     "2017-1-01": {
-      "count": 30,
+      "count": 191,
       "repositories": {
         "alertepolitique-api": 1,
         "alertepolitique-app": 1,
         "assos-pikante": 1,
         "graphism.fr": 1,
-        "gva-watchers": 2,
+        "gva-watchers": 7,
         "iconomanie": 2,
-        "oeko-flotte": 13,
-        "okf-farmcompass": 5,
+        "idf-budget": 27,
+        "jquest": 11,
+        "jquest-pg": 3,
+        "oeko-flotte": 43,
+        "okf-farmcompass": 16,
+        "temptation-city": 56,
         "v0.jplusplus.org": 3,
-        "v2.pirhoo.com": 1
+        "v2.pirhoo.com": 2,
+        "wege-rhein-erft": 17
       }
     },
     "2014-9-01": {
@@ -558,15 +563,16 @@
       }
     },
     "2016-1-01": {
-      "count": 91,
+      "count": 94,
       "repositories": {
         "diercke-gis": 9,
         "feedlist": 8,
         "football-tax": 29,
         "global-directory": 1,
         "idf-quiz": 10,
-        "python_course_en": 3,
+        "python-course-en": 3,
         "python-course-fr": 3,
+        "python-course-fr-correction": 3,
         "rentswatch": 8,
         "rentswatch-app": 9,
         "rentswatch-scraper": 3,
@@ -720,7 +726,7 @@
       }
     },
     "2016-12-01": {
-      "count": 120,
+      "count": 127,
       "repositories": {
         "gva-watchers": 14,
         "jquest": 11,
@@ -729,6 +735,7 @@
         "okf-farmcompass": 39,
         "political-gaps": 7,
         "python-course-fr": 7,
+        "python-course-fr-correction": 7,
         "wege-rhein-erft": 24
       }
     },
@@ -785,8 +792,8 @@
     "commit": "a37f4ac75f16f0ab4762a68cab79c244e8809495"
   },
   "newer_commit": {
-    "repository": "assos-pikante",
-    "timestamp": "1483458590",
-    "commit": "a8fa67826dfe73d4be5b59172ad7805edf15f51b"
+    "repository": "gva-watchers",
+    "timestamp": "1485194982",
+    "commit": "a3ecd4c5b541ef63c55fb0f3aac7d746990a034c"
   }
 }
