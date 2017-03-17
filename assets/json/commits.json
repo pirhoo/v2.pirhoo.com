@@ -1,6 +1,6 @@
 {
-  "commits_count": 11286,
-  "repositories_count": 150,
+  "commits_count": 11913,
+  "repositories_count": 153,
   "months_count": {
     "2014-12-01": {
       "count": 194,
@@ -150,21 +150,25 @@
       }
     },
     "2017-1-01": {
-      "count": 191,
+      "count": 272,
       "repositories": {
         "alertepolitique-api": 1,
         "alertepolitique-app": 1,
         "assos-pikante": 1,
         "graphism.fr": 1,
-        "gva-watchers": 7,
+        "gva-watchers": 10,
         "iconomanie": 2,
-        "idf-budget": 27,
-        "jquest": 11,
-        "jquest-pg": 3,
-        "oeko-flotte": 43,
-        "okf-farmcompass": 16,
-        "temptation-city": 56,
+        "idf-budget": 29,
+        "jquest": 13,
+        "jquest-pg": 4,
+        "oeko-flotte": 50,
+        "okf-farmcompass": 30,
+        "political-gaps": 1,
+        "rentswatch-api": 1,
+        "rentswatch-app": 3,
+        "the-accountant": 101,
         "v0.jplusplus.org": 3,
+        "v2.jplusplus.org": 2,
         "v2.pirhoo.com": 2,
         "wege-rhein-erft": 17
       }
@@ -397,7 +401,7 @@
       }
     },
     "2016-6-01": {
-      "count": 245,
+      "count": 247,
       "repositories": {
         "cartodb-layers": 1,
         "diercke-gis": 14,
@@ -405,6 +409,7 @@
         "jquest-pg": 66,
         "markovera": 4,
         "oeko-kostenrechner": 2,
+        "privat-kostenrechner": 2,
         "rentswatch": 1,
         "rentswatch-api": 6,
         "rentswatch-app": 7,
@@ -415,7 +420,7 @@
       }
     },
     "2016-5-01": {
-      "count": 143,
+      "count": 164,
       "repositories": {
         "cartodb-layers": 2,
         "diercke-gis": 12,
@@ -423,6 +428,7 @@
         "jquest": 3,
         "markovera": 7,
         "oeko-kostenrechner": 21,
+        "privat-kostenrechner": 21,
         "rentswatch": 4,
         "rentswatch-api": 6,
         "rentswatch-app": 7,
@@ -432,13 +438,14 @@
       }
     },
     "2016-2-01": {
-      "count": 195,
+      "count": 275,
       "repositories": {
         "cartodb-layers": 5,
         "diercke-gis": 48,
         "football-tax": 49,
         "google-iframe-scaffolder": 2,
         "oeko-kostenrechner": 80,
+        "privat-kostenrechner": 80,
         "rentswatch": 1,
         "rentswatch-app": 9,
         "v2.pirhoo.com": 1
@@ -530,12 +537,13 @@
       }
     },
     "2016-4-01": {
-      "count": 210,
+      "count": 232,
       "repositories": {
         "diercke-gis": 22,
         "jquest": 13,
         "jquest-pg": 4,
         "oeko-kostenrechner": 22,
+        "privat-kostenrechner": 22,
         "rentswatch": 17,
         "rentswatch-api": 12,
         "rentswatch-app": 96,
@@ -546,7 +554,7 @@
       }
     },
     "2016-3-01": {
-      "count": 227,
+      "count": 274,
       "repositories": {
         "diercke-gis": 27,
         "feedlist": 1,
@@ -556,6 +564,7 @@
         "jquest": 45,
         "jquest-pg": 11,
         "oeko-kostenrechner": 47,
+        "privat-kostenrechner": 47,
         "rentswatch": 5,
         "rentswatch-api": 40,
         "rentswatch-app": 25,
@@ -763,6 +772,32 @@
         "v1.jplusplus.org": 13
       }
     },
+    "2017-3-01": {
+      "count": 64,
+      "repositories": {
+        "idf-budget": 5,
+        "jquest": 23,
+        "jquest-pg": 6,
+        "ob-recipes": 2,
+        "oeko-flotte": 15,
+        "privat-kostenrechner": 11,
+        "white-shortener": 2
+      }
+    },
+    "2017-2-01": {
+      "count": 310,
+      "repositories": {
+        "idf-budget": 1,
+        "jquest": 67,
+        "jquest-pg": 53,
+        "oeko-flotte": 25,
+        "oeko-kostenrechner": 1,
+        "political-gaps": 3,
+        "privat-kostenrechner": 1,
+        "the-accountant": 158,
+        "vibrations": 1
+      }
+    },
     "2016-9-01": {
       "count": 134,
       "repositories": {
@@ -792,8 +827,8 @@
     "commit": "a37f4ac75f16f0ab4762a68cab79c244e8809495"
   },
   "newer_commit": {
-    "repository": "gva-watchers",
-    "timestamp": "1485194982",
-    "commit": "a3ecd4c5b541ef63c55fb0f3aac7d746990a034c"
+    "repository": "jquest",
+    "timestamp": "1489684727",
+    "commit": "a742b1e48ebafaeaf182d4b73134f0f88873b8b5"
   }
 }

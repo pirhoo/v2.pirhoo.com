@@ -1,4 +1,67 @@
 [{
+  "title": "The Good, The Bad and The Accountant",
+  "thumbnail": "assets/images/thumbnails/jplusplusgithubiothe-accountant.png",
+  "url": "https://jplusplus.github.io/the-accountant/",
+  "color": "",
+  "year": "2017",
+  "width": 200,
+  "height": 102,
+  "type": "png"
+}, {
+  "title": "OOMG",
+  "thumbnail": "assets/images/thumbnails/oomgjplusplusorg.png",
+  "url": "http://oomg.jplusplus.org",
+  "color": "",
+  "year": "2016",
+  "width": 200,
+  "height": 129,
+  "type": "png"
+}, {
+  "title": "Geneva Watchers",
+  "thumbnail": "assets/images/thumbnails/twittercomgva_watcher.png",
+  "url": "https://twitter.com/gva_watcher",
+  "color": "",
+  "year": "2017",
+  "width": 200,
+  "height": 105,
+  "type": "png"
+}, {
+  "title": "Wege Rhein-Erft",
+  "thumbnail": "assets/images/thumbnails/wrejplusplusorg.png",
+  "url": "http://wre.jplusplus.org/",
+  "color": "",
+  "year": "2017",
+  "width": 200,
+  "height": 113,
+  "type": "png"
+}, {
+  "title": "Oeko Flotte",
+  "thumbnail": "assets/images/thumbnails/oeko-flotteherokuappcom.png",
+  "url": "http://oeko-flotte.herokuapp.com",
+  "color": "",
+  "year": "2017",
+  "width": 200,
+  "height": 113,
+  "type": "png"
+}, {
+  "title": "OKF: Farm Compass",
+  "thumbnail": "assets/images/thumbnails/jplusplusgithubiookf-farmcompassen_be.png",
+  "url": "https://jplusplus.github.io/okf-farmcompass/#!/en_BE",
+  "color": "",
+  "year": "2017",
+  "width": 200,
+  "height": 102,
+  "type": "png"
+}, {
+  "title": "Political Gaps",
+  "thumbnail": "assets/images/thumbnails/politicalgapseu.png",
+  "url": "http://politicalgaps.eu",
+  "color": "",
+  "year": "2016",
+  "width": 200,
+  "height": 129,
+  "type": "png"
+}, {
   "title": "jQuest",
   "thumbnail": "assets/images/thumbnails/jquest.png",
   "url": "http://www.jquestapp.com",
@@ -46,18 +109,9 @@
 }, {
   "title": "Future by Trump",
   "thumbnail": "assets/images/thumbnails/fbt.png",
-  "url": "http://www.futurebytrump.com/",
+  "url": "https://pirhoo.github.io/futurebytrump/",
   "color": "#B20107",
   "year": "2016",
-  "width": 200,
-  "height": 99,
-  "type": "png"
-}, {
-  "title": "Fledit",
-  "thumbnail": "assets/images/thumbnails/fledit.png",
-  "url": "http://fledit.io/",
-  "color": "#474244",
-  "year": "2015",
   "width": 200,
   "height": 99,
   "type": "png"
@@ -481,8 +535,8 @@
   "url": "http://idf-barometre.herokuapp.com/barometre/#/",
   "color": "",
   "year": "2013",
-  "width": 900,
-  "height": 620,
+  "width": 200,
+  "height": 138,
   "type": "png"
 }, {
   "title": "Feowl: blackouts à Douala",
