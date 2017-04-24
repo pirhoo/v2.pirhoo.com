@@ -1,6 +1,6 @@
 {
-  "commits_count": 11913,
-  "repositories_count": 153,
+  "commits_count": 11970,
+  "repositories_count": 159,
   "months_count": {
     "2014-12-01": {
       "count": 194,
@@ -525,6 +525,21 @@
         "marmhut": 75
       }
     },
+    "2017-4-01": {
+      "count": 37,
+      "repositories": {
+        "devenir-espion": 19,
+        "devenir-francais": 1,
+        "doctolib-test": 5,
+        "erythree": 3,
+        "InstaPy": 1,
+        "oeko-flotte": 1,
+        "oeko-kostenrechner": 2,
+        "privat-kostenrechner": 2,
+        "the-accountant": 2,
+        "wege-rhein-erft": 1
+      }
+    },
     "2016-7-01": {
       "count": 114,
       "repositories": {
@@ -734,6 +749,23 @@
         "rsf-index-2015": 196
       }
     },
+    "2017-3-01": {
+      "count": 100,
+      "repositories": {
+        "futurebytrump": 2,
+        "idf-budget": 5,
+        "jquest-pg": 6,
+        "morano-2017": 1,
+        "ob-recipes": 2,
+        "oeko-flotte": 16,
+        "offshore-journalism": 30,
+        "privat-kostenrechner": 11,
+        "the-accountant": 4,
+        "v2.pirhoo.com": 2,
+        "wege-rhein-erft": 19,
+        "white-shortener": 2
+      }
+    },
     "2016-12-01": {
       "count": 127,
       "repositories": {
@@ -772,23 +804,11 @@
         "v1.jplusplus.org": 13
       }
     },
-    "2017-3-01": {
-      "count": 64,
-      "repositories": {
-        "idf-budget": 5,
-        "jquest": 23,
-        "jquest-pg": 6,
-        "ob-recipes": 2,
-        "oeko-flotte": 15,
-        "privat-kostenrechner": 11,
-        "white-shortener": 2
-      }
-    },
     "2017-2-01": {
-      "count": 310,
+      "count": 294,
       "repositories": {
         "idf-budget": 1,
-        "jquest": 67,
+        "jquest": 51,
         "jquest-pg": 53,
         "oeko-flotte": 25,
         "oeko-kostenrechner": 1,
@@ -827,8 +847,8 @@
     "commit": "a37f4ac75f16f0ab4762a68cab79c244e8809495"
   },
   "newer_commit": {
-    "repository": "jquest",
-    "timestamp": "1489684727",
-    "commit": "a742b1e48ebafaeaf182d4b73134f0f88873b8b5"
+    "repository": "InstaPy",
+    "timestamp": "1492795494",
+    "commit": "980ab5cefd95b028f75f3ba4204eb5c6fc7caa05"
   }
 }
