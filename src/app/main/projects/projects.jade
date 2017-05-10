@@ -6,13 +6,13 @@ section#projects.main__section.main__projects(ng-if="projects")
       p.
         According to my <a href="http://coderstats.net/github/pirhoo/" target="_blank">Github Stats</a>
         I mostly code in Javascript and Python. Both are my favorite languages.
-        Almost all my projects are Open Source and available on <a href="https://github.com/pirhoo?tab=activity" target="_blank">Github</a>.        
+        Almost all my projects are Open Source and available on <a href="https://github.com/pirhoo?tab=activity" target="_blank">Github</a>.
     masonry.main__projects__cascading.container-base(projects, reload-on-resize, infinite-scroll="projects.next()", infinite-scroll-disabled='projects.busy')
       .masonry-brick.main__projects__cascading__item(ng-repeat="project in projects.objects",
                                        ng-class="{ 'main__projects__cascading__item--in-view': project.inView }"
                                        in-view="project.inView = project.inView || $inview")
-        a.main__projects__cascading__item__wrapper(ng-href="{{ project.url }}")          
+        a.main__projects__cascading__item__wrapper(ng-href="{{ project.url }}")
           .main__projects__cascading__item__wrapper__ghost
-            div(ng-style="{ 'padding-top': project.height / project.width * 100 + '%' }")
+            div(ng-style="{ 'padding-top': project.height / project.width * 100 + '%' }", data-height="{{ project.height }}")
           img.main__projects__cascading__item__wrapper__thumbnail(ng-src="{{ project.thumbnail }}")
           .main__projects__cascading__item__wrapper__title {{ project.title }}
