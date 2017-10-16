@@ -1,854 +1,873 @@
 {
-  "commits_count": 11970,
-  "repositories_count": 159,
+  "commits_count": 12137,
+  "repositories_count": 143,
   "months_count": {
     "2014-12-01": {
       "count": 194,
       "repositories": {
-        "afdas-interactive": 1,
-        "detective.io": 160,
-        "fledit.io": 30,
-        "idf-budget": 1,
-        "v2.jplusplus.org": 2
+        "1140646155": 30,
+        "2158157017": 160,
+        "3363360781": 2,
+        "4200087900": 1,
+        "4209872455": 1
       }
     },
     "2014-11-01": {
-      "count": 314,
+      "count": 257,
       "repositories": {
-        "afdas-interactive": 2,
-        "detective.io": 123,
-        "fledit.io": 42,
-        "google-iframe-scaffolder": 57,
-        "idf-interactive": 25,
-        "idf-lycees": 3,
-        "idf-quiz": 1,
-        "iframe-scaffolder": 57,
-        "pltv-jeudinfluences": 1,
-        "v1.pirhoo.com": 1,
-        "v2.jplusplus.org": 2
+        "417815098": 57,
+        "423622333": 1,
+        "445558707": 3,
+        "1140646155": 42,
+        "1381278567": 1,
+        "2158157017": 123,
+        "3363360781": 2,
+        "3382738058": 1,
+        "4042981741": 25,
+        "4200087900": 2
       }
     },
     "2014-10-01": {
       "count": 321,
       "repositories": {
-        "afdas-interactive": 141,
-        "detective.io": 60,
-        "gw-greatripoffmap-private": 71,
-        "idf-interactive": 36,
-        "idf-lycees": 4,
-        "idf-quiz": 8,
-        "marmhut": 1
+        "423622333": 8,
+        "445558707": 4,
+        "760100701": 71,
+        "998557485": 1,
+        "2158157017": 60,
+        "4042981741": 36,
+        "4200087900": 141
       }
     },
     "2014-6-01": {
       "count": 228,
       "repositories": {
-        "afdas-interactive": 8,
-        "bnpp-odyssee-jeunes": 5,
-        "detective.io": 78,
-        "foeng": 5,
-        "idf-barometre": 2,
-        "idf-cartocfa": 89,
-        "idf-interactive": 8,
-        "idf-quiz": 25,
-        "logo.js": 1,
-        "pltv-jeudinfluences": 3,
-        "presentations": 4
+        "423622333": 25,
+        "835504438": 5,
+        "841158921": 1,
+        "1100289154": 5,
+        "1236594448": 4,
+        "1381278567": 3,
+        "2158157017": 78,
+        "4042981741": 8,
+        "4045647338": 89,
+        "4200087900": 8,
+        "4214563520": 2
       }
     },
     "2014-1-01": {
       "count": 129,
       "repositories": {
-        "afdas-interactive": 1,
-        "detective.io": 91,
-        "idf-barometre": 4,
-        "idf-budget": 26,
-        "idf-interactive": 1,
-        "idf-lycees": 4,
-        "wikileaks-kissinger-cables": 2
+        "365815357": 2,
+        "445558707": 4,
+        "2158157017": 91,
+        "4042981741": 1,
+        "4200087900": 1,
+        "4209872455": 26,
+        "4214563520": 4
       }
     },
     "2013-12-01": {
       "count": 149,
       "repositories": {
-        "afdas-interactive": 2,
-        "aucun-lien": 2,
-        "bnpp-odyssee-jeunes": 7,
-        "broken-promises-client": 1,
-        "detective.io": 78,
-        "feowl-frontend": 3,
-        "idf-budget": 21,
-        "idf-interactive": 2,
-        "jpp-birthday-2013": 12,
-        "presentations": 8,
-        "v1.jplusplus.org": 10,
-        "wikileaks-kissinger-cables": 3
+        "361981708": 12,
+        "365815357": 3,
+        "835504438": 7,
+        "1018754048": 2,
+        "1236594448": 8,
+        "1587983335": 1,
+        "2158157017": 78,
+        "2593799209": 3,
+        "3418982659": 10,
+        "4042981741": 2,
+        "4200087900": 2,
+        "4209872455": 21
       }
     },
     "2013-6-01": {
       "count": 199,
       "repositories": {
-        "afdas-interactive": 40,
-        "desdonneespourlautisme": 1,
-        "feowl-frontend": 5,
-        "idf-barometre": 78,
-        "idf-interactive": 40,
-        "janus": 4,
-        "v1.jplusplus.org": 31
+        "528869414": 4,
+        "2194352464": 1,
+        "2593799209": 5,
+        "3418982659": 31,
+        "4042981741": 40,
+        "4200087900": 40,
+        "4214563520": 78
       }
     },
     "2013-5-01": {
       "count": 241,
       "repositories": {
-        "afdas-interactive": 15,
-        "arte-chi": 107,
-        "baucis": 2,
-        "dataplayer": 90,
-        "feowl-frontend": 2,
-        "idf-interactive": 15,
-        "idf-lycees": 5,
-        "v1.jplusplus.org": 5
+        "445558707": 5,
+        "1029724295": 2,
+        "2199094743": 90,
+        "2593799209": 2,
+        "3418982659": 5,
+        "4042981741": 15,
+        "4114975203": 107,
+        "4200087900": 15
       }
     },
     "2013-4-01": {
       "count": 218,
       "repositories": {
-        "afdas-interactive": 5,
-        "arte-chi": 60,
-        "camcuts": 2,
-        "dataplayer": 96,
-        "idf-interactive": 5,
-        "wikileaks-kissinger-cables": 50
+        "365815357": 50,
+        "1557087854": 2,
+        "2199094743": 96,
+        "4042981741": 5,
+        "4114975203": 60,
+        "4200087900": 5
       }
     },
     "2013-3-01": {
       "count": 509,
       "repositories": {
-        "afdas-interactive": 77,
-        "arte-chi": 329,
-        "desdonneespourlautisme": 7,
-        "idf-interactive": 77,
-        "jquest-client-archive": 1,
-        "jquest-core-archive": 1,
-        "presentations": 4,
-        "v1.jplusplus.org": 3,
-        "wikileaks-kissinger-cables": 10
+        "365815357": 10,
+        "1236594448": 4,
+        "2194352464": 7,
+        "3246491416": 1,
+        "3297427597": 1,
+        "3418982659": 3,
+        "4042981741": 77,
+        "4114975203": 329,
+        "4200087900": 77
       }
     },
     "2012-4-01": {
-      "count": 24,
+      "count": 23,
       "repositories": {
-        "afp": 22,
-        "branche-ton-sontone": 1,
-        "matilda": 1
+        "806643121": 1,
+        "4219530715": 22
       }
     },
     "2012-3-01": {
       "count": 8,
       "repositories": {
-        "afp": 8
+        "4219530715": 8
       }
     },
     "2017-1-01": {
-      "count": 272,
+      "count": 269,
       "repositories": {
-        "alertepolitique-api": 1,
-        "alertepolitique-app": 1,
-        "assos-pikante": 1,
-        "graphism.fr": 1,
-        "gva-watchers": 10,
-        "iconomanie": 2,
-        "idf-budget": 29,
-        "jquest": 13,
-        "jquest-pg": 4,
-        "oeko-flotte": 50,
-        "okf-farmcompass": 30,
-        "political-gaps": 1,
-        "rentswatch-api": 1,
-        "rentswatch-app": 3,
-        "the-accountant": 101,
-        "v0.jplusplus.org": 3,
-        "v2.jplusplus.org": 2,
-        "v2.pirhoo.com": 2,
-        "wege-rhein-erft": 17
+        "313480225": 17,
+        "575930338": 1,
+        "660125815": 10,
+        "732604663": 101,
+        "1053884809": 1,
+        "1542681923": 1,
+        "2335342149": 30,
+        "2514056615": 1,
+        "2544926766": 3,
+        "3257982486": 4,
+        "3283547040": 2,
+        "3342571907": 13,
+        "3363360781": 2,
+        "3862032669": 50,
+        "4164007125": 1,
+        "4183611209": 2,
+        "4209872455": 29,
+        "4248499008": 1
       }
     },
     "2014-9-01": {
       "count": 278,
       "repositories": {
-        "alt-j": 22,
-        "detective.io": 90,
-        "gw-greatripoffmap-private": 141,
-        "marmhut": 18,
-        "wut": 7
+        "503563664": 7,
+        "760100701": 141,
+        "998557485": 18,
+        "2158157017": 90,
+        "4242694087": 22
       }
     },
     "2014-3-01": {
       "count": 255,
       "repositories": {
-        "angular-nouislider": 1,
-        "arte-world-of-work": 74,
-        "bnpp-odyssee-jeunes": 1,
-        "detective.io": 40,
-        "edj-cgvv": 6,
-        "edj-stereopub": 14,
-        "foeng": 7,
-        "idf-barometre": 20,
-        "pltv-jeudinfluences": 88,
-        "presentations": 4
+        "835504438": 1,
+        "1057598734": 74,
+        "1100289154": 7,
+        "1236594448": 4,
+        "1381278567": 88,
+        "2158157017": 40,
+        "2655639355": 14,
+        "2677111740": 6,
+        "4214563520": 20,
+        "4283631305": 1
       }
     },
     "2015-8-01": {
-      "count": 190,
+      "count": 189,
       "repositories": {
-        "arte-chi": 5,
-        "arte-world-of-work": 7,
-        "bnpp-odyssee-jeunes": 8,
-        "desdonneespourlautisme": 4,
-        "detective.io": 14,
-        "diercke-gis": 2,
-        "dystopia-tracker": 5,
-        "edj-cgvv": 1,
-        "edj-stereopub": 1,
-        "feowl-frontend": 1,
-        "fledit.io": 1,
-        "fledit.js": 9,
-        "google-iframe-scaffolder": 1,
-        "gw-greatripoffmap": 1,
-        "gw-greatripoffmap-private": 7,
-        "idf-barometre": 6,
-        "idf-lycees": 2,
-        "jpp-prerender": 12,
-        "logo.js": 1,
-        "presentations": 1,
-        "rentswatch": 89,
-        "themigrantsfiles.com": 7,
-        "v2.jplusplus.org": 4,
-        "v2.pirhoo.com": 1
+        "417815098": 1,
+        "445558707": 2,
+        "760100701": 7,
+        "796476389": 7,
+        "835504438": 8,
+        "841158921": 1,
+        "1057598734": 7,
+        "1109675404": 9,
+        "1140646155": 1,
+        "1236594448": 1,
+        "2158157017": 14,
+        "2194352464": 4,
+        "2242485068": 2,
+        "2349747560": 5,
+        "2483149088": 89,
+        "2593799209": 1,
+        "2655639355": 1,
+        "2677111740": 1,
+        "3283547040": 1,
+        "3336779012": 12,
+        "3363360781": 4,
+        "4114975203": 5,
+        "4214563520": 6
       }
     },
     "2014-4-01": {
       "count": 316,
       "repositories": {
-        "arte-world-of-work": 1,
-        "bnpp-odyssee-jeunes": 5,
-        "detective.io": 1,
-        "dystopia-tracker": 9,
-        "edj-cgvv": 5,
-        "edj-stereopub": 1,
-        "marmhut": 9,
-        "pltv-jeudinfluences": 283,
-        "programmers-proverbs": 2
+        "835504438": 5,
+        "998557485": 9,
+        "1057598734": 1,
+        "1272781465": 2,
+        "1381278567": 283,
+        "2158157017": 1,
+        "2349747560": 9,
+        "2655639355": 1,
+        "2677111740": 5
       }
     },
     "2014-2-01": {
-      "count": 262,
+      "count": 257,
       "repositories": {
-        "arte-world-of-work": 89,
-        "branche-ton-sontone": 5,
-        "detective.io": 133,
-        "dragons-gifts": 16,
-        "matilda": 5,
-        "v1.jplusplus.org": 1,
-        "v1.pirhoo.com": 13
+        "806643121": 5,
+        "1057598734": 89,
+        "2158157017": 133,
+        "2379669999": 16,
+        "3382738058": 13,
+        "3418982659": 1
       }
     },
     "2013-9-01": {
       "count": 232,
       "repositories": {
-        "benford-calculator": 15,
-        "bnpp-odyssee-jeunes": 50,
-        "detective.io": 85,
-        "feowl-api": 2,
-        "heroku-buildpack-django": 2,
-        "idf-pnr": 63,
-        "spendingstories": 9,
-        "theme-nyancat": 3,
-        "v1.jplusplus.org": 3
+        "458621748": 63,
+        "712115312": 3,
+        "748067802": 2,
+        "835504438": 50,
+        "968078229": 15,
+        "2158157017": 85,
+        "2604830894": 2,
+        "3418982659": 3,
+        "4051512539": 9
+      }
+    },
+    "2017-7-01": {
+      "count": 39,
+      "repositories": {
+        "1004160540": 4,
+        "1298596866": 11,
+        "2335342149": 1,
+        "3390121348": 6,
+        "3474612753": 5,
+        "4019103493": 12
+      }
+    },
+    "2017-6-01": {
+      "count": 190,
+      "repositories": {
+        "645928176": 4,
+        "1004160540": 34,
+        "1298596866": 125,
+        "4019103493": 27
+      }
+    },
+    "2017-5-01": {
+      "count": 177,
+      "repositories": {
+        "281452968": 3,
+        "1004160540": 39,
+        "1298596866": 64,
+        "3283547040": 1,
+        "3862032669": 3,
+        "3947220011": 1,
+        "4019103493": 66
       }
     },
     "2015-5-01": {
       "count": 371,
       "repositories": {
-        "bnpp-odyssee-jeunes": 2,
-        "cartodb-layers": 8,
-        "detective.io": 17,
-        "diercke-gis": 153,
-        "fledit.cdn": 5,
-        "fledit.io": 23,
-        "fledit.js": 32,
-        "gw-greatripoffmap-private": 2,
-        "lemondeatilundirecteur.fr": 11,
-        "logo.js": 2,
-        "rts-parlometre": 60,
-        "themigrantsfiles.com": 13,
-        "v2.pirhoo.com": 43
+        "760100701": 2,
+        "796476389": 13,
+        "835504438": 2,
+        "841158921": 2,
+        "925390492": 11,
+        "1109675404": 32,
+        "1140646155": 23,
+        "1478274428": 8,
+        "2158157017": 17,
+        "2242485068": 153,
+        "2425139971": 5,
+        "3283547040": 43,
+        "4121872329": 60
       }
     },
     "2015-4-01": {
-      "count": 202,
+      "count": 193,
       "repositories": {
-        "bnpp-odyssee-jeunes": 1,
-        "cartodb-layers": 9,
-        "detective.io": 11,
-        "diercke-gis": 127,
-        "fledit.io": 31,
-        "fledit.js": 4,
-        "gw-greatripoffmap-private": 1,
-        "logo.js": 2,
-        "msf-ebola": 6,
-        "owni-plr": 9,
-        "v2.jplusplus.org": 1
+        "760100701": 1,
+        "835504438": 1,
+        "841158921": 2,
+        "1109675404": 4,
+        "1140646155": 31,
+        "1478274428": 9,
+        "2158157017": 11,
+        "2242485068": 127,
+        "3363360781": 1,
+        "3947220011": 6
       }
     },
     "2015-3-01": {
-      "count": 341,
+      "count": 287,
       "repositories": {
-        "bnpp-odyssee-jeunes": 5,
-        "cartodb-layers": 26,
-        "detective.io": 12,
-        "diercke-gis": 15,
-        "fledit.io": 13,
-        "msf-ebola": 166,
-        "owni-plr": 54,
-        "rf-departementales-2015": 47,
-        "v1.pirhoo.com": 2,
-        "v2.pirhoo.com": 1
+        "835504438": 5,
+        "1140646155": 13,
+        "1478274428": 26,
+        "2158157017": 12,
+        "2242485068": 15,
+        "2596584728": 47,
+        "3283547040": 1,
+        "3382738058": 2,
+        "3947220011": 166
       }
     },
     "2014-5-01": {
       "count": 242,
       "repositories": {
-        "bnpp-odyssee-jeunes": 75,
-        "detective.io": 42,
-        "idf-barometre": 27,
-        "idf-quiz": 54,
-        "logo.js": 2,
-        "neo4django": 3,
-        "pltv-jeudinfluences": 39
+        "423622333": 54,
+        "835504438": 75,
+        "841158921": 2,
+        "1381278567": 39,
+        "2158157017": 42,
+        "3936182444": 3,
+        "4214563520": 27
       }
     },
     "2013-8-01": {
       "count": 205,
       "repositories": {
-        "bnpp-odyssee-jeunes": 9,
-        "detective.io": 107,
-        "feowl-api": 1,
-        "neo4django": 4,
-        "outiviz": 6,
-        "spendingstories": 61,
-        "theme-nyancat": 10,
-        "v1.jplusplus.org": 7
+        "712115312": 10,
+        "835504438": 9,
+        "2158157017": 107,
+        "2413925719": 6,
+        "2604830894": 1,
+        "3418982659": 7,
+        "3936182444": 4,
+        "4051512539": 61
       }
     },
     "2013-7-01": {
       "count": 150,
       "repositories": {
-        "bnpp-odyssee-jeunes": 40,
-        "detective.io": 18,
-        "feowl-api": 4,
-        "feowl-frontend": 20,
-        "idf-barometre": 64,
-        "v1.jplusplus.org": 4
+        "835504438": 40,
+        "2158157017": 18,
+        "2593799209": 20,
+        "2604830894": 4,
+        "3418982659": 4,
+        "4214563520": 64
       }
     },
     "2015-6-01": {
-      "count": 420,
+      "count": 413,
       "repositories": {
-        "branche-ton-sontone": 1,
-        "cartodb-layers": 30,
-        "diercke-gis": 125,
-        "fledit.js": 5,
-        "google-iframe-scaffolder": 6,
-        "iframe-scaffolder": 6,
-        "liquidoc": 20,
-        "matilda": 1,
-        "presentations": 6,
-        "redirect.themigrantsfiles.com": 3,
-        "rts-parlometre": 92,
-        "rts-parlometre-generator": 21,
-        "themigrantsfiles.com": 22,
-        "tmf-map": 22,
-        "tmf-moneytrail": 26,
-        "v1.pirhoo.com": 4,
-        "v2.pirhoo.com": 30
+        "417815098": 6,
+        "652121537": 22,
+        "654719302": 26,
+        "796476389": 22,
+        "806643121": 1,
+        "921762331": 20,
+        "1109675404": 5,
+        "1198623528": 3,
+        "1236594448": 6,
+        "1478274428": 30,
+        "2242485068": 125,
+        "3283547040": 30,
+        "3382738058": 4,
+        "4121872329": 92,
+        "4157026880": 21
       }
     },
     "2013-11-01": {
       "count": 175,
       "repositories": {
-        "broken-promises-client": 1,
-        "detective.io": 105,
-        "idf-barometre": 12,
-        "presentations": 16,
-        "rss2wp": 9,
-        "spendingstories": 1,
-        "v1.jplusplus.org": 6,
-        "wikileaks-cg-analyser": 12,
-        "wikileaks-kissinger-cables": 13
+        "365815357": 13,
+        "396628916": 12,
+        "1236594448": 16,
+        "1587983335": 1,
+        "2158157017": 105,
+        "3418982659": 6,
+        "4051512539": 1,
+        "4101401422": 9,
+        "4214563520": 12
       }
     },
     "2013-10-01": {
       "count": 273,
       "repositories": {
-        "broken-promises-client": 16,
-        "detective.io": 202,
-        "heroku-buildpack-django": 24,
-        "idf-barometre": 1,
-        "neo4django": 4,
-        "spendingstories": 16,
-        "v1.jplusplus.org": 10
+        "748067802": 24,
+        "1587983335": 16,
+        "2158157017": 202,
+        "3418982659": 10,
+        "3936182444": 4,
+        "4051512539": 16,
+        "4214563520": 1
       }
     },
     "2016-6-01": {
-      "count": 247,
+      "count": 245,
       "repositories": {
-        "cartodb-layers": 1,
-        "diercke-gis": 14,
-        "jquest": 94,
-        "jquest-pg": 66,
-        "markovera": 4,
-        "oeko-kostenrechner": 2,
-        "privat-kostenrechner": 2,
-        "rentswatch": 1,
-        "rentswatch-api": 6,
-        "rentswatch-app": 7,
-        "rentswatch-scraper": 1,
-        "surveybot": 7,
-        "turkish-puppets": 9,
-        "wege-rhein-erft": 33
+        "313480225": 33,
+        "979135402": 4,
+        "1478274428": 1,
+        "2242485068": 14,
+        "2461779899": 1,
+        "2483149088": 1,
+        "2514056615": 6,
+        "2544926766": 7,
+        "3257982486": 66,
+        "3342571907": 94,
+        "3388931515": 2,
+        "3433773855": 9,
+        "4218135537": 7
       }
     },
     "2016-5-01": {
-      "count": 164,
+      "count": 143,
       "repositories": {
-        "cartodb-layers": 2,
-        "diercke-gis": 12,
-        "feedlist": 1,
-        "jquest": 3,
-        "markovera": 7,
-        "oeko-kostenrechner": 21,
-        "privat-kostenrechner": 21,
-        "rentswatch": 4,
-        "rentswatch-api": 6,
-        "rentswatch-app": 7,
-        "rentswatch-scraper": 1,
-        "turkish-puppets": 10,
-        "wege-rhein-erft": 69
+        "313480225": 69,
+        "979135402": 7,
+        "1478274428": 2,
+        "2242485068": 12,
+        "2461779899": 1,
+        "2483149088": 4,
+        "2514056615": 6,
+        "2544926766": 7,
+        "2566113696": 1,
+        "3342571907": 3,
+        "3388931515": 21,
+        "3433773855": 10
       }
     },
     "2016-2-01": {
-      "count": 275,
+      "count": 195,
       "repositories": {
-        "cartodb-layers": 5,
-        "diercke-gis": 48,
-        "football-tax": 49,
-        "google-iframe-scaffolder": 2,
-        "oeko-kostenrechner": 80,
-        "privat-kostenrechner": 80,
-        "rentswatch": 1,
-        "rentswatch-app": 9,
-        "v2.pirhoo.com": 1
+        "417815098": 2,
+        "1151226647": 49,
+        "1478274428": 5,
+        "2242485068": 48,
+        "2483149088": 1,
+        "2544926766": 9,
+        "3283547040": 1,
+        "3388931515": 80
       }
     },
     "2015-12-01": {
       "count": 113,
       "repositories": {
-        "cartodb-layers": 2,
-        "diercke-gis": 13,
-        "feedlist": 4,
-        "football-tax": 28,
-        "football-tax-blog": 2,
-        "football-tax-landing": 4,
-        "logo.js": 2,
-        "rentswatch": 22,
-        "rentswatch-app": 25,
-        "rentswatch-scraper": 10,
-        "v2.pirhoo.com": 1
+        "841158921": 2,
+        "1151226647": 28,
+        "1162280848": 2,
+        "1194265113": 4,
+        "1478274428": 2,
+        "2242485068": 13,
+        "2461779899": 10,
+        "2483149088": 22,
+        "2544926766": 25,
+        "2566113696": 4,
+        "3283547040": 1
       }
     },
     "2014-8-01": {
       "count": 165,
       "repositories": {
-        "coffee-once": 6,
-        "detective.io": 49,
-        "gw-greatripoffmap-private": 87,
-        "marmhut": 12,
-        "v1.pirhoo.com": 11
+        "760100701": 87,
+        "998557485": 12,
+        "1371241304": 6,
+        "2158157017": 49,
+        "3382738058": 11
+      }
+    },
+    "2017-8-01": {
+      "count": 122,
+      "repositories": {
+        "473215272": 19,
+        "1298596866": 18,
+        "1348720607": 1,
+        "2304478156": 13,
+        "3474612753": 71
       }
     },
     "2013-2-01": {
       "count": 167,
       "repositories": {
-        "desdonneespourlautisme": 19,
-        "jquest-client-archive": 53,
-        "jquest-core-archive": 37,
-        "jquest-mission-archive": 16,
-        "kartograph.org": 2,
-        "wikileaks-kissinger-cables": 40
+        "365815357": 40,
+        "2194352464": 19,
+        "3227069343": 16,
+        "3246491416": 37,
+        "3286790801": 2,
+        "3297427597": 53
       }
     },
     "2015-7-01": {
-      "count": 214,
+      "count": 190,
       "repositories": {
-        "detective.io": 7,
-        "diercke-gis": 49,
-        "fledit.io": 3,
-        "google-iframe-scaffolder": 74,
-        "graveyard": 9,
-        "iframe-scaffolder": 24,
-        "rentswatch": 36,
-        "rts-parlometre": 3,
-        "rts-parlometre-generator": 4,
-        "v2.pirhoo.com": 5
+        "417815098": 74,
+        "540674667": 9,
+        "1140646155": 3,
+        "2158157017": 7,
+        "2242485068": 49,
+        "2483149088": 36,
+        "3283547040": 5,
+        "4121872329": 3,
+        "4157026880": 4
       }
     },
     "2015-2-01": {
-      "count": 256,
+      "count": 248,
       "repositories": {
-        "detective.io": 78,
-        "dystopia-tracker": 2,
-        "google-iframe-scaffolder": 8,
-        "iframe-scaffolder": 8,
-        "msf-ebola": 70,
-        "rsf-index-2015": 86,
-        "v2.pirhoo.com": 4
+        "417815098": 8,
+        "2158157017": 78,
+        "2349747560": 2,
+        "2602307999": 86,
+        "3283547040": 4,
+        "3947220011": 70
       }
     },
     "2014-7-01": {
       "count": 393,
       "repositories": {
-        "detective.io": 282,
-        "global-directory": 2,
-        "gw-greatripoffmap-private": 25,
-        "idf-quiz": 9,
-        "marmhut": 75
+        "423622333": 9,
+        "760100701": 25,
+        "998557485": 75,
+        "1295615283": 2,
+        "2158157017": 282
       }
     },
     "2017-4-01": {
-      "count": 37,
+      "count": 42,
       "repositories": {
-        "devenir-espion": 19,
-        "devenir-francais": 1,
-        "doctolib-test": 5,
-        "erythree": 3,
-        "InstaPy": 1,
-        "oeko-flotte": 1,
-        "oeko-kostenrechner": 2,
-        "privat-kostenrechner": 2,
-        "the-accountant": 2,
-        "wege-rhein-erft": 1
+        "313480225": 1,
+        "732604663": 2,
+        "2172285022": 19,
+        "2222012363": 1,
+        "2249769538": 10,
+        "2650312245": 3,
+        "3283547040": 2,
+        "3388931515": 2,
+        "3862032669": 2
       }
     },
     "2016-7-01": {
       "count": 114,
       "repositories": {
-        "diercke-gis": 3,
-        "jquest": 66,
-        "jquest-blog": 2,
-        "jquest-pg": 39,
-        "rentswatch-app": 1,
-        "wege-rhein-erft": 3
+        "313480225": 3,
+        "2242485068": 3,
+        "2544926766": 1,
+        "3257982486": 39,
+        "3310513162": 2,
+        "3342571907": 66
       }
     },
     "2016-4-01": {
-      "count": 232,
+      "count": 210,
       "repositories": {
-        "diercke-gis": 22,
-        "jquest": 13,
-        "jquest-pg": 4,
-        "oeko-kostenrechner": 22,
-        "privat-kostenrechner": 22,
-        "rentswatch": 17,
-        "rentswatch-api": 12,
-        "rentswatch-app": 96,
-        "rentswatch-scraper": 13,
-        "turkish-puppets": 5,
-        "v2.jplusplus.org": 1,
-        "v2.pirhoo.com": 5
+        "2242485068": 22,
+        "2461779899": 13,
+        "2483149088": 17,
+        "2514056615": 12,
+        "2544926766": 96,
+        "3257982486": 4,
+        "3283547040": 5,
+        "3342571907": 13,
+        "3363360781": 1,
+        "3388931515": 22,
+        "3433773855": 5
       }
     },
     "2016-3-01": {
-      "count": 274,
+      "count": 227,
       "repositories": {
-        "diercke-gis": 27,
-        "feedlist": 1,
-        "football-tax": 1,
-        "futurebytrump": 15,
-        "intern-jpp": 4,
-        "jquest": 45,
-        "jquest-pg": 11,
-        "oeko-kostenrechner": 47,
-        "privat-kostenrechner": 47,
-        "rentswatch": 5,
-        "rentswatch-api": 40,
-        "rentswatch-app": 25,
-        "rentswatch-scraper": 6
+        "509428897": 4,
+        "1151226647": 1,
+        "1190635166": 15,
+        "2242485068": 27,
+        "2461779899": 6,
+        "2483149088": 5,
+        "2514056615": 40,
+        "2544926766": 25,
+        "2566113696": 1,
+        "3257982486": 11,
+        "3342571907": 45,
+        "3388931515": 47
       }
     },
     "2016-1-01": {
-      "count": 94,
+      "count": 88,
       "repositories": {
-        "diercke-gis": 9,
-        "feedlist": 8,
-        "football-tax": 29,
-        "global-directory": 1,
-        "idf-quiz": 10,
-        "python-course-en": 3,
-        "python-course-fr": 3,
-        "python-course-fr-correction": 3,
-        "rentswatch": 8,
-        "rentswatch-app": 9,
-        "rentswatch-scraper": 3,
-        "v2.pirhoo.com": 8
+        "423622333": 10,
+        "1151226647": 29,
+        "1287628933": 3,
+        "1295615283": 1,
+        "2242485068": 9,
+        "2461779899": 3,
+        "2483149088": 8,
+        "2544926766": 9,
+        "2566113696": 8,
+        "3283547040": 8
       }
     },
     "2016-10-01": {
-      "count": 158,
+      "count": 140,
       "repositories": {
-        "feedlist": 1,
-        "jquest": 11,
-        "jquest-pg": 2,
-        "markovera": 2,
-        "oeko-flotte": 113,
-        "owni-14juillet": 1,
-        "owni-alertecliches": 1,
-        "owni-animviewer": 1,
-        "owni-carto-f24": 1,
-        "owni-chine-afrique": 1,
-        "owni-despoticmind": 1,
-        "owni-fetedelazic": 1,
-        "owni-flashball": 1,
-        "owni-gaz": 1,
-        "owni-independance": 1,
-        "owni-justeprix": 1,
-        "owni-kaboul": 1,
-        "owni-lula": 1,
-        "owni-manif12102010": 1,
-        "owni-manif19oct": 1,
-        "owni-manif23septembre": 1,
-        "owni-manif7septembre": 1,
-        "owni-midterm": 1,
-        "owni-necro": 1,
-        "owni-omd": 1,
-        "owni-perquiump": 1,
-        "owni-quel-lendemain": 1,
-        "owni-sarkosecu": 1,
-        "owni-taxepro": 1,
-        "owni-the-spying-state": 1,
-        "owni-warlogs-irak": 1,
-        "twitter-sans-aucun-lien": 1,
-        "v2.pirhoo.com": 2
+        "979135402": 2,
+        "1424932348": 1,
+        "1429606779": 1,
+        "1451706485": 1,
+        "1465902322": 1,
+        "2252751731": 1,
+        "2275340276": 1,
+        "2354105433": 1,
+        "2374525150": 1,
+        "2566113696": 1,
+        "3257982486": 2,
+        "3283547040": 2,
+        "3342571907": 11,
+        "3468873366": 1,
+        "3862032669": 113
       }
     },
     "2015-11-01": {
       "count": 205,
       "repositories": {
-        "feedlist": 7,
-        "football-tax": 89,
-        "logo.js": 3,
-        "rentswatch": 16,
-        "rentswatch-blog": 26,
-        "rentswatch-landing": 19,
-        "rentswatch-scraper": 41,
-        "v2.jplusplus.org": 3,
-        "v2.pirhoo.com": 1
+        "841158921": 3,
+        "1151226647": 89,
+        "2461779899": 41,
+        "2472766268": 19,
+        "2483149088": 16,
+        "2523409577": 26,
+        "2566113696": 7,
+        "3283547040": 1,
+        "3363360781": 3
       }
     },
     "2015-10-01": {
       "count": 61,
       "repositories": {
-        "feminismebot": 10,
-        "fledit.io": 31,
-        "futurebytrump": 7,
-        "idf-quiz": 2,
-        "morano-2017": 7,
-        "rentswatch": 4
+        "423622333": 2,
+        "1140646155": 31,
+        "1190635166": 7,
+        "2483149088": 4,
+        "2569757991": 10,
+        "3911989666": 7
       }
     },
     "2013-1-01": {
       "count": 67,
       "repositories": {
-        "feowl-frontend": 3,
-        "jquest-client-archive": 27,
-        "jquest-core-archive": 15,
-        "presentations": 3,
-        "styleguide": 3,
-        "v1.jplusplus.org": 16
+        "1236594448": 3,
+        "2593799209": 3,
+        "3246491416": 15,
+        "3297427597": 27,
+        "3418982659": 16,
+        "4206038902": 3
       }
     },
     "2012-12-01": {
       "count": 50,
       "repositories": {
-        "feowl-frontend": 9,
-        "idf-lycees": 5,
-        "jquest-client-archive": 27,
-        "v1.jplusplus.org": 9
+        "445558707": 5,
+        "2593799209": 9,
+        "3297427597": 27,
+        "3418982659": 9
       }
     },
     "2012-11-01": {
       "count": 150,
       "repositories": {
-        "feowl-frontend": 85,
-        "idf-lycees": 40,
-        "presentations": 20,
-        "v1.jplusplus.org": 5
+        "445558707": 40,
+        "1236594448": 20,
+        "2593799209": 85,
+        "3418982659": 5
       }
     },
     "2012-10-01": {
       "count": 67,
       "repositories": {
-        "feowl-frontend": 44,
-        "idf-lycees": 21,
-        "v1.jplusplus.org": 2
+        "445558707": 21,
+        "2593799209": 44,
+        "3418982659": 2
       }
     },
     "2012-8-01": {
       "count": 64,
       "repositories": {
-        "feowl-frontend": 2,
-        "jquest-client-archive": 19,
-        "jquest-mission-archive": 10,
-        "v1.jplusplus.org": 33
+        "2593799209": 2,
+        "3227069343": 10,
+        "3297427597": 19,
+        "3418982659": 33
       }
     },
     "2012-7-01": {
       "count": 65,
       "repositories": {
-        "feowl-frontend": 38,
-        "heroku-buildpack-nodejs-phantomjs": 9,
-        "jquest-client-archive": 1,
-        "v1.jplusplus.org": 17
+        "2593799209": 38,
+        "3297427597": 1,
+        "3418982659": 17,
+        "4293315026": 9
       }
     },
     "2012-6-01": {
       "count": 12,
       "repositories": {
-        "feowl-frontend": 12
+        "2593799209": 12
       }
     },
     "2015-9-01": {
-      "count": 250,
+      "count": 182,
       "repositories": {
-        "fledit.io": 2,
-        "futurebytrump": 31,
-        "google-iframe-scaffolder": 101,
-        "iframe-scaffolder": 68,
-        "morano-2017": 31,
-        "rentswatch": 3,
-        "v2.pirhoo.com": 4,
-        "white-shortener": 5,
-        "wut": 5
+        "326629542": 5,
+        "417815098": 101,
+        "503563664": 5,
+        "1140646155": 2,
+        "1190635166": 31,
+        "2483149088": 3,
+        "3283547040": 4,
+        "3911989666": 31
       }
     },
     "2015-1-01": {
       "count": 208,
       "repositories": {
-        "fledit.io": 11,
-        "jpp-prerender": 1,
-        "rsf-index-2015": 196
-      }
-    },
-    "2017-3-01": {
-      "count": 100,
-      "repositories": {
-        "futurebytrump": 2,
-        "idf-budget": 5,
-        "jquest-pg": 6,
-        "morano-2017": 1,
-        "ob-recipes": 2,
-        "oeko-flotte": 16,
-        "offshore-journalism": 30,
-        "privat-kostenrechner": 11,
-        "the-accountant": 4,
-        "v2.pirhoo.com": 2,
-        "wege-rhein-erft": 19,
-        "white-shortener": 2
+        "1140646155": 11,
+        "2602307999": 196,
+        "3336779012": 1
       }
     },
     "2016-12-01": {
-      "count": 127,
+      "count": 113,
       "repositories": {
-        "gva-watchers": 14,
-        "jquest": 11,
-        "jquest-pg": 3,
-        "oeko-flotte": 15,
-        "okf-farmcompass": 39,
-        "political-gaps": 7,
-        "python-course-fr": 7,
-        "python-course-fr-correction": 7,
-        "wege-rhein-erft": 24
+        "313480225": 24,
+        "660125815": 14,
+        "1542681923": 7,
+        "2335342149": 39,
+        "3257982486": 3,
+        "3342571907": 11,
+        "3862032669": 15
       }
     },
     "2016-11-01": {
-      "count": 148,
+      "count": 146,
       "repositories": {
-        "gva-watchers": 52,
-        "jquest": 20,
-        "jquest-pg": 9,
-        "markovera": 6,
-        "oeko-flotte": 15,
-        "oomg": 17,
-        "political-gaps": 17,
-        "radikal-font": 2,
-        "wege-rhein-erft": 10
+        "313480225": 10,
+        "660125815": 52,
+        "979135402": 6,
+        "1542681923": 17,
+        "2330645186": 17,
+        "3257982486": 9,
+        "3342571907": 20,
+        "3862032669": 15
       }
     },
     "2012-9-01": {
       "count": 100,
       "repositories": {
-        "heroku-buildpack-php": 1,
-        "jquest-client-archive": 56,
-        "jquest-mission-archive": 29,
-        "LODP": 1,
-        "v1.jplusplus.org": 13
+        "872136078": 1,
+        "3227069343": 29,
+        "3297427597": 56,
+        "3418982659": 13,
+        "4265502037": 1
+      }
+    },
+    "2017-3-01": {
+      "count": 81,
+      "repositories": {
+        "313480225": 19,
+        "326629542": 2,
+        "732604663": 4,
+        "2290296651": 30,
+        "3283547040": 2,
+        "3862032669": 16,
+        "3911989666": 1,
+        "3962011191": 2,
+        "4209872455": 5
       }
     },
     "2017-2-01": {
-      "count": 294,
+      "count": 290,
       "repositories": {
-        "idf-budget": 1,
-        "jquest": 51,
-        "jquest-pg": 53,
-        "oeko-flotte": 25,
-        "oeko-kostenrechner": 1,
-        "political-gaps": 3,
-        "privat-kostenrechner": 1,
-        "the-accountant": 158,
-        "vibrations": 1
+        "281452968": 1,
+        "732604663": 158,
+        "1542681923": 3,
+        "3257982486": 50,
+        "3342571907": 51,
+        "3388931515": 1,
+        "3862032669": 25,
+        "4209872455": 1
+      }
+    },
+    "2017-10-01": {
+      "count": 62,
+      "repositories": {
+        "473215272": 1,
+        "1298596866": 4,
+        "2304478156": 15,
+        "3474612753": 9,
+        "4019103493": 17,
+        "4037378140": 3,
+        "4073485781": 13
       }
     },
     "2016-9-01": {
       "count": 134,
       "repositories": {
-        "jquest": 70,
-        "jquest-pg": 47,
-        "markovera": 1,
-        "oeko-flotte": 3,
-        "political-gaps": 8,
-        "rentswatch-app": 1,
-        "rentswatch-blog": 1,
-        "v2.pirhoo.com": 3
+        "979135402": 1,
+        "1542681923": 8,
+        "2523409577": 1,
+        "2544926766": 1,
+        "3257982486": 47,
+        "3283547040": 3,
+        "3342571907": 70,
+        "3862032669": 3
       }
     },
     "2016-8-01": {
       "count": 247,
       "repositories": {
-        "jquest": 124,
-        "jquest-pg": 115,
-        "v2.pirhoo.com": 7,
-        "wege-rhein-erft": 1
+        "313480225": 1,
+        "3257982486": 115,
+        "3283547040": 7,
+        "3342571907": 124
+      }
+    },
+    "2017-9-01": {
+      "count": 44,
+      "repositories": {
+        "1298596866": 9,
+        "2304478156": 11,
+        "3474612753": 15,
+        "4019103493": 1,
+        "4078229842": 8
       }
     }
   },
   "older_commit": {
-    "repository": "afp",
+    "repository": "4219530715",
     "timestamp": "1332444490",
     "commit": "a37f4ac75f16f0ab4762a68cab79c244e8809495"
   },
   "newer_commit": {
-    "repository": "InstaPy",
-    "timestamp": "1492795494",
-    "commit": "980ab5cefd95b028f75f3ba4204eb5c6fc7caa05"
+    "repository": "2304478156",
+    "timestamp": "1508175984",
+    "commit": "54437511ce6de3af4b7076201fc18238c0974fd8"
   }
 }
