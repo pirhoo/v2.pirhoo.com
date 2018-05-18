@@ -4,48 +4,69 @@ https://keybase.io/pirhoo
 
 I hereby claim:
 
-  * I am an admin of http://www.pirhoo.com
+  * I am an admin of http://pirhoo.com
   * I am pirhoo (https://keybase.io/pirhoo) on keybase.
-  * I have a public key ASA_vFDswuUA66U-k9JcDKsyaQKdI1fzFLifR4CS0HGq5go
+  * I have a public key with fingerprint 5713 C735 4E9B A71C DA93  9524 FBC0 594D 4C47 18E1
 
 To do so, I am signing this object:
 
 {
-  "body": {
-    "key": {
-      "eldest_kid": "010146ebeb8e45bdb4e78564d4ef837b8512241eb2b1387fc7d4bbe395222114c15c0a",
-      "host": "keybase.io",
-      "kid": "01203fbc50ecc2e500eba53e93d25c0cab3269029d2357f314b89f478092d071aae60a",
-      "uid": "da4bfb52675f52b3376877280876af19",
-      "username": "pirhoo"
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "5713c7354e9ba71cda939524fbc0594d4c4718e1",
+            "host": "keybase.io",
+            "key_id": "FBC0594D4C4718E1",
+            "uid": "da4bfb52675f52b3376877280876af19",
+            "username": "pirhoo"
+        },
+        "merkle_root": {
+            "ctime": 1429181001,
+            "hash": "74c553d42dfeb2e1b2db5e0a51289c0ab2ba533d5dc9fe166af27ae8f3039c51d37eff9620903065671c72543ab4c818a0261ca796353f4b61f72914b6a38b8e",
+            "seqno": 203566
+        },
+        "service": {
+            "hostname": "pirhoo.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
     },
-    "merkle_root": {
-      "ctime": 1518185035,
-      "hash": "3a16b925a8b7ecef21495e3efb7302ad290eee0cdd79b17aed48844993d8a5b50e673e3ec41a863975fce175774e746995c3ce5152917994cc37bfb538d95ed0",
-      "hash_meta": "56aac115b1e5641ad6914cf9b46cb68c380f59cde0603d7f62d778eac2e5a48e",
-      "seqno": 2057979
-    },
-    "service": {
-      "hostname": "www.pirhoo.com",
-      "protocol": "http:"
-    },
-    "type": "web_service_binding",
-    "version": 1
-  },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "1.0.40"
-  },
-  "ctime": 1518185124,
-  "expire_in": 504576000,
-  "prev": "ff829cc742b8f4de83081ca4afb802832f7ba3f7bc6a69e01eed2178b23185f1",
-  "seqno": 47,
-  "tag": "signature"
+    "ctime": 1429181126,
+    "expire_in": 157680000,
+    "prev": "222a5e89178bd9e96ec72a34511af8938dabb90b704d458d1ed913bca63c3c00",
+    "seqno": 5,
+    "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgP7xQ7MLlAOulPpPSXAyrMmkCnSNX8xS4n0eAktBxquYKp3BheWxvYWTFA0R7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNDZlYmViOGU0NWJkYjRlNzg1NjRkNGVmODM3Yjg1MTIyNDFlYjJiMTM4N2ZjN2Q0YmJlMzk1MjIyMTE0YzE1YzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwM2ZiYzUwZWNjMmU1MDBlYmE1M2U5M2QyNWMwY2FiMzI2OTAyOWQyMzU3ZjMxNGI4OWY0NzgwOTJkMDcxYWFlNjBhIiwidWlkIjoiZGE0YmZiNTI2NzVmNTJiMzM3Njg3NzI4MDg3NmFmMTkiLCJ1c2VybmFtZSI6InBpcmhvbyJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxODE4NTAzNSwiaGFzaCI6IjNhMTZiOTI1YThiN2VjZWYyMTQ5NWUzZWZiNzMwMmFkMjkwZWVlMGNkZDc5YjE3YWVkNDg4NDQ5OTNkOGE1YjUwZTY3M2UzZWM0MWE4NjM5NzVmY2UxNzU3NzRlNzQ2OTk1YzNjZTUxNTI5MTc5OTRjYzM3YmZiNTM4ZDk1ZWQwIiwiaGFzaF9tZXRhIjoiNTZhYWMxMTViMWU1NjQxYWQ2OTE0Y2Y5YjQ2Y2I2OGMzODBmNTljZGUwNjAzZDdmNjJkNzc4ZWFjMmU1YTQ4ZSIsInNlcW5vIjoyMDU3OTc5fSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5waXJob28uY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40MCJ9LCJjdGltZSI6MTUxODE4NTEyNCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJmZjgyOWNjNzQyYjhmNGRlODMwODFjYTRhZmI4MDI4MzJmN2JhM2Y3YmM2YTY5ZTAxZWVkMjE3OGIyMzE4NWYxIiwic2Vxbm8iOjQ3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQAjshK1L4lm+HCMz767V4CjuO1JTEjRdB4Us+nO1Iuh+zlijz+cFQx4pei5zc/EYOyPv6lB9hxczCRnH/vP8Zwioc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCB75vrWsQ3bZDyNHKNaFbakBPfhryRS8zY3EhAI6aULnKN0YWfNAgKndmVyc2lvbgE=
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkm2IVFUYx2fWbU1jI1YycyS3O0Zvy3he7rnnnnFZSFut0CBqo7B2OG935uru
+vTP3zu42bBNlCC5WlESfRMtae2GJiLAItY1gQ0XXSoQikKKSTWUp8oNJ2TmLUXs+
+nZff83+e//Ocl9sXZFqylycf37Rxw7IfssdmRKZv9a6pUUfEquEURx05EOqobncR
+H9RO0dmqG4KnuhDGnVGsdGFL2nmV6XKGdZKGcWQoUKAF6jS7LG6DgzAq66SahFbL
+IRRiSTFxNROcQqk4w4wgNxASEOYqV7oU+hoayUqc1udldeY0S6Eyt+vXrrP8ve46
+y/dafmjuQXFXBIIgj5KAIIEx9XxKkQ986vEAMgumOrlqqRomlTi21Q7qZOuALiVx
+PGdZ1kMLQBcx6EMAoKmHpxUTQl1JCFYuUoEWSEOBlCAacAKRzyTgAglOMFZESRZo
+6JmsiHLtBxhgJglUmOogYB4CDGDgEc90gSLiYi5c6UOfA+RBySnzMMGBKzwYUFOE
+2XDsC18bA6muRbFTRAATz2vaczIcSm3rtk2b560g40ETUk3ieizjAXNfqderRWu5
+3qhabkSLklV410iURBgpM7D/TxQadH47IPK6HP2USaBLoSWIaTIwy+bRw0YTIcSJ
+9hmkvlBMM08bjxy7BEIe+Az7igvBgKDAjJz4CmrFIBaSe1hiCcB/Jompk5eNZBqW
+I14fSrTTHMuuaM1kWzJt17TYL5tZvOiGf//xwz3XZp7ra/0Zn1x15qba3f25xfuv
+PLr0u6/e+2Yif6onH9feWNRx4vnz4Ehuqfp27J3zF7f0Tn75x1jIct07StHZi209
+v/3y0oYndx/r7v70XEc2d2DtubiyZHz6pzMvbH5reqL9lonJFUsmfh3pPP7x6dmc
+3EHKjWbPoY/WTPUO/fX2I/1r9tCDz7Si67IbB/f9/eORle6e++7PLJy55+itC7P6
+/dHRy9u/2HZ9/53PXrjw5of5A221uw717XvsxXxxio7f3ObmPvmd5U8vO/7aeO72
+7Op0Zvcr05tvPPX502ljZMHybasOPvDEifaO2eV3fD15W/PBS6+DP/deOdz32ezR
+Sx8MfL/ycHnsrLOz9tDJV/8B
+=K5gj
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -53,3 +74,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/pirhoo
 
 ==================================================================
+

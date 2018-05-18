@@ -1,4 +1,31 @@
 [{
+  "title": "Offshore Leaks Database - Paradise Papers",
+  "thumbnail": "assets/images/thumbnails/offshoreleaksicijorg.png",
+  "url": "http://offshoreleaks.icij.org/",
+  "color": "",
+  "year": "2017",
+  "width": 1600,
+  "height": 900,
+  "type": "png"
+}, {
+  "title": "Gateway to Africa - Paradise Papers",
+  "thumbnail": "assets/images/thumbnails/projectscloudicijorgparadise-papersmauritius.png",
+  "url": "http://projects.cloud.icij.org/paradise-papers/mauritius/",
+  "color": "",
+  "year": "2017",
+  "width": 2036,
+  "height": 1491,
+  "type": "png"
+}, {
+  "title": "The Influencers - Paradise Papers",
+  "thumbnail": "assets/images/thumbnails/projectsicijorgparadise-papersthe-influencers.png",
+  "url": "https://projects.icij.org/paradise-papers/the-influencers/",
+  "color": "",
+  "year": "2017",
+  "width": 1600,
+  "height": 900,
+  "type": "png"
+}, {
   "title": "The Good, The Bad and The Accountant",
   "thumbnail": "assets/images/thumbnails/jplusplusgithubiothe-accountant.png",
   "url": "https://jplusplus.github.io/the-accountant/",
@@ -109,9 +136,18 @@
 }, {
   "title": "Future by Trump",
   "thumbnail": "assets/images/thumbnails/fbt.png",
-  "url": "https://pirhoo.github.io/futurebytrump/",
+  "url": "http://pirhoo.github.io/futurebytrump",
   "color": "#B20107",
   "year": "2016",
+  "width": 200,
+  "height": 99,
+  "type": "png"
+}, {
+  "title": "Fledit",
+  "thumbnail": "assets/images/thumbnails/fledit.png",
+  "url": "http://fledit.io/",
+  "color": "#474244",
+  "year": "2015",
   "width": 200,
   "height": 99,
   "type": "png"
@@ -244,7 +280,7 @@
 }, {
   "title": "Arte: World of Work",
   "thumbnail": "assets/images/thumbnails/arte-wow.png",
-  "url": "http://europe.arte.tv/fr/evenements/world-of-work/",
+  "url": "https://arte-wow-production.herokuapp.com",
   "color": "#4A912E",
   "year": "2014",
   "width": 200,

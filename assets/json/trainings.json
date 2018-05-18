@@ -1,12 +1,12 @@
 {
-  "hours_count": 1132,
+  "hours_count": 1188,
   "countries_count": 9,
-  "customers_count": 36,
+  "customers_count": 39,
   "category_count": {
-    "ddj": 48,
-    "code": 8,
+    "ddj": 50,
+    "code": 9,
     "security": 2,
-    "cartodb": 2
+    "cartodb": 3
   },
   "months_count": {
     "2011-10-01": 1,
@@ -44,7 +44,10 @@
     "2016-06-01": 1,
     "2016-09-01": 2,
     "2016-12-01": 2,
-    "2017-03-01": 2
+    "2017-03-01": 3,
+    "2017-04-01": 1,
+    "2017-08-01": 1,
+    "2017-12-01": 1
   },
   "older_training": {
     "category": "ddj",
@@ -55,10 +58,10 @@
     "country": "FRA"
   },
   "newer_training": {
-    "category": "ddj",
-    "customer": "CFJ",
-    "date_start": "2017-03-06",
-    "date_end": "2017-03-07",
+    "category": "code",
+    "customer": "SAMSA",
+    "date_start": "2017-12-14",
+    "date_end": "2017-12-15",
     "duration": "2",
     "country": "FRA"
   }
