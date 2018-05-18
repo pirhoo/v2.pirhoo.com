@@ -17,7 +17,8 @@
 Install `node` and `npm` then run:
 
 ```
-npm install
+yarn global add phantomjs-prebuilt bower
+yarn install
 bower install
 ```
 

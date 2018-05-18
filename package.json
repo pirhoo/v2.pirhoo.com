@@ -2,6 +2,8 @@
   "name": "pirhoo",
   "version": "0.0.0",
   "dependencies": {
+    "global": "^4.3.2",
+    "gulp-cli": "^2.0.1",
     "gulp-util": "^3.0.7",
     "image-size": "^0.3.5",
     "slug": "^0.9.1",
@@ -50,7 +52,7 @@
     "lodash": "^3.5.0",
     "main-bower-files": "~2.4.0",
     "protractor": "~1.4.0",
-    "require-dir": "~0.1.0",
+    "require-dir": "~1.0.0",
     "uglify-save-license": "~0.4.1",
     "wiredep": "~2.2.0"
   },
