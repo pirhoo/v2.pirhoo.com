@@ -7,6 +7,8 @@ var gulp = require('gulp'),
       fs = require('fs'),
  webshot = require('webshot'),
  through = require('through2'),
+      gh = require('gh-pages'),
+    path = require('path'),
        _ = require("lodash");
 
 var paths = gulp.paths;
@@ -242,8 +244,6 @@ gulp.task('csv', ["csv:trainings", "csv:commits", "csv:projects", "csv:awards", 
 
 gulp.task('build', ['html', 'images', 'fonts', 'misc', 'csv']);
 
-gulp.task('deploy', ['build'], function() {
-  return gulp.src("./dist/**/*").pipe($.ghPages({
-    remoteUrl: "git@github.com:Pirhoo/pirhoo.wip.git"
-  }));
+gulp.task('deploy', function(cb) {
+  gh.publish(path.join(process.cwd(), 'dist'), cb);
 });

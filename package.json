@@ -2,6 +2,8 @@
   "name": "pirhoo",
   "version": "0.0.0",
   "dependencies": {
+    "gh-pages": "^1.1.0",
+    "gift": "0.10.2",
     "global": "^4.3.2",
     "gulp-cli": "^2.0.1",
     "gulp-util": "^3.0.7",
@@ -25,7 +27,6 @@
     "gulp-csso": "~0.2.9",
     "gulp-filter": "~1.0.2",
     "gulp-flatten": "~0.0.4",
-    "gulp-gh-pages": "^0.5.1",
     "gulp-image-resize": "^0.10.0",
     "gulp-inject": "~1.0.2",
     "gulp-jshint": "~1.9.0",
