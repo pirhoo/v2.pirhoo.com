@@ -2,6 +2,7 @@ run:
 	gulp serve
 
 deploy:
+	gulp build
 	gulp deploy
 
 install:
